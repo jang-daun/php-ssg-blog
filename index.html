@@ -11,35 +11,35 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 
     <!--제이쿼리-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <!--반응형 필수-->
-    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, user-scalable=no">
 
     <!--토스트 UI-->
     <!-- 하이라이트 라이브러리 추가, 토스트 UI 에디터에서 사용됨 -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.1/highlight.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.1/highlight.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.1/styles/default.min.css">
 
     <!-- 토스트 UI 에디터, 자바스크립트 코어 -->
-    <script src="https://uicdn.toast.com/editor/latest/toastui-editor-all.min.js"></script>
+    <script defer src="https://uicdn.toast.com/editor/latest/toastui-editor-all.min.js"></script>
 
     <!-- 코드 미러 라이브러리 추가, 토스트 UI 에디터에서 사용됨 -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/codemirror.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/codemirror.min.css">
     <!-- 토스트 UI 에디터, CSS 코어 -->
-    <link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/toastui-editor.min.css" />
+    <link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/toastui-editor.min.css">
 
     <!-- 토스트 UI 에디터, 신택스 하이라이트 플러그인 추가 -->
-    <script
-        src="https://uicdn.toast.com/editor-plugin-code-syntax-highlight/latest/toastui-editor-plugin-code-syntax-highlight.min.js">
+    <script defer src="https://uicdn.toast.com/editor-plugin-code-syntax-highlight/latest/toastui-editor-plugin-code-syntax-highlight.min.js">
     </script>
 
     <!--토스트 UI끝-->
 
-    <link defer rel="stylesheet" href="common.css">
-    <link defer rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="index.css">
     <script defer src="common.js"></script>
     <script defer src="index.js"></script>
+   
 </head>
 
 <body>
@@ -128,19 +128,34 @@
                 <div class="con">
                     <div class="article-list-box">
                         <ul>
-                            <li>
-                                <h1>day1</h1>
-                                <div>2020-01-12 12:12:14</div>
-                                <div>
-                                    <script type="text/x-template">
-                                        # diplay 속성
-      ```html
-      display:block
-      display:inline-block
-      display:flex
-      display:inline-flex
-      ```
-                      </script>
+                          <li>
+                            <h1>CSS : 1</h1>
+                            <div>2020-01-12 17:49:14</div>
+                            <div>
+                              <script type="text/x-template">
+                                # 기본 문법
+              
+```html
+body(선택자) {
+color(속성):blue(값);
+}
+```
+# 외부 스타일 / 내부 스타일
+```html
+<head>
+외부 스타일  
+    <link rel="stylesheet" href-"style.css">
+
+내부 스타일  
+    <style type="text/css">
+        body {
+        color: blue;
+        font-size: 14px;
+        }
+    </style>
+</head>
+```
+                              </script>
                                     <div class="toast-ui-viewer"></div>
                                 </div>
                             </li>
@@ -159,9 +174,10 @@
                                 <div>
                                     <script type="text/x-template">
                                         # display-block
-      ```codepen
-      https://codepen.io/jang-daun/embed/jOMeOZo?height=265&theme-id=light&default-tab=css,result
-      ```
+                                        
+```codepen
+https://codepen.io/jang-daun/embed/jOMeOZo?height=265&theme-id=light&default-tab=css,result
+```
                       </script>
                                     <div class="toast-ui-viewer"></div>
                                 </div>
@@ -176,14 +192,20 @@
                     <div class="article-list-box">
                         <ul>
                             <li>
-                                <h1>day3</h1>
+                                <h1>자바스크립트 기초</h1>
                                 <div>2020-01-12 12:12:14</div>
                                 <div>
                                     <script type="text/x-template">
-                                        # youtube
-      ```youtube
-      PdcXuas6k0w
-      ```
+# 자료형
+<h2>자료형</h2>
+<h3>자료형이란?</h3>
+<h4>변수에 저장할 수 있는 값의 종류를 자료형이라고 한다.</h4>
+<h3>자료형 종류</h3>
+<h4>number Type: 숫자</h4>
+
+```html
+var a=100, b=3.14;
+```
                       </script>
                                     <div class="toast-ui-viewer"></div>
                                 </div>
