@@ -129,7 +129,7 @@
                     <div class="article-list-box">
                         <ul>
                           <li>
-                            <h1>CSS : 1</h1>
+                            <h1>CSS : 1화 기본 css</h1>
                             <div>2020-01-12 17:49:14</div>
                             <div>
                               <script type="text/x-template">
@@ -143,11 +143,9 @@ color(속성):blue(값);
 # 외부 스타일 / 내부 스타일
 ```html
 <head>
-외부 스타일  
-    <link rel="stylesheet" href-"style.css">
+    <link rel="stylesheet" href-"style.css"> - 외부 스타일
 
-내부 스타일  
-    <style type="text/css">
+    <style type="text/css"> - 내부 스타일
         body {
         color: blue;
         font-size: 14px;
@@ -163,22 +161,121 @@ color(속성):blue(값);
                     </div>
                 </div>
             </section>
-
+            <br>
+            <br>
+            <br>
             <section class="section-latest-articles con-min-width">
                 <div class="con">
                     <div class="article-list-box">
                         <ul>
-                            <li>
-                                <h1>day2</h1>
-                                <div>2020-01-13 10:00:00</div>
-                                <div>
-                                    <script type="text/x-template">
-                                        # display-block
-                                        
-```codepen
-https://codepen.io/jang-daun/embed/jOMeOZo?height=265&theme-id=light&default-tab=css,result
+                          <li>
+                            <h1>CSS : 2화 선택자</h1>
+                            <div>2020-01-12 21:26:00</div>
+                            <div>
+                              <script type="text/x-template">
+                                # 선택자 종류
+              
+```html
+html 
+1) <p> tag </p>
+2) <p class="br"> tag </p>
+3) <p id="br"> tag </p>
+4) <div class="br"> tag </div>
 ```
-                      </script>
+```css
+css
+- 태그 선택자 (1,2,3,4)
+p {
+    color:red;
+}
+
+- 클래스 선택자 class (2,3,4)
+.p {
+    color:red;
+}
+
+- 아이디 선택자 id (3)
+#p {
+    color:red;
+}
+- 태그와 함께 쓰는 선택자 (2)
+p.br {
+    color:red;
+}
+```
+# 그룹 선택자
+- 그룹으로 묶어 동일한 css 적용
+```html
+p1, p2 {
+    color:red;
+}
+```
+
+# 하위 선택자
+- 선택자와 선택자 사이의 '>' : 자식 선택자
+- 선택자와 선택자 사이의 ' ' : 후손 선택자
+```html
+html
+<nav>
+    <div>
+        <span></span>
+    </div>
+</nav>
+```
+```css
+css
+nav > div {
+    color:red;
+}
+
+nav span {
+    color:red;
+}
+```
+# 전체 선택자
+- '*' 사용
+```css
+* {
+    color:red;
+}
+```
+# 주석 처리
+- 코드상엔 보이지만 브라우저에선 출력되지 않는 것
+- /* */ 사용
+```css
+/* this is a single-line */
+```
+                              </script>
+                                    <div class="toast-ui-viewer"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <br>
+            <br>
+            <br>
+            <section class="section-latest-articles con-min-width">
+                <div class="con">
+                    <div class="article-list-box">
+                        <ul>
+                          <li>
+                            <h1>CSS : 3화 선택자 적용 우선 순위</h1>
+                            <div>2020-01-12 22:01:40</div>
+                            <div>
+                              <script type="text/x-template">
+                                # 적용 순위
+- 동일한 css 속상이 중복 사용되는 경우 우선 순위에 따라 적용 됨              
+- 1순위: !important Style 
+- 2순위 : inline Style
+- 3순위 : id Style
+- 4순위 : class Style
+- 5순위 : tag Style
+```codepen
+https://codepen.io/jang-daun/embed/VwKEKvd?height=265&theme-id=light&default-tab=html,css,result
+```
+                              </script>
                                     <div class="toast-ui-viewer"></div>
                                 </div>
                             </li>
@@ -187,6 +284,7 @@ https://codepen.io/jang-daun/embed/jOMeOZo?height=265&theme-id=light&default-tab
                 </div>
             </section>
 
+            
             <section class="section-latest-articles con-min-width">
                 <div class="con">
                     <div class="article-list-box">
