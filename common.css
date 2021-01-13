@@ -184,15 +184,26 @@ a {
 
 /*모바일 탑 바 시작*/
 .mobile-top-bar {
-    height: 70px;
-    padding: 0 10px;
+    background-color: white;
+    height: var(--mobile-top-bar__height);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+body {
+    padding-top: 20px;
 }
 
 .mobile-logo-box img {
     display: flex;
     align-items: center;
+    justify-content: :center;
     width: 40px;
     height: 60px;
+    padding-top: 18px;
 }
 
 .mobile-icon>div {
@@ -311,6 +322,10 @@ main {
     margin-top: 20px;
 }
 
+.article-list-box {
+    padding: 0 10px;
+}
+
 .toast-ui-youtube-plugin-wrap {
     max-width: 500px;
     margin-left: auto;
@@ -335,6 +350,23 @@ main {
 .toast-ui-codepen-plugin-wrap>iframe {
     width: 100%;
 }
+
+/*기존의 코드 블럭에 걸려있는 여백과 배경색 제거*/
+.toast-ui-viewer .tui-editor-contents pre {
+    margin: 0;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f7faff;
+}
+
+/*기존의 코드 블럭에 걸려있는 여백과 배경색 제거 끝*/
+
+/*타이틀 시작*/
+.section-title {
+    padding: 0 10px;
+}
+
+/*타이틀 끝*/
 
 /*메인 끝*/
 
