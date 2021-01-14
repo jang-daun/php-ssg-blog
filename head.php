@@ -57,11 +57,11 @@
                         <div class="logo"><img src="https://jang-daun.github.io/myblog/img/logo/logo-4.svg" alt="">
                         </div>
                         <div class="flex-grow"></div>
-                        <li><a href="#" class="flex flex-jc-c flex-ai-c height-100p">
+                        <li><a href="./" class="flex flex-jc-c flex-ai-c height-100p">
                                 <span>HOME</span>
                                 <!--<span><i class="fas fa-home"></i></span>--></a>
                         </li>
-                        <li><a href="#" class="flex flex-jc-c flex-ai-c height-100p">
+                        <li><a href="about.php" class="flex flex-jc-c flex-ai-c height-100p">
                                 <span>ABOUT</span>
                                 <!--<span><i class="fas fa-street-view"></i></span>--></a></li>
                         <li>
