@@ -193,8 +193,8 @@ a {
     z-index: 1000;
 }
 
-body {
-    padding-top: 20px;
+.mobile-top-bar-padding {
+    padding-top: var(--mobile-top-bar__height);
 }
 
 .mobile-logo-box img {
@@ -326,6 +326,21 @@ main {
     padding: 0 10px;
 }
 
+.article-list-box__writer {
+    display:flex;
+    align-items:center;
+    margin:10px 0;
+  }
+  
+  .article-list-box__writer > span:last-child {
+    width:70px;
+    height:70px;
+    background-color:skyblue;
+    overflow:hidden;
+    border-radius:50%;
+    margin-left:10px;
+  }
+
 .toast-ui-youtube-plugin-wrap {
     max-width: 500px;
     margin-left: auto;
@@ -401,6 +416,18 @@ main {
 }
 
 /*커서 끝*/
+
+/* svgs 시작 */
+.svgs {
+    width:0;
+    height:0;
+    overflow:hidden;
+  }
+  
+  .svgs > * {
+    display:block;
+  }
+  /* svgs 끝 */
 
 
 /* 커스텀 끝 */

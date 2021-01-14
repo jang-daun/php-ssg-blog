@@ -1,132 +1,6 @@
-<!DOCTYPE html>
-<html lang="ko">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>downloading-the-list</title>
-
-
-    <!--폰트 어썸-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-
-    <!--제이쿼리-->
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-    <!--반응형 필수-->
-    <meta name="viewport" content="width=device-width, user-scalable=no">
-
-    <!--토스트 UI-->
-    <!-- 하이라이트 라이브러리 추가, 토스트 UI 에디터에서 사용됨 -->
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.1/highlight.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.1/styles/default.min.css">
-
-    <!-- 토스트 UI 에디터, 자바스크립트 코어 -->
-    <script defer src="https://uicdn.toast.com/editor/latest/toastui-editor-all.min.js"></script>
-
-    <!-- 코드 미러 라이브러리 추가, 토스트 UI 에디터에서 사용됨 -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/codemirror.min.css">
-    <!-- 토스트 UI 에디터, CSS 코어 -->
-    <link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/toastui-editor.min.css">
-
-    <!-- 토스트 UI 에디터, 신택스 하이라이트 플러그인 추가 -->
-    <script defer src="https://uicdn.toast.com/editor-plugin-code-syntax-highlight/latest/toastui-editor-plugin-code-syntax-highlight.min.js">
-    </script>
-
-    <!--토스트 UI끝-->
-
-    <link rel="stylesheet" href="common.css">
-    <link rel="stylesheet" href="index.css">
-    <script defer src="common.js"></script>
-    <script defer src="index.js"></script>
-   
-</head>
-
-<body>
-    <div class="cursor"></div>
-    <div class="cursor-shadow"></div>
-
-    <div class="body-content">
-        <!--탑바 시작-->
-        <header class="top-bar con-min-width visible-md-up">
-            <div class="con height-100p">
-                <nav class="top-bar__menu-box-1 height-100p">
-                    <ul class="flex height-100p">
-                        <div class="logo"><img src="https://jang-daun.github.io/myblog/img/logo/logo-4.svg" alt="">
-                        </div>
-                        <div class="flex-grow"></div>
-                        <li><a href="#" class="flex flex-jc-c flex-ai-c height-100p">
-                                <span>HOME</span>
-                                <!--<span><i class="fas fa-home"></i></span>--></a>
-                        </li>
-                        <li><a href="#" class="flex flex-jc-c flex-ai-c height-100p">
-                                <span>ABOUT</span>
-                                <!--<span><i class="fas fa-street-view"></i></span>--></a></li>
-                        <li>
-                            <a href="#" class="flex flex-jc-c flex-ai-c height-100p">
-                                <span>PORTFOLIO</span>
-                                <!--<span><i class="fas fa-list-alt"></i></span>-->
-                            </a>
-                        </li>
-                        <li><a href="#" class="flex flex-jc-c flex-ai-c height-100p">
-                                <span>ARTICLES</span>
-                                <!--<span><i class="fas fa-newspaper"></i></span>--></a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <!--탑바 끝-->
-
-        <!--모바일 탑바 시작-->
-        <header class="mobile-top-bar con-min-width visible-sm-down flex">
-            <div class="mobile-top-bar__btn-toggle-side-bar flex-as-c flex-1-0-0">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div class="mobile-logo-box">
-                <img src="https://jang-daun.github.io/myblog/img/logo/heart-2.svg" alt="">
-            </div>
-            <div class="flex-1-0-0"></div>
-        </header>
-        <!--모바일 탑바 끝-->
-
-        <!--모바일 사이드 바 시작-->
-
-        <div data-sel-index="0" class="mobile-side-bar visible-sm-down">
-            <article></article>
-            <nav class="mobile-side-bar__menu-box-1 visible-sm-down">
-                <ul>
-                    <li>
-                        <a href="#" class="block">
-                            <span>HOME</span>
-                            <!--<span><i class="fas fa-home"></i></span>-->
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="block">
-                            <span>ABOUT</span>
-                            <!--<span><i class="fas fa-street-view"></i></span>-->
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="block">
-                            <span>PORTFOLIO</span>
-                            <!--<span><i class="fas fa-list-alt"></i></span>-->
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="block">
-                            <span>ARTICLES</span>
-                            <!--<span><i class="fas fa-newspaper"></i></span>-->
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <!--모바일 사이드 바 끝-->
-
-        <main class="">
+<?php
+require_once "head.php";
+?>
             <section class="section-title con-min-width">
                 <h1 class="con">
                   <span>
@@ -139,9 +13,17 @@
                     <div class="article-list-box">
                         <ul>
                           <li>
-                            <h1>HTML : 1화 기본</h1>
-                            <div>2020-01-12 17:49:14</div>
-                            <div>
+                            <h1 class="article-list-box__title">HTML : 1화 기본</h1>
+                            <div class="article-list-box__reg-date">2020-01-12 17:49:14</div>
+                            <div class="article-list-box__writer">
+                                <span>장다운</span>
+                                <span>
+                                  <svg viewBox="0 0 264 280">
+                                    <use xlink:href="#avatar-1"></use>
+                                  </svg>
+                                </span>
+                            </div>
+                            <div class="article-list-box__body">
                               <script type="text/x-template">
                                 # HTML의 개념
 - HTML(Hyper Text Markup Language)
@@ -175,9 +57,17 @@ https://codepen.io/Yun_SH/embed/NWROrVV?height=450&theme-id=dark&default-tab=htm
                     <div class="article-list-box">
                         <ul>
                           <li>
-                            <h1>HTML : 2화 기본</h1>
-                            <div>2020-01-13 22:17:32</div>
-                            <div>
+                            <h1 class="article-list-box__title">HTML : 2화 기본</h1>
+                            <div class="article-list-box__reg-date">2020-01-13 17:49:14</div>
+                            <div class="article-list-box__writer">
+                                <span>장다운</span>
+                                <span>
+                                  <svg viewBox="0 0 264 280">
+                                    <use xlink:href="#avatar-1"></use>
+                                  </svg>
+                                </span>
+                            </div>
+                            <div class="article-list-box__body">
                               <script type="text/x-template">
                                 # 부모와 자식 요소
 - 태그 A가 태그 B의 콘텐츠로 사용될 시에, 태그 B는 태그 A의 부모 요소, 태그 A는 태그 B의 자식 요소라고 함.
@@ -209,9 +99,17 @@ https://codepen.io/Yun_SH/embed/bGwmZjm?height=450&theme-id=dark&default-tab=htm
                     <div class="article-list-box">
                         <ul>
                           <li>
-                            <h1>CSS : 1화 기본 css</h1>
-                            <div>2020-01-12 17:49:14</div>
-                            <div>
+                            <h1 class="article-list-box__title">CSS : 1화 기본 css</h1>
+                            <div class="article-list-box__reg-date">2020-01-12 17:49:14</div>
+                            <div class="article-list-box__writer">
+                                <span>장다운</span>
+                                <span>
+                                  <svg viewBox="0 0 264 280">
+                                    <use xlink:href="#avatar-1"></use>
+                                  </svg>
+                                </span>
+                            </div>
+                            <div class="article-list-box__body">
                               <script type="text/x-template">
                                 # 기본 문법
               
@@ -249,9 +147,17 @@ color(속성):blue(값);
                     <div class="article-list-box">
                         <ul>
                           <li>
-                            <h1>CSS : 2화 선택자</h1>
-                            <div>2020-01-12 21:26:00</div>
-                            <div>
+                            <h1 class="article-list-box__title">CSS : 2화 선택자</h1>
+                            <div class="article-list-box__reg-date">2020-01-12 21:26:00</div>
+                            <div class="article-list-box__writer">
+                                <span>장다운</span>
+                                <span>
+                                  <svg viewBox="0 0 264 280">
+                                    <use xlink:href="#avatar-1"></use>
+                                  </svg>
+                                </span>
+                            </div>
+                            <div class="article-list-box__body">
                               <script type="text/x-template">
                                 # 선택자 종류
               
@@ -341,9 +247,17 @@ nav span {
                     <div class="article-list-box">
                         <ul>
                           <li>
-                            <h1>CSS : 3화 선택자 적용 우선 순위</h1>
-                            <div>2020-01-12 22:01:40</div>
-                            <div>
+                            <h1 class="article-list-box__title">CSS : 3화 선택자 적용 우선 순위</h1>
+                            <div class="article-list-box__reg-date">2020-01-12 22:01:40</div>
+                            <div class="article-list-box__writer">
+                                <span>장다운</span>
+                                <span>
+                                  <svg viewBox="0 0 264 280">
+                                    <use xlink:href="#avatar-1"></use>
+                                  </svg>
+                                </span>
+                            </div>
+                            <div class="article-list-box__body">
                               <script type="text/x-template">
                                 # 적용 순위
 - 동일한 css 속상이 중복 사용되는 경우 우선 순위에 따라 적용 됨              
@@ -370,9 +284,17 @@ https://codepen.io/jang-daun/embed/VwKEKvd?height=265&theme-id=light&default-tab
                     <div class="article-list-box">
                         <ul>
                             <li>
-                                <h1>JS : 1화 기초</h1>
-                                <div>2020-01-12 12:12:14</div>
-                                <div>
+                                <h1 class="article-list-box__title">JS : 1화 기초</h1>
+                                <div class="article-list-box__writer">2020-01-12 12:12:14</div>
+                                <div class="article-list-box__writer">
+                                    <span>장다운</span>
+                                    <span>
+                                      <svg viewBox="0 0 264 280">
+                                        <use xlink:href="#avatar-1"></use>
+                                      </svg>
+                                    </span>
+                                </div>
+                                <div class="article-list-box__body">
                                     <script type="text/x-template">
 # 실습환경 만들기
 
@@ -416,19 +338,6 @@ alert("hello world");
                     </div>
                 </div>
             </section>
-
-        </main>
-
-        <!--하단바 시작-->
-        <footer class="bottom-bar con-min-width">
-            <div class="con flex flex-jc-c">
-                <a href="#" class="logo">
-                    <img src="https://jang-daun.github.io/myblog/img/logo/logo-4.svg" alt="">
-                </a>
-            </div>
-        </footer>
-        <!--하단바 끝-->
-    </div>
-</body>
-
-</html>
+<?php
+require_once "foot.php";
+?>
