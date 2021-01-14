@@ -16,10 +16,10 @@ require_once "head.php";
                             <h1 class="article-list-box__title">HTML : 1화 기본</h1>
                             <div class="article-list-box__reg-date">2020-01-12 17:49:14</div>
                             <div class="article-list-box__writer">
-                                <span>장다운</span>
+                                <span>윤승현</span>
                                 <span>
                                   <svg viewBox="0 0 264 280">
-                                    <use xlink:href="#avatar-1"></use>
+                                    <use xlink:href="#avatar-2"></use>
                                   </svg>
                                 </span>
                             </div>
@@ -60,10 +60,10 @@ https://codepen.io/Yun_SH/embed/NWROrVV?height=450&theme-id=dark&default-tab=htm
                             <h1 class="article-list-box__title">HTML : 2화 기본</h1>
                             <div class="article-list-box__reg-date">2020-01-13 17:49:14</div>
                             <div class="article-list-box__writer">
-                                <span>장다운</span>
+                                <span>윤승현</span>
                                 <span>
                                   <svg viewBox="0 0 264 280">
-                                    <use xlink:href="#avatar-1"></use>
+                                    <use xlink:href="#avatar-2"></use>
                                   </svg>
                                 </span>
                             </div>
