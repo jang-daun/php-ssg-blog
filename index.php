@@ -287,10 +287,10 @@ https://codepen.io/jang-daun/embed/VwKEKvd?height=265&theme-id=light&default-tab
                                 <h1 class="article-list-box__title">JS : 1화 기초</h1>
                                 <div class="article-list-box__writer">2020-01-12 12:12:14</div>
                                 <div class="article-list-box__writer">
-                                    <span>장다운</span>
+                                    <span>김상화</span>
                                     <span>
                                       <svg viewBox="0 0 264 280">
-                                        <use xlink:href="#avatar-1"></use>
+                                        <use xlink:href="#avatar-3"></use>
                                       </svg>
                                     </span>
                                 </div>
