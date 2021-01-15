@@ -30,18 +30,17 @@
     <link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/toastui-editor.min.css">
 
     <!-- 토스트 UI 에디터, 신택스 하이라이트 플러그인 추가 -->
-    <script defer src="https://uicdn.toast.com/editor-plugin-code-syntax-highlight/latest/toastui-editor-plugin-code-syntax-highlight.min.js">
+    <script defer
+        src="https://uicdn.toast.com/editor-plugin-code-syntax-highlight/latest/toastui-editor-plugin-code-syntax-highlight.min.js">
     </script>
 
     <!--토스트 UI끝-->
 
-    <link rel="stylesheet" href="common.css">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="about.css">
-    <script defer src="common.js"></script>
-    <script defer src="index.js"></script>
-    <script defer src="about.js"></script>
-   
+    <link rel="stylesheet" href="css/common.css">
+    <script defer src="js/common.js"></script>
+
+
+
 </head>
 
 <body>
