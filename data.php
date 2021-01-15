@@ -229,3 +229,8 @@ alert("hello world");
 ```
 - 브라우저에서 작성한 HTML 파일을 불러들여 결과를 확인한다.
 EOT;
+
+if ( isset($articleId) ) {
+    $articleVarName = "article" . $articleId;
+    $selectedArticle = $$articleVarName;
+}
