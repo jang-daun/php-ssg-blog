@@ -53,14 +53,14 @@ EOT;
 
 //장다운
 
-//게시물2
-$article11 = [];
+//게시물3
+$article3 = [];
 
-$article11["title"] = "CSS : 1화 기본 css";
-$article11["regDate"] = "2020-01-12 17:49:14";
-$article11["writerName"] = "장다운";
-$article11["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article11["body"] = <<<EOT
+$article3["title"] = "CSS : 1화 기본 css";
+$article3["regDate"] = "2020-01-12 17:49:14";
+$article3["writerName"] = "장다운";
+$article3["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article3["body"] = <<<EOT
 # 기본 문법
               
 ```html
@@ -85,13 +85,13 @@ EOT;
 
 
 
-$article12 = [];
+$article4 = [];
 
-$article12["title"] = "CSS : 2화 선택자";
-$article12["regDate"] = "2020-01-12 21:26:00";
-$article12["writerName"] = "장다운";
-$article12["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article12["body"] = <<<EOT
+$article4["title"] = "CSS : 2화 선택자";
+$article4["regDate"] = "2020-01-12 21:26:00";
+$article4["writerName"] = "장다운";
+$article4["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article4["body"] = <<<EOT
 # 선택자 종류
               
 ```html
@@ -166,13 +166,13 @@ nav span {
 ```
 EOT;
 
-$article13 = [];
+$article5 = [];
 
-$article13["title"] = "CSS : 3화 선택자 적용 우선 순위";
-$article13["regDate"] = "2020-01-12 22:01:40";
-$article13["writerName"] = "장다운";
-$article13["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article13["body"] = <<<EOT
+$article5["title"] = "CSS : 3화 선택자 적용 우선 순위";
+$article5["regDate"] = "2020-01-12 22:01:40";
+$article5["writerName"] = "장다운";
+$article5["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article5["body"] = <<<EOT
 # 적용 순위
 - 동일한 css 속상이 중복 사용되는 경우 우선 순위에 따라 적용 됨              
 - 1순위: !important Style 
@@ -188,13 +188,13 @@ EOT;
 
 //김상화
 
-$article21 = [];
+$article6 = [];
 
-$article21["title"] = "JS : 1화 기초";
-$article21["regDate"] = "2020-01-12 12:12:14";
-$article21["writerName"] = "김상화";
-$article21["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-3"></use></svg>';
-$article21["body"] = <<<EOT
+$article6["title"] = "JS : 1화 기초";
+$article6["regDate"] = "2020-01-12 12:12:14";
+$article6["writerName"] = "김상화";
+$article6["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-3"></use></svg>';
+$article6["body"] = <<<EOT
 # 실습환경 만들기
 
 Javascript의 특징

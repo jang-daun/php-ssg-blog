@@ -75,17 +75,17 @@ require_once "head.php";
     <div class="article-list-box">
       <ul>
         <li>
-          <h1 class="article-list-box__title"><?=$article11["title"]?></h1>
-          <div class="article-list-box__reg-date"><?=$article11["regDate"]?></div>
+          <h1 class="article-list-box__title"><?=$article3["title"]?></h1>
+          <div class="article-list-box__reg-date"><?=$article3["regDate"]?></div>
           <div class="article-list-box__writer">
-            <span><?=$article11["writerName"]?></span>
+            <span><?=$article3["writerName"]?></span>
             <span>
-              <?=$article11["writerAvatar"]?>
+              <?=$article3["writerAvatar"]?>
             </span>
           </div>
           <div class="article-list-box__body">
             <script type="text/x-template">
-              <?=$article11["body"]?>
+              <?=$article3["body"]?>
             </script>
             <div class="toast-ui-viewer"></div>
           </div>
@@ -102,17 +102,17 @@ require_once "head.php";
     <div class="article-list-box">
       <ul>
         <li>
-          <h1 class="article-list-box__title"><?=$article12["title"]?></h1>
-          <div class="article-list-box__reg-date"><?=$article12["regDate"]?></div>
+          <h1 class="article-list-box__title"><?=$article4["title"]?></h1>
+          <div class="article-list-box__reg-date"><?=$article4["regDate"]?></div>
           <div class="article-list-box__writer">
-            <span><?=$article12["writerName"]?></span>
+            <span><?=$article4["writerName"]?></span>
             <span>
-              <?=$article12["writerAvatar"]?>
+              <?=$article4["writerAvatar"]?>
             </span>
           </div>
           <div class="article-list-box__body">
             <script type="text/x-template">
-              <?=$article12["body"]?>
+              <?=$article4["body"]?>
             </script>
             <div class="toast-ui-viewer"></div>
           </div>
@@ -129,17 +129,17 @@ require_once "head.php";
     <div class="article-list-box">
       <ul>
         <li>
-          <h1 class="article-list-box__title"><?=$article13["title"]?></h1>
-          <div class="article-list-box__reg-date"><?=$article13["regDate"]?></div>
+          <h1 class="article-list-box__title"><?=$article5["title"]?></h1>
+          <div class="article-list-box__reg-date"><?=$article5["regDate"]?></div>
           <div class="article-list-box__writer">
-            <span><?=$article13["writerName"]?></span>
+            <span><?=$article5["writerName"]?></span>
             <span>
-              <?=$article13["writerAvatar"]?>
+              <?=$article5["writerAvatar"]?>
             </span>
           </div>
           <div class="article-list-box__body">
             <script type="text/x-template">
-              <?=$article13["body"]?>
+              <?=$article5["body"]?>
             </script>
             <div class="toast-ui-viewer"></div>
           </div>
@@ -155,17 +155,17 @@ require_once "head.php";
     <div class="article-list-box">
       <ul>
         <li>
-          <h1 class="article-list-box__title"><?=$article21["title"]?></h1>
-          <div class="article-list-box__writer"><?=$article21["regDate"]?></div>
+          <h1 class="article-list-box__title"><?=$article6["title"]?></h1>
+          <div class="article-list-box__writer"><?=$article6["regDate"]?></div>
           <div class="article-list-box__writer">
-            <span><?=$article21["writerName"]?></span>
+            <span><?=$article6["writerName"]?></span>
             <span>
-              <?=$article21["writerAvatar"]?>
+              <?=$article6["writerAvatar"]?>
             </span>
           </div>
           <div class="article-list-box__body">
             <script type="text/x-template">
-              <?=$article21["body"]?>
+              <?=$article6["body"]?>
             </script>
             <div class="toast-ui-viewer"></div>
           </div>

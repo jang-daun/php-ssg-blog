@@ -1,5 +1,5 @@
 <?php
-$articleId = 12;
+$articleId = 6;
 
 require_once "data.php";
 require_once "head.php";

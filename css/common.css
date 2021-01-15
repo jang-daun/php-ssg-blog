@@ -431,5 +431,11 @@ main {
 
 /* svgs 끝 */
 
+/*게시물 박스 시작*/
+.section-article-reply-box {
+    margin-top: 20px;
+}
+/*게시물 박스 끝*/
+
 
 /* 커스텀 끝 */
