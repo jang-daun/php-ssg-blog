@@ -53,8 +53,8 @@
             <div class="con height-100p">
                 <nav class="top-bar__menu-box-1 height-100p">
                     <ul class="flex height-100p">
-                        <div class="logo"><img src="https://jang-daun.github.io/myblog/img/logo/logo-4.svg" alt="">
-                        </div>
+                        <a href="index.ssghtml.php" class="logo"><img src="https://jang-daun.github.io/myblog/img/logo/logo-4.svg" alt="">
+                        </a>
                         <div class="flex-grow"></div>
                         <li><a href="index.ssghtml.php" class="flex flex-jc-c flex-ai-c height-100p">
                                 <span>HOME</span>
