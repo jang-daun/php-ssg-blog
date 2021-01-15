@@ -64,7 +64,7 @@
                                 <span>ABOUT</span>
                                 <!--<span><i class="fas fa-street-view"></i></span>--></a></li>
                         <li>
-                            <a href="#" class="flex flex-jc-c flex-ai-c height-100p">
+                            <a href="pf.ssghtml.php" class="flex flex-jc-c flex-ai-c height-100p">
                                 <span>PORTFOLIO</span>
                                 <!--<span><i class="fas fa-list-alt"></i></span>-->
                             </a>
@@ -113,7 +113,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="block">
+                        <a href="pf.ssghtml.php" class="block">
                             <span>PORTFOLIO</span>
                             <!--<span><i class="fas fa-list-alt"></i></span>-->
                         </a>
