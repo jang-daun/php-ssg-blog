@@ -56,11 +56,11 @@
                         <div class="logo"><img src="https://jang-daun.github.io/myblog/img/logo/logo-4.svg" alt="">
                         </div>
                         <div class="flex-grow"></div>
-                        <li><a href="./" class="flex flex-jc-c flex-ai-c height-100p">
+                        <li><a href="index.ssghtml.php" class="flex flex-jc-c flex-ai-c height-100p">
                                 <span>HOME</span>
                                 <!--<span><i class="fas fa-home"></i></span>--></a>
                         </li>
-                        <li><a href="about.php" class="flex flex-jc-c flex-ai-c height-100p">
+                        <li><a href="about.ssghtml.php" class="flex flex-jc-c flex-ai-c height-100p">
                                 <span>ABOUT</span>
                                 <!--<span><i class="fas fa-street-view"></i></span>--></a></li>
                         <li>
@@ -101,13 +101,13 @@
             <nav class="mobile-side-bar__menu-box-1 visible-sm-down">
                 <ul>
                     <li>
-                        <a href="./" class="block">
+                        <a href="index.ssghtml.php" class="block">
                             <span>HOME</span>
                             <!--<span><i class="fas fa-home"></i></span>-->
                         </a>
                     </li>
                     <li>
-                        <a href="about.php" class="block">
+                        <a href="about.ssghtml.php" class="block">
                             <span>ABOUT</span>
                             <!--<span><i class="fas fa-street-view"></i></span>-->
                         </a>
