@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>downloading-the-list</title>
+    <title><?php echo $siteTitle; ?></title>
 
 
     <!--폰트 어썸-->
