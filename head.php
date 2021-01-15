@@ -87,9 +87,9 @@
                 <div></div>
                 <div></div>
             </div>
-            <div class="mobile-logo-box">
+            <a href="index.ssghtml.php" class="mobile-logo-box">
                 <img src="https://jang-daun.github.io/myblog/img/logo/heart-2.svg" alt="">
-            </div>
+            </a>
             <div class="flex-1-0-0"></div>
         </header>
         <!--모바일 탑바 끝-->
