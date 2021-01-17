@@ -49,11 +49,7 @@ https://codepen.io/Yun_SH/embed/bGwmZjm?height=450&theme-id=dark&default-tab=htm
 ```
 EOT;
 
-
-
-//장다운
-
-//게시물3
+//게시글4
 $article3 = [];
 
 $article3["title"] = "CSS : 1화 기본 css";
@@ -84,7 +80,7 @@ color(속성):blue(값);
 EOT;
 
 
-
+//게시글 4
 $article4 = [];
 
 $article4["title"] = "CSS : 2화 선택자";
@@ -186,7 +182,7 @@ https://codepen.io/jang-daun/embed/VwKEKvd?height=265&theme-id=light&default-tab
 EOT;
 
 
-//김상화
+//게시글 6
 
 $article6 = [];
 
