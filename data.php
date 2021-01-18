@@ -5,7 +5,7 @@ $siteTitle = "downloadingthelist";
 
 //게시물1
 $article1 = [];
-
+$article1["id"] = 1;
 $article1["title"] = "HTML : 1화 기본";
 $article1["regDate"] = "2020-01-12 17:49:14";
 $article1["writerName"] = "윤승현";
@@ -31,7 +31,7 @@ EOT;
 
 //게시물2
 $article2 = [];
-
+$article2["id"] = 2;
 $article2["title"] = "HTML : 2화 기본";
 $article2["regDate"] = "2020-01-13 17:49:14";
 $article2["writerName"] = "윤승현";
@@ -51,7 +51,7 @@ EOT;
 
 //게시글4
 $article3 = [];
-
+$article3["id"] = 3;
 $article3["title"] = "CSS : 1화 기본 css";
 $article3["regDate"] = "2020-01-12 17:49:14";
 $article3["writerName"] = "장다운";
@@ -82,7 +82,7 @@ EOT;
 
 //게시글 4
 $article4 = [];
-
+$article4["id"] = 4;
 $article4["title"] = "CSS : 2화 선택자";
 $article4["regDate"] = "2020-01-12 21:26:00";
 $article4["writerName"] = "장다운";
@@ -163,7 +163,7 @@ nav span {
 EOT;
 
 $article5 = [];
-
+$article5["id"] = 5;
 $article5["title"] = "CSS : 3화 선택자 적용 우선 순위";
 $article5["regDate"] = "2020-01-12 22:01:40";
 $article5["writerName"] = "장다운";
@@ -185,7 +185,7 @@ EOT;
 //게시글 6
 
 $article6 = [];
-
+$article6["id"] = 6;
 $article6["title"] = "JS : 1화 기초";
 $article6["regDate"] = "2020-01-12 12:12:14";
 $article6["writerName"] = "김상화";

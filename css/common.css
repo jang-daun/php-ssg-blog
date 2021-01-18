@@ -315,12 +315,34 @@ a {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.padding-0-10 {
+    padding: 0 10px;
+  }
 
 /*하단바 끝*/
 
 /*메인 시작*/
 main {
     margin-top: 20px;
+}
+
+.article-list-box > ul > li {
+    border-top: 2px dotted black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-height: 200px;
+    overflow: hidden;
+  }
+  
+
+.article-list-box__title > a {
+    text-decoration: underline;
+    font-size:1.8rem;
+}
+
+
+.article-list-box__title > a:hover {
+    color:#4b6ccc;
 }
 
 .article-list-box {
