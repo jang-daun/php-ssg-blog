@@ -9,6 +9,8 @@ $originFiles = [
     "article_detail_4.ssghtml.php",
     "article_detail_5.ssghtml.php",
     "article_detail_6.ssghtml.php",
+    "article_detail_7.ssghtml.php",
+    "article_detail_8.ssghtml.php",
 ];
 
 foreach ( $originFiles as $index => $originFile ) {

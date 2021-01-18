@@ -17,7 +17,7 @@ require_once "head.php";
   <div class="con">
     <div class="article-list-box">
       <ul>
-        <?php for ( $i = 6; $i >= 1; $i-- ) { ?>
+        <?php for ( $i = 8; $i >= 1; $i-- ) { ?>
         <?php
         $articleVarName = "article" . $i;
         $article = $$articleVarName;
