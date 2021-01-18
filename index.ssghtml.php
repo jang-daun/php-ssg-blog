@@ -75,7 +75,7 @@ require_once "head.php";
     <div class="article-list-box">
       <ul>
         <li>
-          <h1 class="article-list-box__title"><?=$article3["title"]?></h1>
+          <h1 class="article-list-box__title"><a href="article_detail_3.ssghtml.php"><?=$article3["title"]?></a></h1>
           <div class="article-list-box__reg-date"><?=$article3["regDate"]?></div>
           <div class="article-list-box__writer">
             <span><?=$article3["writerName"]?></span>
@@ -102,7 +102,7 @@ require_once "head.php";
     <div class="article-list-box">
       <ul>
         <li>
-          <h1 class="article-list-box__title"><?=$article4["title"]?></h1>
+          <h1 class="article-list-box__title"><a href="article_detail_4.ssghtml.php"><?=$article4["title"]?></a></h1>
           <div class="article-list-box__reg-date"><?=$article4["regDate"]?></div>
           <div class="article-list-box__writer">
             <span><?=$article4["writerName"]?></span>
@@ -129,7 +129,7 @@ require_once "head.php";
     <div class="article-list-box">
       <ul>
         <li>
-          <h1 class="article-list-box__title"><?=$article5["title"]?></h1>
+          <h1 class="article-list-box__title"><a href="article_detail_5.ssghtml.php"><?=$article5["title"]?></a></h1>
           <div class="article-list-box__reg-date"><?=$article5["regDate"]?></div>
           <div class="article-list-box__writer">
             <span><?=$article5["writerName"]?></span>
@@ -155,7 +155,7 @@ require_once "head.php";
     <div class="article-list-box">
       <ul>
         <li>
-          <h1 class="article-list-box__title"><?=$article6["title"]?></h1>
+          <h1 class="article-list-box__title"><a href="article_detail_6.ssghtml.php"><?=$article6["title"]?></a></h1>
           <div class="article-list-box__writer"><?=$article6["regDate"]?></div>
           <div class="article-list-box__writer">
             <span><?=$article6["writerName"]?></span>
