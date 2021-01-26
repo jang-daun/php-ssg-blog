@@ -517,5 +517,14 @@ main {
 
 /*게시물 박스 끝*/
 
+/*태그 시작*/
+.article-list-box__tags {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.article-list-box__tags:hover {
+    color:red;
+}
+
 
 /* 커스텀 끝 */
