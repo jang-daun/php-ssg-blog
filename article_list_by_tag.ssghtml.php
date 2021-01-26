@@ -45,3 +45,4 @@ $articles = &getArticlesByTag($_GET['tag']);
 <?php
 require_once "foot.php";
 ?>
+`

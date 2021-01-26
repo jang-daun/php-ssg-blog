@@ -2,7 +2,6 @@
 require_once "util.php";
 require_once "app.php";
 
-<?php
 $siteTitle = "downloadingthelist";
 
 //윤승현
@@ -14,7 +13,7 @@ $article1["title"] = "HTML : 1화 기본";
 $article1["regDate"] = "2020-01-12 17:49:14";
 $article1["writerName"] = "윤승현";
 $article1["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-2"></use></svg>';
-$article1["tags"] = ["HTML"];
+$article1["tags"] = ["html"];
 $article1["body"] = <<<'EOT'
 # HTML의 개념
 - HTML(Hyper Text Markup Language)
@@ -41,7 +40,7 @@ $article2["title"] = "HTML : 2화 기본";
 $article2["regDate"] = "2020-01-13 17:49:14";
 $article2["writerName"] = "윤승현";
 $article2["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-2"></use></svg>';
-$article2["tags"] = ["HTML"];
+$article2["tags"] = ["html"];
 $article2["body"] = <<<'EOT'
 # 부모와 자식 요소
 - 태그 A가 태그 B의 콘텐츠로 사용될 시에, 태그 B는 태그 A의 부모 요소, 태그 A는 태그 B의 자식 요소라고 함.
@@ -62,7 +61,7 @@ $article3["title"] = "CSS : 1화 기본 css";
 $article3["regDate"] = "2020-01-12 17:49:14";
 $article3["writerName"] = "장다운";
 $article3["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article3["tags"] = ["CSS"];
+$article3["tags"] = ["css"];
 $article3["body"] = <<<'EOT'
 # 기본 문법
               
@@ -94,7 +93,7 @@ $article4["title"] = "CSS : 2화 선택자";
 $article4["regDate"] = "2020-01-12 21:26:00";
 $article4["writerName"] = "장다운";
 $article4["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article4["tags"] = ["CSS"];
+$article4["tags"] = ["css"];
 $article4["body"] = <<<'EOT'
 # 선택자 종류
               
@@ -176,7 +175,7 @@ $article5["title"] = "CSS : 3화 선택자 적용 우선 순위";
 $article5["regDate"] = "2020-01-12 22:01:40";
 $article5["writerName"] = "장다운";
 $article5["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article5["tags"] = ["CSS"];
+$article5["tags"] = ["css"];
 $article5["body"] = <<<'EOT'
 # 적용 순위
 - 동일한 css 속상이 중복 사용되는 경우 우선 순위에 따라 적용 됨              
@@ -199,7 +198,7 @@ $article6["title"] = "JS : 1화 기초";
 $article6["regDate"] = "2020-01-12 12:12:14";
 $article6["writerName"] = "김상화";
 $article6["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-3"></use></svg>';
-$article6["tags"] = ["JS"];
+$article6["tags"] = ["js"];
 $article6["body"] = <<<'EOT'
 # 실습환경 만들기
 
@@ -245,7 +244,7 @@ $article7["title"] = "JS : 2화 명령어";
 $article7["regDate"] = "2020-01-12 12:12:14";
 $article7["writerName"] = "김상화";
 $article7["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-3"></use></svg>';
-$article7["tags"] = ["JS"];
+$article7["tags"] = ["js"];
 $article7["body"] = <<<'EOT'
 # 개발자도구 (Developer Console)
 ```
@@ -268,7 +267,7 @@ $article8["title"] = "JS : 3화 변수";
 $article8["regDate"] = "2020-01-12 12:12:14";
 $article8["writerName"] = "김상화";
 $article8["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-3"></use></svg>';
-$article8["tags"] = ["JS"];
+$article8["tags"] = ["js"];
 $article8["body"] = <<<'EOT'
 # 변수 선언과 초기화
 
