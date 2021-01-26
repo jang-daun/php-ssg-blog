@@ -1,6 +1,14 @@
+<?php
+if ( defined('STDIN') ) {
+    $_GET['id'] = $argv[1];
+}
 
-<link rel="stylesheet" href="css/about.css">
-<script src="js/about.js" defer></script>
+require_once "data.php";
+require_once "head.php";
+
+$articleId = $_GET['id'];
+$selectedArticle = &getArticleById($articleId);
+?>
 
 <section class="section-title con-min-width">
     <h1 class="con">

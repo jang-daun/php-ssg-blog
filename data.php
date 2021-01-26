@@ -1,4 +1,8 @@
 <?php
+require_once "util.php";
+require_once "app.php";
+
+<?php
 $siteTitle = "downloadingthelist";
 
 //윤승현
@@ -10,7 +14,7 @@ $article1["title"] = "HTML : 1화 기본";
 $article1["regDate"] = "2020-01-12 17:49:14";
 $article1["writerName"] = "윤승현";
 $article1["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-2"></use></svg>';
-$article1["body"] = <<<EOT
+$article1["body"] = <<<'EOT'
 # HTML의 개념
 - HTML(Hyper Text Markup Language)
 - 페이지의 제목, 문단, 표, 이미지, 동영상 등을 정의하고 그 구조와 의미를 부여하는 정적 언어로 웹의 구조를 담당함.
@@ -36,7 +40,7 @@ $article2["title"] = "HTML : 2화 기본";
 $article2["regDate"] = "2020-01-13 17:49:14";
 $article2["writerName"] = "윤승현";
 $article2["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-2"></use></svg>';
-$article2["body"] = <<<EOT
+$article2["body"] = <<<'EOT'
 # 부모와 자식 요소
 - 태그 A가 태그 B의 콘텐츠로 사용될 시에, 태그 B는 태그 A의 부모 요소, 태그 A는 태그 B의 자식 요소라고 함.
 ```html
@@ -56,7 +60,7 @@ $article3["title"] = "CSS : 1화 기본 css";
 $article3["regDate"] = "2020-01-12 17:49:14";
 $article3["writerName"] = "장다운";
 $article3["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article3["body"] = <<<EOT
+$article3["body"] = <<<'EOT'
 # 기본 문법
               
 ```html
@@ -87,7 +91,7 @@ $article4["title"] = "CSS : 2화 선택자";
 $article4["regDate"] = "2020-01-12 21:26:00";
 $article4["writerName"] = "장다운";
 $article4["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article4["body"] = <<<EOT
+$article4["body"] = <<<'EOT'
 # 선택자 종류
               
 ```html
@@ -168,7 +172,7 @@ $article5["title"] = "CSS : 3화 선택자 적용 우선 순위";
 $article5["regDate"] = "2020-01-12 22:01:40";
 $article5["writerName"] = "장다운";
 $article5["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article5["body"] = <<<EOT
+$article5["body"] = <<<'EOT'
 # 적용 순위
 - 동일한 css 속상이 중복 사용되는 경우 우선 순위에 따라 적용 됨              
 - 1순위: !important Style 
@@ -190,7 +194,7 @@ $article6["title"] = "JS : 1화 기초";
 $article6["regDate"] = "2020-01-12 12:12:14";
 $article6["writerName"] = "김상화";
 $article6["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-3"></use></svg>';
-$article6["body"] = <<<EOT
+$article6["body"] = <<<'EOT'
 # 실습환경 만들기
 
 Javascript의 특징
@@ -235,7 +239,7 @@ $article7["title"] = "JS : 2화 명령어";
 $article7["regDate"] = "2020-01-12 12:12:14";
 $article7["writerName"] = "김상화";
 $article7["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-3"></use></svg>';
-$article7["body"] = <<<EOT
+$article7["body"] = <<<'EOT'
 # 개발자도구 (Developer Console)
 ```
 - 브라우저의 우측 상단 메뉴에서 더보기, 개발자 도구 메뉴를 이용해 활성화
@@ -257,7 +261,7 @@ $article8["title"] = "JS : 3화 변수";
 $article8["regDate"] = "2020-01-12 12:12:14";
 $article8["writerName"] = "김상화";
 $article8["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-3"></use></svg>';
-$article8["body"] = <<<EOT
+$article8["body"] = <<<'EOT'
 # 변수 선언과 초기화
 
 <h2>변수</h2>
@@ -281,8 +285,35 @@ var name=prompt("이름을 입력해 주세요");
 ```
 EOT;
 
+// 데이터 정리
+$maxArticleId = getMaxArticleId();
 
-if ( isset($articleId) ) {
-    $articleVarName = "article" . $articleId;
-    $selectedArticle = $$articleVarName;
+$_allArticles = [];
+$_tags = [];
+
+for ( $i = $maxArticleId; $i > 0; $i-- ) {
+    $varName = 'article' . $i;
+
+    if ( isset($$varName) ) {
+        $_allArticles[${$varName}['id']] = &$$varName;
+
+        foreach ( $_allArticles[${$varName}['id']]['tags'] as $tag ) {
+            $_tags[] = $tag;
+        }
+    }
+}
+
+$_tags = array_unique($_tags);
+sort($_tags);
+
+$_allArticlesByTag = [];
+
+foreach ( $_tags as $tag ) {
+    $_allArticlesByTag[$tag] = [];
+
+    foreach ( $_allArticles as $article ) {
+        if ( in_array($tag, $article['tags']) ) {
+            $_allArticlesByTag[$tag][$article['id']] = $article;
+        }
+    }
 }
