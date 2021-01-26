@@ -180,7 +180,7 @@ a {
 .top-bar {
     background-color: white;
     color: black;
-    height: 120px;
+    height: 80px;
 }
 
 .top-bar__menu-box-1 {}
@@ -383,7 +383,7 @@ main {
     border-top: .5px solid black;
     padding-top: 10px;
     padding-bottom: 20px;
-    max-height: 180px;
+    max-height: 210px;
     overflow: hidden;
 }
 
