@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>downloadingthelist</title>
+
+
+    <!--폰트 어썸-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!--제이쿼리-->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!--반응형 필수-->
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+
+    <!--토스트 UI-->
+    <!-- 하이라이트 라이브러리 추가, 토스트 UI 에디터에서 사용됨 -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.1/highlight.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.1/styles/default.min.css">
+
+    <!-- 토스트 UI 에디터, 자바스크립트 코어 -->
+    <script defer src="https://uicdn.toast.com/editor/latest/toastui-editor-all.min.js"></script>
+
+    <!-- 코드 미러 라이브러리 추가, 토스트 UI 에디터에서 사용됨 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/codemirror.min.css">
+    <!-- 토스트 UI 에디터, CSS 코어 -->
+    <link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/toastui-editor.min.css">
+
+    <!-- 토스트 UI 에디터, 신택스 하이라이트 플러그인 추가 -->
+    <script defer
+        src="https://uicdn.toast.com/editor-plugin-code-syntax-highlight/latest/toastui-editor-plugin-code-syntax-highlight.min.js">
+    </script>
+
+    <!--토스트 UI끝-->
+
+    <link rel="stylesheet" href="css/common.css">
+    <script defer src="js/common.js"></script>
+
+
+
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-shadow"></div>
+
+    <div class="body-content">
+        <!--탑바 시작-->
+        <header class="top-bar con-min-width visible-md-up">
+            <div class="con height-100p flex flex-jc-sb">
+                <a href="index.html" class="logo">
+                    <span>down</span>
+                    <span>loading</span>
+                    <span>the-list</span>
+                </a>
+                <div class="flex-grow"></div>
+                <nav class="top-bar__menu-box-1 height-100p">
+                    <ul class="flex height-100p">
+                        <li>
+                            <a href="index.html" class="flex flex-jc-c flex-ai-c height-100p">
+                                <span>HOME</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="about.html" class="flex flex-jc-c flex-ai-c height-100p">
+                                <span>ABOUT</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="pf.html" class="flex flex-jc-c flex-ai-c height-100p">
+                                <span>PORTFOLIO</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex flex-jc-c flex-ai-c height-100p">
+                                <span>ARTICLES</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!--탑바 끝-->
+
+        <!--모바일 탑바 시작-->
+        <div class="mobile-top-bar-padding visible-sm-down"></div>
+
+        <header class="mobile-top-bar con-min-width visible-sm-down flex">
+            <div class="mobile-top-bar__btn-toggle-side-bar flex-as-c flex-1-0-0">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <a href="index.html" class="mobile-logo-box">
+                <img src="https://jang-daun.github.io/myblog/img/logo/heart-2.svg" alt="">
+            </a>
+            <div class="flex-1-0-0"></div>
+        </header>
+        <!--모바일 탑바 끝-->
+
+        <!--모바일 사이드 바 시작-->
+
+        <div data-sel-index="0" class="mobile-side-bar visible-sm-down">
+            <article></article>
+            <nav class="mobile-side-bar__menu-box-1 visible-sm-down">
+                <ul>
+                    <li>
+                        <a href="index.html" class="block">
+                            <span>HOME</span>
+                            <!--<span><i class="fas fa-home"></i></span>-->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="block">
+                            <span>ABOUT</span>
+                            <!--<span><i class="fas fa-street-view"></i></span>-->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="pf.html" class="block">
+                            <span>PORTFOLIO</span>
+                            <!--<span><i class="fas fa-list-alt"></i></span>-->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="block">
+                            <span>ARTICLES</span>
+                            <!--<span><i class="fas fa-newspaper"></i></span>-->
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!--모바일 사이드 바 끝-->
+
+        <main class="">
+<section class="section-title con-min-width">
+    <h1 class="con">
+        <span>
+            DETAIL
+        </span>
+    </h1>
+</section>
+
+<section class="section-article-detail padding-0-10 con-min-width">
+    <div class="con">
+        <h1 class="article-list-box__title">JS : 3화 변수</h1>
+
+        <div class="article-list-box__reg-date">2020-01-12 12:12:14</div>
+        
+        <div class="article-list-box__writer">
+            <span>김상화</span>
+            <span><svg viewBox="0 0 264 280"><use xlink:href="#avatar-3"></use></svg></span>
+        </div>
+
+        <div class="article-list-box__tags">
+             <a class="tag-link" href="article_list_by_tag_js.html">#js</a>        </div>
+        
+        <div class="article-list-box__body">
+            <script type="text/x-template"># 변수 선언과 초기화
+
+<h2>변수</h2>
+
+- 프로그램 실행 도중 임의의 값을 저장해 두고 읽을 수 있는 공간
+- 변수의 선언과 초기화
+- 선언 : 컴퓨터에게 변수를 사용할 것이라고 선언(알려주는) 역할
+- 초기화 : 선언한 변수에 처음으로 값을 저장하는 과정
+- 변수에 값을 저장하는 법 : 대입연산자 (=) 를 활용
+- 콤마(,)를 활용해 여러 변수를 동시에 선언, 초기화 가능
+
+```
+var variable_name;
+variable_name = value;
+```
+# prompt() 명령어
+- promprt 뒤에 따라오는 괄호 안에 들어있는 메세지를 사용자에게 보여주고, 문자열을 입력받는 명령
+- 변수에 값을 저장하는 구문과 함께 사용해서, 사용자가 입력한 값을 변수에 저장 가능
+```
+var name=prompt("이름을 입력해 주세요");
+```</script>
+            <div class="toast-ui-viewer"></div>
+        </div>
+    </div>
+</section>
+
+<section class="section-article-reply-box padding-0-10 con-min-width">
+    <div class="con">
+    <div id="disqus_thread"></div>
+    
+    <script>
+        var disqus_config = function () {
+            this.page.url = 'https://b.downloadingthelist/article_detail_8.html';
+            this.page.identifier = 'article_detail_8.html';
+        };
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://down-2.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    </div>
+</section>
