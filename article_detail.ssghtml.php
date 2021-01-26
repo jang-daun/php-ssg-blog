@@ -58,3 +58,7 @@ $selectedArticle = &getArticleById($articleId);
     </script>
     </div>
 </section>
+
+<?php
+require_once "foot.php";
+?>
