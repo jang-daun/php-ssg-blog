@@ -107,11 +107,11 @@ function &getForPrintTagInfo($tag) {
     }
 
     if ( !isset($tagInfo['pageTitle']) ) {
-        $tagInfo['pageTitle'] = "{$tag} 관련 글 리스트";
+        $tagInfo['pageTitle'] = "Hello, {$tag}";
     }
 
     if ( !isset($tagInfo['pageDescription']) ) {
-        $tagInfo['pageDescription'] = "{$tag} 관련 글 리스트입니다.";
+        $tagInfo['pageDescription'] = "downlodaing the {$tag} list.";
     }
 
     if ( !isset($tagInfo['pageKeywordsStr']) ) {
