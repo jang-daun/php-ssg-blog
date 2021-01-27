@@ -1,7 +1,12 @@
 <?php
 require_once "data.php";
+
+$pageTitle = "{$siteTitle} - downloading-the-list";
+$pageDescription = "down";
+
 require_once "head.php";
 ?>
+
 
 <link rel="stylesheet" href="css/about.css">
 <script defer src="js/about.js"></script>

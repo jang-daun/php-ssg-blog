@@ -2,7 +2,27 @@
 require_once "util.php";
 require_once "app.php";
 
-$siteTitle = "downloadingthelist";
+$siteTitle = "downloading-the-list";
+$siteDescription = "Wait, downloading-!";
+$siteKeywordsStr = "CSS, HTML, JS";
+$siteName = "downloading-the-list";
+$siteThumbUrl = "https://jang-daun.github.io/myblog/img/logo/blog_main.jpg";
+
+// 태그정보 시작
+$tagInfos = [
+    "js" => [
+        //"pageThumbUrl" => "자바스크립트 관련 글 전용 이미지"
+        //"pageDescription" => "js"
+    ],
+    "html" => [
+        //"pageThumbUrl" => "html 관련 글 전용 이미지"
+    ],
+    "css" => [
+        "pageThumbUrl" => "https://jang-daun.github.io/myblog/img/logo/blog_css.jpg"
+    ]
+];
+// 태그정보 끝
+
 
 //윤승현
 

@@ -4,11 +4,17 @@ if ( defined('STDIN') ) {
 }
 
 require_once "data.php";
+
+$tagInfo = &getForPrintTagInfo($_GET['tag']);
+$pageTitle = $tagInfo['pageTitle'];
+$pageThumbUrl = $tagInfo['pageThumbUrl'];
+$pageDescription = $tagInfo['pageDescription'];
+$pageKeywordsStr = $tagInfo['pageKeywordsStr'];
+
 require_once "head.php";
 
 $articles = &getArticlesByTag($_GET['tag']);
 ?>
-
 <section class="section-title con-min-width">
     <h1 class="con">
         <span>
