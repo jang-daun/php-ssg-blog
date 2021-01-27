@@ -11,11 +11,11 @@ $siteThumbUrl = "https://jang-daun.github.io/myblog/img/logo/blog_main.jpg";
 // 태그정보 시작
 $tagInfos = [
     "js" => [
-        //"pageThumbUrl" => "자바스크립트 관련 글 전용 이미지"
-        //"pageDescription" => "js"
+        "pageThumbUrl" => "https://jang-daun.github.io/myblog/img/logo/blog_js.jpg"
+        
     ],
     "html" => [
-        //"pageThumbUrl" => "html 관련 글 전용 이미지"
+        "pageThumbUrl" => "https://jang-daun.github.io/myblog/img/logo/blog_html.jpg"
     ],
     "css" => [
         "pageThumbUrl" => "https://jang-daun.github.io/myblog/img/logo/blog_css.jpg"
