@@ -111,7 +111,7 @@ function &getForPrintTagInfo($tag) {
     }
 
     if ( !isset($tagInfo['pageDescription']) ) {
-        $tagInfo['pageDescription'] = "downlodaing the {$tag} list.";
+        $tagInfo['pageDescription'] = "downloading the {$tag} list";
     }
 
     if ( !isset($tagInfo['pageKeywordsStr']) ) {
@@ -129,7 +129,7 @@ function &getForPrintArticleById($id) {
     $tagInfo = &getForPrintTagInfo($article['tags'][0]);
 
     if ( !isset($article['pageTitle']) ) {
-        $article['pageTitle'] = $article['pageTitle'];   
+        $article['pageTitle'] = $article['title'];   
     }
     
     if ( !isset($article['pageThumbUrl']) ) {
