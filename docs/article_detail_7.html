@@ -22,18 +22,18 @@
     <title>downloading-the-list</title>
 
 
-    <title>JS : 2화 명령어</title>
-    <meta name="title" content="JS : 2화 명령어" />
-    <meta name="description" content="개발자도구 (Developer Console) ``` - 브라우저의 우측 상단 메뉴에서 더보기, 개발자 도구 메뉴를 이용해 활성화 - 여러 탭 중 console 탭을 사용해 console 을 확인 가능 - 직접 명령어를 입력해 실행 가능하며 (>) , 그 결과를 바로 확인 가능 (<) ``` console.log 명령어 ``` console.log 뒤에 따라오는 괄호 안에 들어있는 메시지를 콘솔창에 출력하는 명령어 ```" />
-    <meta name="keywords" content="js" />
+    <title>CSS : 2화 선택자</title>
+    <meta name="title" content="CSS : 2화 선택자" />
+    <meta name="description" content="선택자 종류 ```html html 1) tag 2) tag 3) tag 4) tag ``` ```css css - 태그 선택자 (1,2,3,4) p { color:red; } - 클래스 선택자 class (2,3,4) .p { color:red; } - 아이디 선택자 id (3) #p { color:red; } - 태그와 함께 쓰는 선택자 (2) p.br { color:red; } ``` 그룹 선택자 - 그룹으로 묶어 동일한 css 적용 ```html p1, p2 { color:red; } ``` 하위 선택자 - 선택자와 선택자 사이의 '>' : 자식 선택자 - 선택자와 선택자 사이의 ' ' : 후손 선택자 ```html html ``` ```css css nav > div { color:red; } nav span { color:red; } ``` 전체 선택자 - '*' 사용 ```css * { color:red; } ``` 주석 처리 - 코드상엔 보이지만 브라우저에선 출력되지 않는 것 - /* */ 사용 ```css /* this is a single-line */ ```" />
+    <meta name="keywords" content="css" />
     <meta name="copyright" content="downloading-the-list" />
 
     <!-- OPENGRAPH -->
     <meta property="og:site_name" content="downloading-the-list" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="JS : 2화 명령어" />
-    <meta property="og:description" content="개발자도구 (Developer Console) ``` - 브라우저의 우측 상단 메뉴에서 더보기, 개발자 도구 메뉴를 이용해 활성화 - 여러 탭 중 console 탭을 사용해 console 을 확인 가능 - 직접 명령어를 입력해 실행 가능하며 (>) , 그 결과를 바로 확인 가능 (<) ``` console.log 명령어 ``` console.log 뒤에 따라오는 괄호 안에 들어있는 메시지를 콘솔창에 출력하는 명령어 ```" />
-    <meta property="og:image" content="https://jang-daun.github.io/myblog/img/logo/blog_js.jpg" />
+    <meta property="og:title" content="CSS : 2화 선택자" />
+    <meta property="og:description" content="선택자 종류 ```html html 1) tag 2) tag 3) tag 4) tag ``` ```css css - 태그 선택자 (1,2,3,4) p { color:red; } - 클래스 선택자 class (2,3,4) .p { color:red; } - 아이디 선택자 id (3) #p { color:red; } - 태그와 함께 쓰는 선택자 (2) p.br { color:red; } ``` 그룹 선택자 - 그룹으로 묶어 동일한 css 적용 ```html p1, p2 { color:red; } ``` 하위 선택자 - 선택자와 선택자 사이의 '>' : 자식 선택자 - 선택자와 선택자 사이의 ' ' : 후손 선택자 ```html html ``` ```css css nav > div { color:red; } nav span { color:red; } ``` 전체 선택자 - '*' 사용 ```css * { color:red; } ``` 주석 처리 - 코드상엔 보이지만 브라우저에선 출력되지 않는 것 - /* */ 사용 ```css /* this is a single-line */ ```" />
+    <meta property="og:image" content="https://jang-daun.github.io/myblog/img/logo/blog_css.jpg" />
     <meta property="og:image:alt" content="downloading-the-list" />
     <meta property="og:image:width" content="486" />
     <meta property="og:image:height" content="254" />
@@ -178,29 +178,90 @@
 
 <section class="section-article-detail padding-0-10 con-min-width">
     <div class="con">
-        <h1 class="article-list-box__title">JS : 2화 명령어</h1>
+        <h1 class="article-list-box__title">CSS : 2화 선택자</h1>
 
         <div class="article-list-box__reg-date">2020-01-13</div>
         
         <div class="article-list-box__writer">
-            <span>김상화</span>
-            <span><svg viewBox="0 0 264 280"><use xlink:href="#avatar-3"></use></svg></span>
+            <span>장다운</span>
+            <span><svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg></span>
         </div>
 
         <div class="article-list-box__tags">
-             <a class="tag-link" href="article_list_by_tag_js.html">#js</a>        </div>
+             <a class="tag-link" href="article_list_by_tag_css.html">#css</a>        </div>
         
         <div class="article-list-box__body">
-            <script type="text/x-template"># 개발자도구 (Developer Console)
+            <script type="text/x-template"># 선택자 종류
+              
+```html
+html 
+1) <p> tag </p>
+2) <p class="br"> tag </p>
+3) <p id="br"> tag </p>
+4) <div class="br"> tag </div>
 ```
-- 브라우저의 우측 상단 메뉴에서 더보기, 개발자 도구 메뉴를 이용해 활성화
-- 여러 탭 중 console 탭을 사용해 console 을 확인 가능
-- 직접 명령어를 입력해 실행 가능하며 (>) , 그 결과를 바로 확인 가능 (<)
+```css
+css
+- 태그 선택자 (1,2,3,4)
+p {
+    color:red;
+}
+
+- 클래스 선택자 class (2,3,4)
+.p {
+    color:red;
+}
+
+- 아이디 선택자 id (3)
+#p {
+    color:red;
+}
+- 태그와 함께 쓰는 선택자 (2)
+p.br {
+    color:red;
+}
+```
+# 그룹 선택자
+- 그룹으로 묶어 동일한 css 적용
+```html
+p1, p2 {
+    color:red;
+}
 ```
 
-# console.log 명령어
+# 하위 선택자
+- 선택자와 선택자 사이의 '>' : 자식 선택자
+- 선택자와 선택자 사이의 ' ' : 후손 선택자
+```html
+html
+<nav>
+    <div>
+        <span></span>
+    </div>
+</nav>
 ```
-console.log 뒤에 따라오는 괄호 안에 들어있는 메시지를 콘솔창에 출력하는 명령어
+```css
+css
+nav > div {
+    color:red;
+}
+
+nav span {
+    color:red;
+}
+```
+# 전체 선택자
+- '*' 사용
+```css
+* {
+    color:red;
+}
+```
+# 주석 처리
+- 코드상엔 보이지만 브라우저에선 출력되지 않는 것
+- /* */ 사용
+```css
+/* this is a single-line */
 ```</script>
             <div class="toast-ui-viewer"></div>
         </div>

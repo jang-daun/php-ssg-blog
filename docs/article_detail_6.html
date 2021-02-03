@@ -22,18 +22,18 @@
     <title>downloading-the-list</title>
 
 
-    <title>JS : 1화 기초</title>
-    <meta name="title" content="JS : 1화 기초" />
-    <meta name="description" content="실습환경 만들기 Javascript의 특징 ```html HTML+CSS와 함께 사용해 client side 웹 프로그램을 작성할 수 있다. 웹 브라우저에서 바로 실행이 가능하다. ``` alert 명령어 ```html alert 뒤에 따라오는 괄호 안에 들어있는 메시지를 브라우저 경고창에 띄워주는 명령어 ``` 실습방법 - Javascript 코드를 작성한다. - lecture01.js ```html alert("hello world"); ``` - 해당 코드를 로드하는 HTML 파일을 작성한다 - index.html ```html ... < ></ > ... <> ... ```d - 브라우저에서 작성한 HTML 파일을 불러들여 결과를 확인한다." />
-    <meta name="keywords" content="js" />
+    <title>CSS : 1화 기본 css</title>
+    <meta name="title" content="CSS : 1화 기본 css" />
+    <meta name="description" content="기본 문법 ```html body(선택자) { color(속성):blue(값); } ``` 외부 스타일 / 내부 스타일 ```html - 외부 스타일 - 내부 스타일 body { color: blue; font-size: 14px; } ```" />
+    <meta name="keywords" content="css" />
     <meta name="copyright" content="downloading-the-list" />
 
     <!-- OPENGRAPH -->
     <meta property="og:site_name" content="downloading-the-list" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="JS : 1화 기초" />
-    <meta property="og:description" content="실습환경 만들기 Javascript의 특징 ```html HTML+CSS와 함께 사용해 client side 웹 프로그램을 작성할 수 있다. 웹 브라우저에서 바로 실행이 가능하다. ``` alert 명령어 ```html alert 뒤에 따라오는 괄호 안에 들어있는 메시지를 브라우저 경고창에 띄워주는 명령어 ``` 실습방법 - Javascript 코드를 작성한다. - lecture01.js ```html alert("hello world"); ``` - 해당 코드를 로드하는 HTML 파일을 작성한다 - index.html ```html ... < ></ > ... <> ... ```d - 브라우저에서 작성한 HTML 파일을 불러들여 결과를 확인한다." />
-    <meta property="og:image" content="https://jang-daun.github.io/myblog/img/logo/blog_js.jpg" />
+    <meta property="og:title" content="CSS : 1화 기본 css" />
+    <meta property="og:description" content="기본 문법 ```html body(선택자) { color(속성):blue(값); } ``` 외부 스타일 / 내부 스타일 ```html - 외부 스타일 - 내부 스타일 body { color: blue; font-size: 14px; } ```" />
+    <meta property="og:image" content="https://jang-daun.github.io/myblog/img/logo/blog_css.jpg" />
     <meta property="og:image:alt" content="downloading-the-list" />
     <meta property="og:image:width" content="486" />
     <meta property="og:image:height" content="254" />
@@ -178,52 +178,39 @@
 
 <section class="section-article-detail padding-0-10 con-min-width">
     <div class="con">
-        <h1 class="article-list-box__title">JS : 1화 기초</h1>
+        <h1 class="article-list-box__title">CSS : 1화 기본 css</h1>
 
         <div class="article-list-box__reg-date">2020-01-12</div>
         
         <div class="article-list-box__writer">
-            <span>김상화</span>
-            <span><svg viewBox="0 0 264 280"><use xlink:href="#avatar-3"></use></svg></span>
+            <span>장다운</span>
+            <span><svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg></span>
         </div>
 
         <div class="article-list-box__tags">
-             <a class="tag-link" href="article_list_by_tag_js.html">#js</a>        </div>
+             <a class="tag-link" href="article_list_by_tag_css.html">#css</a>        </div>
         
         <div class="article-list-box__body">
-            <script type="text/x-template"># 실습환경 만들기
+            <script type="text/x-template"># 기본 문법
+              
+```html
+body(선택자) {
+color(속성):blue(값);
+}
+```
+# 외부 스타일 / 내부 스타일
+```html
+<head>
+    <link rel="stylesheet" href-"style.css"> - 외부 스타일
 
-Javascript의 특징
-```html
-HTML+CSS와 함께 사용해 client side 웹 프로그램을 작성할 수 있다.
-웹 브라우저에서 바로 실행이 가능하다.
-```
-alert 명령어
-```html
-alert 뒤에 따라오는 괄호 안에 들어있는 메시지를 브라우저 경고창에 띄워주는 명령어
-```
-실습방법
-- Javascript 코드를 작성한다.
-- lecture01.js
-```html
-alert("hello world");
-```
-- 해당 코드를 로드하는 HTML 파일을 작성한다
-- index.html
-```html
-<html>
-    <head>
-        ...
-        
-        <<!--REPLACE:script-->></<!--REPLACE:script-->>
-        ...
-        </head>
-        <>
-        ...
-    </ body>
-</html>
-```d
-- 브라우저에서 작성한 HTML 파일을 불러들여 결과를 확인한다.</script>
+    <style type="text/css"> - 내부 스타일
+        body {
+        color: blue;
+        font-size: 14px;
+        }
+    </style>
+</head>
+```</script>
             <div class="toast-ui-viewer"></div>
         </div>
     </div>
