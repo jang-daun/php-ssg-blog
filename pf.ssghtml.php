@@ -14,6 +14,12 @@ require_once "head.php";
   </h1>
 </section>
 
+<section class="mobile-1">
+  <a href="pf/img">
+    <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/ux/img/ouigui3.jpg" alt="">
+  </a>
+</section>
+
 <?php
 require_once "foot.php";
 ?>
