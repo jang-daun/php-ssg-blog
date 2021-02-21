@@ -3,7 +3,7 @@
 const Timeline__Section1__1 = gsap.timeline({
     scrollTrigger: {
       trigger: ".paper",
-      markers: true,
+      markers: false,
       start: "-=320 10%",
       end: "bottom top"
     }
@@ -71,7 +71,7 @@ const Timeline__Section1__1 = gsap.timeline({
   const Timeline__Section2__1 = gsap.timeline({
     scrollTrigger: {
       trigger: ".section-1",
-      markers: true,
+      markers: false,
       start: "top center",
       end: "bottom top"
     }
@@ -106,7 +106,7 @@ const Timeline__Section1__1 = gsap.timeline({
   const Timeline__Section3__1 = gsap.timeline({
     scrollTrigger: {
       trigger: ".section-2",
-      markers: true,
+      markers: false,
       start: "-=150 center",
       end: "bottom top"
     }
@@ -138,7 +138,7 @@ const Timeline__Section1__1 = gsap.timeline({
   const Timeline__Section4__1 = gsap.timeline({
     scrollTrigger: {
       trigger: ".section-3",
-      markers: true,
+      markers: false,
       start: "-=150 center",
       end: "bottom top"
     }
@@ -170,7 +170,7 @@ const Timeline__Section1__1 = gsap.timeline({
   const Timeline__Section5__1 = gsap.timeline({
     scrollTrigger: {
       trigger: ".section-4",
-      markers: true,
+      markers: false,
       start: "-=150 center",
       end: "bottom top"
     }
@@ -202,7 +202,7 @@ const Timeline__Section1__1 = gsap.timeline({
   const Timeline__Section6__1 = gsap.timeline({
     scrollTrigger: {
       trigger: ".section-5",
-      markers: true,
+      markers: false,
       start: "-=150 center",
       end: "bottom top"
     }
@@ -233,7 +233,7 @@ const Timeline__Section1__1 = gsap.timeline({
   const Timeline__Section7__1 = gsap.timeline({
     scrollTrigger: {
       trigger: ".section-6",
-      markers: true,
+      markers: false,
       start: "-=100 center",
       end: "bottom top"
     }
@@ -264,7 +264,7 @@ const Timeline__Section1__1 = gsap.timeline({
   const Timeline__Section8__1 = gsap.timeline({
     scrollTrigger: {
       trigger: ".section-7",
-      markers: true,
+      markers: false,
       start: "-=100 center",
       end: "bottom top",
       onEnter: function () {
@@ -277,7 +277,7 @@ const Timeline__Section1__1 = gsap.timeline({
   const Timeline__Section8__2 = gsap.timeline({
     scrollTrigger: {
       trigger: ".section-7",
-      markers: true,
+      markers: false,
       start: "+=100 center",
       end: "bottom top"
     }
@@ -304,7 +304,7 @@ const Timeline__Section1__1 = gsap.timeline({
   const Timeline__Section9__1 = gsap.timeline({
     scrollTrigger: {
       trigger: ".section-8",
-      markers: true,
+      markers: false,
       start: "-=100 center",
       end: "bottom top"
     }
@@ -331,7 +331,7 @@ const Timeline__Section1__1 = gsap.timeline({
   const Timeline__Section10__1 = gsap.timeline({
     scrollTrigger: {
       trigger: ".section-9",
-      markers: true,
+      markers: false,
       start: "-=100 center",
       end: "bottom top"
     }
@@ -370,7 +370,7 @@ const Timeline__Section1__1 = gsap.timeline({
   const Timeline__Section11__1 = gsap.timeline({
     scrollTrigger: {
       trigger: ".section-10",
-      markers: true,
+      markers: false,
       start: "-=100 center",
       end: "bottom top"
     }
@@ -423,7 +423,7 @@ const Timeline__Section1__1 = gsap.timeline({
   const Timeline__Section12__1 = gsap.timeline({
     scrollTrigger: {
       trigger: ".section-11",
-      markers: true,
+      markers: false,
       start: "-=100 center",
       end: "bottom top"
     }
@@ -456,7 +456,7 @@ const Timeline__Section1__1 = gsap.timeline({
   const Timeline__Section13__1 = gsap.timeline({
     scrollTrigger: {
       trigger: ".section-12",
-      markers: true,
+      markers: false,
       start: "-=100 center",
       end: "bottom top"
     }
@@ -515,7 +515,7 @@ const Timeline__Section1__1 = gsap.timeline({
   const Timeline__Section14__1 = gsap.timeline({
     scrollTrigger: {
       trigger: ".bottom-bar",
-      markers: true,
+      markers: false,
       start: "+=100 center",
       end: "bottom top"
     }
