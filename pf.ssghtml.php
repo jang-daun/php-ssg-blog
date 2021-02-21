@@ -16,7 +16,7 @@ require_once "head.php";
 
 <section class="mobile-1">
   <a href="pf/mobile1">
-    <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/ux/img/ouigui3.jpg" alt="">
+    <img style="width:500px;"src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/ux/img/ouigui3.jpg" alt="">
   </a>
 </section>
 
