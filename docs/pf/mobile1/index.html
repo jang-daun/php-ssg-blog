@@ -1,20 +1,339 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mobile: 1</title>
-    <link rel="stylesheet" href="index.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="index.js" defer></script>
-    <script>
-      // 주소 뒤에 / 를 붙여주는 코드
-      // 오직 index.html 에만 넣어주세요.
-      if ( location.pathname.substr(-10, 10) != 'index.html' && location.pathname.substr(-1, 1) != '/' ) { location.replace(location.href + '/'); }
-    </script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mobile: 1</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+
+  <!--gsap 시작-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="index.js" defer></script>
+  <script>
+    // 주소 뒤에 / 를 붙여주는 코드
+    // 오직 index.html 에만 넣어주세요.
+    if (location.pathname.substr(-10, 10) != 'index.html' && location.pathname.substr(-1, 1) != '/') {
+      location.replace(location.href + '/');
+    }
+  </script>
 </head>
+
 <body>
-    <img class="img" src="https://cdn.jsdelivr.net/gh/jang-daun/php-ssg-blog/pf/mobile1/img/noteflio.jpg" alt="">
+  <div class="top-bar con">
+    <div class="top-bar__head flex flex-jc-s">
+      <span>2021</span>
+      <span>UX ｜ UI</span>
+    </div>
+    <div class="top-bar__logo">
+      <img src="https://cdn.jsdelivr.net/gh/jang-daun/uxui/final/img/logo.png" alt="">
+    </div>
+    <div class="top-bar__txt">
+      <span>편의점을 더 편리하게</span>
+      <span>편의점 상품 조회 서비스 </span>
+    </div>
+  </div>
+
+  <div class="back con">
+    <img src="https://cdn.jsdelivr.net/gh/jang-daun/uxui/final/img/bar.png" alt="">
+  </div>
+
+  <div class="paper con">
+    <img src="https://cdn.jsdelivr.net/gh/jang-daun/uxui/final/img/paper.png" alt="">
+    <div class="part title as">
+      <span>편위<br><span>Convenience Store Product Lookup Service</span></span>
+    </div>
+    <div class="part content as">
+      <div>No.1</div>
+      <div class="sale">
+        <span>Sale time :</span>
+        <span>21-02-15 03:27, Sat</span>
+      </div>
+      <div class="cashier">
+        <span>Cashier :</span>
+        <span>me</span>
+      </div>
+    </div>
+    <div class="part list as">
+      <span>No. Product Name</span>
+      <span>Content</span>
+      <span>Price</span>
+    </div>
+    <div class="part section-1 section">
+      <div class="section__prod-name">
+        01.Background
+      </div>
+      <div class="section__content">
+        <div class="section-1__custom">
+          <img src="https://cdn.jsdelivr.net/gh/jang-daun/uxui/final/img/custom.jpg" alt="">
+          <img src="https://cdn.jsdelivr.net/gh/jang-daun/uxui/final/img/custombb.png" alt="">
+        </div>
+        <div class="section-1__me">
+          <img src="https://cdn.jsdelivr.net/gh/jang-daun/uxui/final/img/me.jpg" alt="">
+          <img src="https://cdn.jsdelivr.net/gh/jang-daun/uxui/final/img/mebb.png" alt="">
+        </div>
+        <div class="section-1__txt">
+          <div><b>자신이 원하는 상품을 사지 못 하고</b> 돌아가는 손님!</div>
+          <div>오기 전에 <b>미리 확인하는 서비스</b>가 있으면 좋을텐데…</div>
+        </div>
+        <div class="section-1__price section__price">
+          <span class="price">1,000 <span class="won">\</span></span>
+        </div>
+      </div>
+    </div>
+    <div class="part section-2 section">
+      <div class="section__prod-name">
+        02. Over View
+      </div>
+      <div class="section__content">
+        <div class="section-2__txt">
+          <div class="section-2__title">
+            <article class="typing-txt" style="position:absolute;">
+              <ul class="">
+                <li class="">헛걸음은 이제 그만!</li>
+              </ul>
+            </article>
+            <p class="typing"></p>
+          </div>
+          <div class="section-2__intro">
+            <b>‘편의점 상품 조회 서비스’</b>는 소비자가 구매하려는 상품이 해당 편의점에 있는지 확인하고<br>추가로 각종 행사 상품 확인 및 편의 기능을 조회하여 <b>소비자의 편의성을 높이는
+              서비스</b>입니다.
+          </div>
+          <div class="section-2__product">
+            <img src="https://cdn.jsdelivr.net/gh/jang-daun/uxui/final/img/productservice.png" alt="">
+          </div>
+        </div>
+        <div class="section-2__price section__price">
+          <span class="price">5,550 <span class="won">\</span></span>
+        </div>
+      </div>
+    </div>
+    <div class="part section-3 section">
+      <div class="section__prod-name">
+        03. Naming
+      </div>
+      <div class="section__content">
+        <div class="section-3__txt">
+          <div class="section-3__title"><b>편</b>의점(convenience store) + <b>위</b>공위성(satellite)의 결합</div>
+          <div class="section-3__intro">
+            인공위성은 인간이 어떤 목적을 달성하기 위해 인공적으로 만들어 주로 지구 주위를 돌도록 배치한 위성입니다.<br>
+            이러한 인공위성에서 아이디어를 얻어 편의점 정보를 수집하는 인공위성이라는<br>
+            의미을 담아 <b>‘편위’</b>라는 이름으로 짓게 되었습니다.
+          </div>
+        </div>
+        <div class="section-3__price section__price">
+          <span class="price">9,900 <span class="won">\</span></span>
+        </div>
+      </div>
+    </div>
+    <div class="part section-4 section">
+      <div class="section__prod-name">
+        04. Character
+      </div>
+      <div class="section__content">
+        <div class="section-4__txt">
+          <div class="section-4__title">
+            편의점 인공위성 ‘위(oui)’
+          </div>
+          <div class="section-4__intro">
+            편위의 대표 캐릭터 이름은 <b>위(oui)</b>입니다. oui는 사전적 의미로 ‘yes’를 뜻하며 발음할 때 귀여운 느낌을 줍니다. <br>
+            캐릭터의 이미지에 알맞게 귀여운 느낌과 긍정적인 의미를 담아 <b>위(oui)</b>라고 지었습니다. <br>
+            위(oui)는 <b>편의점 탐지 구슬</b>로 편의점 정보를 탐색합니다. <br>
+            편의점 탐지 구슬은 각 <b>편의점 브랜드의 대표 컬러</b>로 이루어져있습니다.
+          </div>
+        </div>
+        <div class="section-4__price section__price">
+          <span class="price">17,000 <span class="won">\</span></span>
+        </div>
+      </div>
+    </div>
+    <div class="part section-5 section">
+      <div class="section__prod-name">
+        05. Color
+      </div>
+      <div class="section__content">
+        <div class="section-5__txt">
+          <div class="section-5__title">
+            <img src="https://cdn.jsdelivr.net/gh/jang-daun/uxui/final/img/color.png" alt="">
+          </div>
+          <div class="section-5__intro">
+            <b>하늘에 떠 있는 별</b>이라는 이미지로 컬러를 선정하였습니다.<br>
+            yellow계열과 blue계열에서 부드럽고 편안한 느낌을 주며<br>
+            서로 조화를 이룰 수 있는 컬러로 선정하였습니다.
+          </div>
+        </div>
+        <div class="section-5__price section__price">
+          <span class="price">9,270 <span class="won">\</span></span>
+        </div>
+      </div>
+    </div>
+    <div class="part section-6 section">
+      <div class="section__prod-name">
+        06. Typography
+      </div>
+      <div class="section__content">
+        <div class="section-6__txt">
+          <div class="section-6__title">
+            <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/ux/img/tp.png" alt="">
+          </div>
+          <div class="section-6__intro">
+            <span>Noto Sans KR</span>
+            <span>한 가지 폰트에서 다양한 느낌을 줄 수 있는 Noto Sanas KR로 선정하였습니다.</span>
+          </div>
+        </div>
+        <div class="section-6__price section__price">
+          <span class="price">8,590 <span class="won">\</span></span>
+        </div>
+      </div>
+    </div>
+    <div class="part section-7 section">
+      <div class="section__prod-name">
+        07. GUI
+      </div>
+      <div class="section__content">
+        <div class="section-7__img">
+          <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/ux/img/ouigui2.jpg" alt="">
+          <img class="opacity" src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/ux/img/ouigui3.jpg" alt="">
+        </div>
+        <div class="section-7__txt">
+          <div class="section__title">
+            두 가지 검색방법을 통해<br>
+            상품 조회가 가능합니다.
+          </div>
+          <div class="section__contents">
+            원하는 방법으로 검색하세요!
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="part section-8 section">
+      <div class="section__content">
+        <div class="section-8__img">
+          <video muted autoplay loop>
+            <source src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/ux/img/interaction.mp4" type="video/mp4">
+          </video>
+          <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/ux/img/inter1.png" alt="">
+        </div>
+        <div class="section-8__txt">
+          <div class="section__titles">
+            상품명으로 검색
+          </div>
+          <div class="section__introduce">
+            <div>자신의 위치를 기반으로 상품을 판매하는 가까운 편의점을 찾을 수 있습니다.</div>
+            <div>원하는 상품을 빠르게 구매해보세요.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="part section-9 section">
+      <div class="section__content">
+        <div class="section-9__img">
+          <img src="https://cdn.jsdelivr.net/gh/jang-daun/uxui/final/img/gui3.png" alt="">
+        </div>
+        <div class="section-9__txt">
+          <div class="section__titles">
+            점포명으로 검색
+          </div>
+          <div class="section__introduce">
+            <div>점포 내 상품 및 정보를 확인 할 수 있습니다.</div>
+          </div>
+          <div class="section-9__plus">
+            <img src="https://cdn.jsdelivr.net/gh/jang-daun/uxui/final/img/heart.png" alt="">
+            <img src="https://cdn.jsdelivr.net/gh/jang-daun/uxui/final/img/conven.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="part section-10 section">
+      <div class="section__content">
+        <div class="section-10__img">
+          <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/ux/img/fr1.png" alt="">
+          <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/ux/img/fr2.png" alt="">
+          <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/ux/img/fr3.png" alt="">
+        </div>
+        <div class="section-10__txt">
+          <div class="section__titles">
+            행사 상품
+          </div>
+          <div class="section__introduce">
+            <div>카테고리별로 행사 상품을 확인할 수 있습니다.</div>
+            <div>다양한 카테고리로 분류되어 있어 쉽고 빠르게 찾을 수 있어요.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="part section-11 section">
+      <div class="section__content">
+        <div class="section-11__img">
+          <img src="https://cdn.jsdelivr.net/gh/jang-daun/uxui/final/img/conveni.png" alt="">
+        </div>
+        <div class="section-11__txt">
+          <div class="section__titles">
+            편의 기능
+          </div>
+          <div class="section__introduce">
+            <div>편의 기능을 제공하는 편의점을 한 번에 찾을 수 있습니다.</div>
+            <div>원하는 편의 기능을 선택하여 편의점을 찾아보세요.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="part section-12 section">
+      <div class="section__content">
+        <div class="section-12__img">
+          <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/ux/img/mm.png" alt="">
+        </div>
+        <div class="section-12__txt">
+          <div class="section__titles">
+            관심 매장
+          </div>
+          <div class="section__introduce">
+            <div>나만의 관심 매장을 등록하고 관리할 수 있습니다.</div>
+          </div>
+        </div>
+        <div class="section-12__price section__price">
+          <span class="price">41,280<span class="won">\</span></span>
+        </div>
+      </div>
+    </div>
+    <div class="part bottom-bar">
+      <div class="contents">
+        <span class="total">total : </span>
+        <span class="price">
+          <span>
+            <ul style="display:inline-block;">
+              <li style="display:inline-block;" class="number">92,590</li>
+            </ul>
+          </span>
+          <span class="won">\</span>
+        </span>
+      </div>
+      <div class="contents">
+        <span class="costomer">customer :</span>
+        <span class="you">you</span>
+      </div>
+    </div>
+    <div class="part last-bar">
+      <div class="last-bar__content">
+        <span>Thank you for your purchase.</span>
+        <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/ux/img/thx.png" alt="">
+      </div>
+    </div>
+    <footer class="part con">
+      <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/ux/img/foot.png" alt="">
+    </footer>
+  </div>
 </body>
+
 </html>
