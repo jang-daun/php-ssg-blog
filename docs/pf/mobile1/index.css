@@ -657,9 +657,12 @@ html {
     justify-content:center;
   }
   footer > img {
-    width:1410px;
+    width:100%;
   }
   
+  .paper {
+    overflow-x: hidden;
+  }
   /*커스텀 끝*/
   
   
