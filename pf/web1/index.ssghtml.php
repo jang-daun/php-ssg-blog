@@ -293,7 +293,7 @@ require_once "head.php";
                     </div>
                     <div class="swiper-slide">
                         <div class="img-box">
-                            <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/green/img/pro6.png" alt="">
+                            <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/green/img/arcpro.png" alt="">
                         </div>
                         <div class="txt-box">
                             <div>북극 보호</div>
@@ -304,7 +304,7 @@ require_once "head.php";
                     </div>
                     <div class="swiper-slide">
                         <div class="img-box">
-                            <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/green/img/pro7.png" alt="">
+                            <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/green/img/whalepro.png" alt="">
                         </div>
                         <div class="txt-box">
                             <div>해양 보호</div>

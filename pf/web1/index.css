@@ -368,7 +368,7 @@
 }
 
 .section-5 .swiper-slide .txt-box>div:first-of-type {
-    margin-top: 35px;
+    margin-top: 25px;
     font-size: 20px;
     font-weight: 700;
 }
@@ -382,7 +382,17 @@
     color: #505050;
     font-size: 15px;
 }
+.section-5 .swiper-slide .box-1:last-of-type {
+    margin-right: 0px;
+}
 
+.section-5 .swiper-slide .txt-box div:first-of-type {
+    margin-bottom: 6px;
+}
+
+.section-5 .swiper-slide .txt-box div:last-of-type {
+    margin-top: 15px;
+}
 /*
 .section-5 .swiper-slide .img-box {
     position: relative;

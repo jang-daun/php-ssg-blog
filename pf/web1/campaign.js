@@ -38,3 +38,16 @@
       duration: 0.6
     },
   );
+
+  var swiper = new Swiper('.section-6 .swiper-container', {
+    slidesPerView: 4,
+    spaceBetween: 40,
+    loop:true,
+    pagination: {
+      el: '.section-6 .swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.section-6 .swiper-button-next',
+    },
+  });

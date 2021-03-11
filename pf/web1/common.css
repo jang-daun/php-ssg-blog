@@ -61,9 +61,6 @@ a {
     --site-width: 1920px;
 }
 
-.con-min-width {
-    min-width: var(--site-width);
-}
 
 .con {
     width: var(--site-width);

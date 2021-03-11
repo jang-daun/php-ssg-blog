@@ -54,7 +54,40 @@ require_once "head.php";
             </div>
         </div>
         <span>그린피스는 안전하고 건강한 바다를 위해 해양보호구역 지정을 요구합니다. <br>파괴적인 어업에 대항하고, 플라스틱 오염과 기후변화를 막기 위한 캠페인을 펼치며 바다를 보호하기 위해
-            활동하고 있습니다.</span>
+            활동하고 있습니다.
+        </span>
+        <div class="content">
+            <div class="box-1">
+                <div class="img-box">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/green/img/whalepro.png" alt="">
+                </div>
+                <div class="txt-box">
+                    <div>해양보호</div>
+                    <div style="color:#008FE2;">해양</div>
+                    <div>106 개 포스트 업데이트</div>
+                </div>
+            </div>
+            <div class="box-1">
+                <div class="img-box">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/green/img/pro2.png" alt="">
+                </div>
+                <div class="txt-box">
+                    <div>플라스틱 제로</div>
+                    <div style="color:#008FE2;">해양</div>
+                    <div>78 개 포스트 업데이트</div>
+                </div>
+            </div>
+            <div class="box-1">
+                <div class="img-box">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/green/img/regal.png" alt="">
+                </div>
+                <div class="txt-box">
+                    <div>불법어업 근절</div>
+                    <div style="color:#008FE2;">해양</div>
+                    <div>6 개 포스트 업데이트</div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <!--그린피스 프로젝트 끝-->
@@ -86,7 +119,80 @@ require_once "head.php";
 <!--챌린지 시작-->
 <div class="section-6 con-min-width width-100p">
     <div class="con">
-
+        <div class="top flex">
+            <div class="flex title">
+                <img class="" src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/green/img/greenicon.svg" alt="">
+                <span class="">해양을 위한 매일 챌린지</span>
+            </div>
+        </div>
+    </div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="icon-box">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/green/img/animal.png" alt="">
+                </div>
+                <div class="title-box">
+                    멸종위기 해산물 먹지 않기
+                </div>
+                <div class="prin">
+                    <span>578명 참여중</span>
+                    <span>동참하기</span>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="icon-box">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/green/img/animal.png" alt="">
+                </div>
+                <div class="title-box">
+                    치어(어린생선)나 생선 알은 먹지 않기
+                </div>
+                <div class="prin">
+                    <span>355명 참여중</span>
+                    <span>동참하기</span>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="icon-box">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/green/img/cah3.png" alt="">
+                </div>
+                <div class="title-box">
+                    해변, 모래사장의 쓰레기 치우기
+                </div>
+                <div class="prin">
+                    <span>363명 참여중</span>
+                    <span>동참하기</span>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="icon-box">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/green/img/cha1.png" alt="">
+                </div>
+                <div class="title-box">
+                    산호초를 죽이는 옥시벤존,<br>
+                    옥티녹세이트 등이 함유되지 않은<br>
+                    무기자외선차단제 쓰기
+                </div>
+                <div class="prin">
+                    <span>578명 참여중</span>
+                    <span>동참하기</span>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="icon-box">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/green/img/cha1.png" alt="">
+                </div>
+                <div class="title-box">
+                    미세 플라스틱이 들어 있는 세안제나<br>
+                    생활용품 사용하지 않기
+                </div>
+                <div class="prin">
+                    <span>624명 참여중</span>
+                    <span>동참하기</span>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
     </div>
 </div>
 <!--챌린지 끝-->
@@ -128,8 +234,6 @@ require_once "head.php";
                 <span class="">관련 소식</span>
             </div>
         </div>
-        <span>그린피스는 안전하고 건강한 바다를 위해 해양보호구역 지정을 요구합니다. <br>파괴적인 어업에 대항하고, 플라스틱 오염과 기후변화를 막기 위한 캠페인을 펼치며 바다를 보호하기 위해
-            활동하고 있습니다.</span>
 
         <div class="content-box">
             <div class="box-1">
