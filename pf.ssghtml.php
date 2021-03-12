@@ -20,6 +20,12 @@ require_once "head.php";
   </a>
 </section>
 
+<div class="con">
+  <a href="pf/web1/index.ssghtml.php">
+    greenpeace
+  </a>
+</div>
+
 <?php
 require_once "foot.php";
 ?>
