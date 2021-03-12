@@ -12,7 +12,7 @@ var swiper = new Swiper(".section-2 .swiper-container", {
     },
     autoplay: {
       delay: 2000,
-      disableOnInteraction: fasle
+      disableOnInteraction: false
     }
   });
   
