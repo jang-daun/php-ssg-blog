@@ -210,6 +210,8 @@ require_once "head.php";
 
 <!--그린 프로젝트 시작-->
 <div class="section-5 con-min-width width-100p">
+    <span class="back"></span>
+    <span class="bar"></span>
     <div class="con height-100p">
         <div class="top flex">
             <div class="flex title">
@@ -220,7 +222,7 @@ require_once "head.php";
         </div>
         <div class="flex content-btn">
             <div class="list-btn">
-                <span style="background-color:#FF8100; font-weight: 700; color:white;">#주요 프로젝트</span>
+                <span style=" font-weight: 700; text-decoration:underline; font-size:21px;">#주요 프로젝트</span>
                 <span>#해양</span>
                 <span>#생활</span>
                 <span>#기후</span>
