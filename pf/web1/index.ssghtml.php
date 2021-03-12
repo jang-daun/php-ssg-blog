@@ -13,7 +13,10 @@ require_once "head.php";
     <div class="swiper-container">
         <div class="swiper-wrapper">
             <div class="swiper-slide"
-                style="background-image:url(https://cdn.jsdelivr.net/gh/jang-daun/web-resource/green/img/greenbg1.jpg)">
+                style="background-image:url(https://cdn.jsdelivr.net/gh/jang-daun/web-resource/green/img/ms.jpg)">
+            </div>
+            <div class="swiper-slide"
+                style="background-image:url(https://cdn.jsdelivr.net/gh/jang-daun/web-resource/green/img/ms1.jpg)">
             </div>
             <div class="swiper-slide"
                 style="background-image:url(https://cdn.jsdelivr.net/gh/jang-daun/web-resource/green/img/greenbg2.jpg)">

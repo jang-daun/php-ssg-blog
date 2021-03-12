@@ -20,13 +20,13 @@
 
 .section-2>img {
     position: absolute;
-    top: 50%;
+    top: 45%;
     transform: translateY(-50%) translateX(-50%);
     left: 50%;
 }
 .section-2> .intro {
     position: absolute;
-    top:70%;
+    top:65%;
     transform: translateY(-50%) translateX(-50%);
     left: 50%;
     text-align: center;

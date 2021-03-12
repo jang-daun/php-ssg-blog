@@ -11,8 +11,8 @@ var swiper = new Swiper(".section-2 .swiper-container", {
       prevEl: ".section-2 .swiper-button-prev"
     },
     autoplay: {
-      delay: 2500,
-      disableOnInteraction: false
+      delay: 2000,
+      disableOnInteraction: fasle
     }
   });
   
