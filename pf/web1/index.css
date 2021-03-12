@@ -515,6 +515,7 @@
 .section-6 .swiper-slide>.txt-box>.more-view:hover {
     background-color: white;
     color: black;
+    cursor: pointer;
 }
 .section-6 .swiper-slide>.txt-box .title {
     font-weight: 700;
