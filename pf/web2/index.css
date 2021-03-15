@@ -19,3 +19,7 @@
     position: absolute;
     top:32%;
 }
+
+.display {
+    display: none;
+}
