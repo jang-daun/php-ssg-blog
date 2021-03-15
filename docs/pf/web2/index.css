@@ -1,0 +1,21 @@
+.section-2 {
+    width:1920px;
+    height: 1080px;
+    position: relative;
+}
+
+.section-2 > img {
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: -99;
+}
+
+.section-2 .con {
+    width:1400px;
+}
+
+.section-2 .con img {
+    position: absolute;
+    top:32%;
+}

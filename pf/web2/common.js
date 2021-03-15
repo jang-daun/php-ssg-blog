@@ -8,6 +8,6 @@ $(function () {
         $section.stop().animate({ height: "400px" }, 250);
       })
       .mouseleave(function () {
-        $section.stop().animate({ height: "70px" }, 250);
+        $section.stop().animate({ height: "91px" }, 250);
       });
   });

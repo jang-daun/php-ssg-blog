@@ -44,66 +44,95 @@
 
 <body>
     <!--header시작-->
+    <div class="header con-min-width">
+        <div class="con">
+            <div class="header__menu-box">
+                <a href="#">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/join.svg" alt="">
+                </a>
+                <a href="#">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/wish.svg" alt="">
+                </a>
+                <a href="#">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/cart.svg" alt="">
+                </a>
+                <a href="#">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/news.svg" alt="">
+                </a>
+                <a href="#">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/id.svg" alt="">
+                </a>
+                <a href="#">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/ko.svg" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+
+
     <div class="section-1 con-min-width">
         <div class="con menu-box">
             <a href="index.ssghtml.php" class="logo">
-                <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/green/img/greenlogo.svg" alt="">
-                <span><i class="fas fa-sort-down"></i></span>
-                <span>East Aisa</span>
+                <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/apclogo.svg" alt="">
             </a>
             <nav class="menu-box__menu-bar flex flex-j-c">
                 <ul class="flex">
                     <li>
-                        <a href="#">활동</a>
+                        <a href="#">
+                            <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/sa1.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/sh1.svg"
+                                alt=""></a>
                         <ul>
-                            <li><a href="#">그린 캠페인</a></li>
-                            <li><a href="#">그린 프로젝트</a></li>
+                            <li><a href="#"><img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/new.svg"
+                                        alt=""></a></li>
+                            <li><a href="#"><img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/outer.svg"
+                                        alt=""></a></li>
+                            <li><a href="#"><img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/top.svg"
+                                        alt=""></a></li>
+                            <li><a href="#"><img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/bottom.svg"
+                                        alt=""></a></li>
+                            <li><a href="#"><img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/dress.svg"
+                                        alt=""></a></li>
+                            <li><a href="#"><img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/bag.svg"
+                                        alt=""></a></li>
+                            <li><a href="#"><img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/shoes.svg"
+                                        alt=""></a></li>
+                            <li><a href="#"><img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/acc.svg"
+                                        alt=""></a></li>
+                            <li><a href="#"><img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/goods.svg"
+                                        alt=""></a></li>
+                            <li><a href="#"><img
+                                        src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/Jewellry.svg"
+                                        alt=""></a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#">참여하기</a>
+                        <a href="#"><img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/de1.svg"
+                                alt=""></a>
                         <ul>
-                            <li><a href="#">서명하기</a></li>
-                            <li><a href="#">챌린지</a></li>
-                            <li><a href="#">후원하기</a></li>
-                            <li><a href="#">활동 동참하기</a></li>
+                            <li><a href="#"><img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/women.svg"
+                                        alt=""></a></li>
+                            <li><a href="#"><img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/men.svg"
+                                        alt=""></a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#">소식</a>
-                        <ul>
-                            <li><a href="#">최신 뉴스</a></li>
-                            <li><a href="#">서포터 소식</a></li>
-                            <li><a href="#">with 뉴닉</a></li>
-                        </ul>
+                        <a href="#"><img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/qu1.svg"
+                                alt=""></a>
                     </li>
                     <li>
-                        <a href="#">자료</a>
-                        <ul>
-                            <li><a href="#">보고서</a></li>
-                            <li><a href="#">보도 자료</a></li>
-                        </ul>
+                        <a href="#"><img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/ov1.svg"
+                                alt=""></a>
+
                     </li>
                     <li>
-                        <a href="#">소개</a>
-                        <ul>
-                            <li><a href="#">개요</a></li>
-                            <li><a href="#">미션</a></li>
-                            <li><a href="#">행동방식</a></li>
-                            <li><a href="#">사람들</a></li>
-                            <li><a href="#">인재 채용</a></li>
-                            <li><a href="#">연락처</a></li>
-                            <li><a href="#">자주하는 질문</a></li>
-                            <li><a href="#">SNS</a></li>
-                        </ul>
+                        <a href="#"><img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/ch1.svg"
+                                alt=""></a>
                     </li>
                 </ul>
             </nav>
-            <div class="more-box flex flex-j-c">
-                <span><i class="fas fa-search"></i></span>
-                <span>후원하기</span>
-                <span>로그인</span>
-            </div>
         </div>
     </div>
-    <!--header끝-->
