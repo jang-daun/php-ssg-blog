@@ -6,12 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>mobile: 1</title>
-  <link rel="stylesheet" href="index.css">
+  
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
     rel="stylesheet">
-
+  
+    
   <!--gsap 시작-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
 
@@ -19,11 +20,18 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+  <link rel="stylesheet" href="index.css">
   <script src="index.js" defer></script>
+
+
   <script>
     // 주소 뒤에 / 를 붙여주는 코드
-    // 오직 index.html 에만 넣어주세요.
-    if ( location.pathname.substr(-10, 10) != 'index.html' && location.pathname.substr(-1, 1) != '/' ) { location.replace(location.href + '/'); }
+    // 오직 index.html, index.html 에도 추가해주세요.
+    if (location.pathname.indexOf('index.html') !== -1 && location.pathname.indexOf('index.html') !== -1 &&
+      location.pathname.substr(-1, 1) != '/') {
+      location.replace(location.href + '/');
+    }
   </script>
 </head>
 
