@@ -132,22 +132,56 @@ a {
   }
   
   /*2차 메뉴*/
+
+  
   .menu-box > .menu-box__menu-bar > ul > li {
-    position: relative;
+    position:relative;
     z-index: 99;
+  }
+  .menu-box > .menu-box__menu-bar > ul > li > a {
+    position: relative;
+  }
+  .menu-box > .menu-box__menu-bar > ul > li:not(:last-of-type) > a::after {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: black;
+    top:10%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: all .4s;
+  }
+  .menu-box > .menu-box__menu-bar > ul > li:hover > a::after {
+    opacity: 1;
+  }
+
+
+  .menu-box > .menu-box__menu-bar > ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
   }
   
   .menu-box > .menu-box__menu-bar ul ul {
     position: absolute;
-    top: 100%;
+    width:100%;
+    top: 80%;
     left: 50%;
     transform: translatex(-50%);
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s, visibility 0.3s;
+    display:flex;
+    align-items:flex-start;
   }
+
   
-  .menu-box > .menu-box__menu-bar > ul:hover ul {
+  
+  .menu-box > .menu-box__menu-bar > ul > li:hover > ul {
     opacity: 1;
     visibility: visible;
   }
@@ -158,6 +192,15 @@ a {
     display: block;
     text-align: center;
     white-space: nowrap;
+    display:flex;
+    align-items:center;
+    height:100%;
+  }
+
+  .menu-box > .menu-box__menu-bar > ul ul li a img {
+
+    height: 100%;
+    padding: 10px 0;
   }
   
   .menu-box > .menu-box__menu-bar > ul > li > a {
@@ -167,17 +210,14 @@ a {
   }
   
   .menu-box > .menu-box__menu-bar > ul ul li > a {
-    margin: 15px 0;
+    margin: 15px 15px;
   }
+
   
-  
-  .menu-box > .menu-box__menu-bar ul > li:hover > a {
-    color: #d4b370;
-  }
-  .menu-box > .menu-box__menu-bar > ul ul li:hover > a {
+  .menu-box > .menu-box__menu-bar > ul > li:hover > a {
     text-decoration: underline;
+
   }
-  
   .menu-box > .menu-box__menu-bar > ul > li {
     margin-left: 45px;
   }

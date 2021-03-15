@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>그린피스 - <?=$title?></title>
+    <title>A.P.C. - <?=$title?></title>
 
     <!--폰트 시작-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -76,16 +76,16 @@
                 <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/apclogo.svg" alt="">
             </a>
             <nav class="menu-box__menu-bar flex flex-j-c">
-                <ul class="flex">
+                <ul class="">
                     <li>
                         <a href="#">
                             <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/sa1.svg" alt="">
                         </a>
                     </li>
                     <li>
-                        <a href="#"><img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/sh1.svg"
-                                alt=""></a>
-                        <ul>
+                        <a href="shop.ssghtml.php"><img
+                                src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/sh1.svg" alt=""></a>
+                        <ul class="flex">
                             <li><a href="#"><img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/new.svg"
                                         alt=""></a></li>
                             <li><a href="#"><img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/outer.svg"
@@ -96,8 +96,9 @@
                                         alt=""></a></li>
                             <li><a href="#"><img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/dress.svg"
                                         alt=""></a></li>
-                            <li><a href="#"><img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/bag.svg"
-                                        alt=""></a></li>
+                            <li><a href="bag.ssghtml.php"><img
+                                        src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/bag.svg" alt=""></a>
+                            </li>
                             <li><a href="#"><img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/shoes.svg"
                                         alt=""></a></li>
                             <li><a href="#"><img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/acc.svg"
@@ -107,30 +108,39 @@
                             <li><a href="#"><img
                                         src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/Jewellry.svg"
                                         alt=""></a></li>
+                            <li><a href="#"><img
+                                        src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/lookbook.svg"
+                                        alt=""></a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#"><img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/de1.svg"
-                                alt=""></a>
+                        <a href="denim.ssghtml.php"><img
+                                src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/de1.svg" alt=""></a>
                         <ul>
                             <li><a href="#"><img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/women.svg"
                                         alt=""></a></li>
                             <li><a href="#"><img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/men.svg"
                                         alt=""></a></li>
+                            <li><a href="#"><img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/butel.svg"
+                                        alt=""></a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#"><img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/qu1.svg"
-                                alt=""></a>
+                        <a href="quilts.ssghtml.php"><img
+                                src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/qu1.svg" alt=""></a>
                     </li>
                     <li>
-                        <a href="#"><img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/ov1.svg"
-                                alt=""></a>
+                        <a href="overstock.ssghtml.php"><img
+                                src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/ov1.svg" alt=""></a>
 
                     </li>
                     <li>
-                        <a href="#"><img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/ch1.svg"
-                                alt=""></a>
+                        <a href="cal.ssghtml.php"><img
+                                src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/ch1.svg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img
+                                src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/search.svg" alt=""></a>
                     </li>
                 </ul>
             </nav>
