@@ -1,3 +1,5 @@
+/*section-2 메인 시작*/
+
 .section-2 {
     width:1920px;
     height: 1080px;
@@ -23,3 +25,38 @@
 .display {
     display: none;
 }
+
+/*section-2 메인 끝*/
+
+
+
+/*section-3 New 시작*/
+.section-3 {
+    width:1920px;
+    height: 867px;
+}
+
+.section-3 .con {
+    width:1400px;
+    border:1px solid red;
+}
+
+
+/*section-3 New 끝*/
+
+
+/*section-3 New 시작*/
+
+/*section-3 New 끝*/
+
+
+
+/*section-3 New 시작*/
+
+/*section-3 New 끝*/
+
+
+
+/*section-3 New 시작*/
+
+/*section-3 New 끝*/
