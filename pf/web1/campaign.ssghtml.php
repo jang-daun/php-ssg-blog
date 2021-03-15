@@ -6,6 +6,14 @@ require_once "head.php";
 
 <link rel="stylesheet" href="campaign.css">
 <script src="campaign.js" defer></script>
+<script>
+  // 주소 뒤에 / 를 붙여주는 코드
+  // 오직 index.html, index.ssghtml.php 에도 추가해주세요.
+  if (location.pathname.indexOf('index.ssghtml.php') !== -1 && location.pathname.indexOf('index.html') !== -1 &&
+    location.pathname.substr(-1, 1) != '/') {
+    location.replace(location.href + '/');
+  }
+</script>
 <!--메인 배너 시작-->
 <div class="section-2 con-min-width width-100p">
     <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/green/img/mianbanner.jpg" alt="">
