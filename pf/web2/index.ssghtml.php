@@ -18,14 +18,23 @@ require_once "head.php";
 </script>
 
 <div class="section-2">
-    <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/mb.jpg" alt="">
-    <div class="con">
-        <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/mainapc.svg" alt="">
-    </div>
+  <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/mb.jpg" alt="">
+  <div class="con">
+    <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/mainapc.svg" alt="">
+  </div>
 </div>
 
 
 <div class="section-3">
+  <div class="con">
+    <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/title.svg" alt="">
+    <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/section3bg.jpg" alt="">
+    <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/arrivals.jpg" alt="">
+    <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/mainnew.svg" alt="">
+  </div>
+</div>
+
+<div class="section-4">
   <div class="con">
     
   </div>
