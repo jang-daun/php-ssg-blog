@@ -90,10 +90,16 @@ a {
     position: relative;
 }
 
-.section-2 img {
+.section-2 img:first-of-type {
     position: absolute;
     top:0;
     left: 0;
     width:100%;
+}
+
+.section-2 img:nth-of-type(2) {
+    position: absolute;
+    left: 20%;
+    top:10%;
 }
 /*section-2 끝*/
