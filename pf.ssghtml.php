@@ -26,6 +26,14 @@ require_once "head.php";
   </a>
 </div>
 
+<div class="con">
+  <a href="pf/web2/index.ssghtml.php">
+    A.P.C.
+  </a>
+</div>
+
+
+
 <?php
 require_once "foot.php";
 ?>
