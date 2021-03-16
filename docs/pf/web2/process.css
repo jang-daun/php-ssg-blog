@@ -1,0 +1,262 @@
+/*폰트 설정*/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap");
+
+html {
+    font-family: "Noto Sans KR", sans-serif;
+    overflow-x: hidden;
+    width: 1920px;
+}
+
+/* 폰트 끝 */
+
+/* 노말라이즈 시작 */
+body,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* 노말라이즈 끝 */
+
+/* 라이브러리 시작 */
+.con {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-j-c {
+    justify-content: center;
+}
+
+.flex-j-sb {
+    justify-content:space-between;
+}
+
+.bb {
+    border: 1px solid blue;
+}
+
+.br {
+    border: 1px solid red;
+}
+
+.bo {
+    border: 1px solid orange;
+}
+
+
+/* 커스텀 시작 */
+:root {
+    --site-width: 1920px;
+}
+
+
+.con {
+    width: var(--site-width);
+}
+
+
+/*section-1 시작*/
+.section-1 {
+    width:1920px;
+    height: 1150px;
+    position: relative;
+}
+
+.section-1 img {
+    position: absolute;
+    top:0;
+    left: 0;
+}
+/*section-1 끝*/
+
+
+/*section-2 시작*/
+
+.section-2 {
+    width:1920px;
+    height: 2958px;
+    position: relative;
+}
+
+.section-2 img:first-of-type {
+    position: absolute;
+    top:0;
+    left: 0;
+    width:100%;
+    z-index: -99;
+}
+
+.section-2 .overview {
+    position: absolute;
+    left: 33%;
+    top:4%;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+
+.section-2 .keyword {
+    position: absolute;
+    left: 33%;
+    top:15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-2 .keyword span:first-of-type, .section-2 .keyword span:nth-of-type(5), .section-2 .keyword span:nth-of-type(9) {
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border:1px solid black;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.section-2 .keyword span:nth-of-type(2), .section-2 .keyword span:nth-of-type(8) {
+    width:36px;
+    height: 36px;
+    border:1px solid black;
+    border-radius: 50%;
+}
+.section-2 .keyword span:nth-of-type(3), .section-2 .keyword span:nth-of-type(7) {
+    width:25px;
+    height: 25px;
+    border:1px solid black;
+    border-radius: 50%;
+}
+.section-2 .keyword span:nth-of-type(4), .section-2 .keyword span:nth-of-type(6) {
+    width:16px;
+    height: 16px;
+    border:1px solid black;
+    border-radius: 50%;
+}
+
+.section-2 .keyword span:nth-of-type(5) {
+    margin: 0 63px;
+}
+
+.section-2 .keyword span:nth-of-type(4) {
+    margin-left: 40px;
+}
+.section-2 .keyword span:nth-of-type(6) {
+    margin-right: 40px;
+}
+.section-2 .keyword span:nth-of-type(3) {
+    margin-left: 40px;
+} .section-2 .keyword span:nth-of-type(7) {
+    margin-right: 40px; 
+}
+
+.section-2 .keyword span:first-of-type {
+    margin-right: 40px;
+}
+.section-2 .keyword span:nth-of-type(9) {
+    margin-left: 40px;
+}
+
+.section-2 .stratgy {
+    position: absolute;
+    left: 33%;
+    top:27%;
+}
+
+.section-2 .stratgy .title {
+    display: flex;
+    width:720px;
+    justify-content: space-between;
+}
+.section-2 .stratgy .title span {
+    font-size: 21px;
+    font-weight: bold;
+    position: relative;
+}
+.section-2 .stratgy .title span::after {
+    position: absolute;
+    content: "";
+    width:100%;
+    height: 2px;
+    background-color: black;
+    top:100%;
+    left: 0;
+}
+
+.section-2 .stratgy img {
+    width:886px;
+    height: 250px;
+    margin-top: 80px;
+}
+
+
+.section-2 .color {
+    position: absolute;
+    left: 33%;
+    top:43%;
+}
+
+
+.section-2 .color img {
+    width:1088px;
+    height: 244px;
+}
+
+
+.section-2 .grid {
+    position: absolute;
+    left: 13%;
+    top:66%;
+}
+
+.section-2 .grid img:first-of-type {
+    width:1000px;
+    height: 135px;
+    z-index: 99;
+    position: absolute;
+    left: 14.3%;
+    top:-14%;
+}
+
+.section-2 .grid img:last-of-type {
+    width:1400px;
+    height: 924.42px;
+}
+/*section-2 끝*/
+
+/*section-3 시작*/
+
+.section-3 {
+    width:1920px;
+    position: relative;
+}
+
+.section-3 img:first-of-type {
+    position: absolute;
+    top:0;
+    left: 0;
+    width:100%;
+    z-index: -99;
+}
+.section-3 img:nth-of-type(2) {
+    position: absolute;
+    top:0;
+    left: 0;
+    width:100%;
+}
+/*section-3 끝*/
