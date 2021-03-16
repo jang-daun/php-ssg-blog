@@ -283,6 +283,23 @@ a {
     top:87%;
     color:black;
 }
+.section-3 .line {
+    position: absolute;
+    left: 23.5%;
+    width:.8px;
+    height: 570px;
+    background-color: black;
+    top:41%;
+}
+
+.section-3 .line-2 {
+    position: absolute;
+    left: 23.5%;
+    width:.8px;
+    height: 1050px;
+    background-color: black;
+    top:60.5%;
+}
 /*section-3 끝*/
 
 
