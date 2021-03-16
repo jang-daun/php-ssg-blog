@@ -220,14 +220,19 @@ a {
 
 .section-2 .grid {
     position: absolute;
-    left: 20%;
-    top:50%;
+    left: 13%;
+    top:66%;
 }
 
 .section-2 .grid img:first-of-type {
-    width:1400px;
+    width:1000px;
     height: 135px;
+    z-index: 99;
+    position: absolute;
+    left: 14.3%;
+    top:-14%;
 }
+
 .section-2 .grid img:last-of-type {
     width:1400px;
     height: 924.42px;
