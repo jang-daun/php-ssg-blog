@@ -249,6 +249,6 @@ a {
 .section-3 img:first-of-type {
     position: absolute;
     top:0;
-    z-index: -98;
+    left: 0;
 }
 /*section-3 끝*/
