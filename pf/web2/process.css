@@ -238,3 +238,17 @@ a {
     height: 924.42px;
 }
 /*section-2 끝*/
+
+/*section-3 시작*/
+
+.section-3 {
+    width:1920px;
+    position: relative;
+}
+
+.section-3 img:first-of-type {
+    position: absolute;
+    top:0;
+    z-index: -98;
+}
+/*section-3 끝*/
