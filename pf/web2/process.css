@@ -172,14 +172,10 @@ a {
     margin-left: 40px;
 }
 
-
-
-
-
 .section-2 .stratgy {
     position: absolute;
     left: 33%;
-    top:25%;
+    top:27%;
 }
 
 .section-2 .stratgy .title {
@@ -205,6 +201,35 @@ a {
 .section-2 .stratgy img {
     width:886px;
     height: 250px;
+    margin-top: 80px;
 }
 
+
+.section-2 .color {
+    position: absolute;
+    left: 33%;
+    top:43%;
+}
+
+
+.section-2 .color img {
+    width:1088px;
+    height: 244px;
+}
+
+
+.section-2 .grid {
+    position: absolute;
+    left: 20%;
+    top:50%;
+}
+
+.section-2 .grid img:first-of-type {
+    width:1400px;
+    height: 135px;
+}
+.section-2 .grid img:last-of-type {
+    width:1400px;
+    height: 924.42px;
+}
 /*section-2 끝*/
