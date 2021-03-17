@@ -30,6 +30,9 @@ require_once "head.php";
   <a href="pf/web2/index.ssghtml.php">
     A.P.C.
   </a>
+  <a href="pf/web2/process.html">
+    process
+  </a>
 </div>
 
 
