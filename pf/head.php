@@ -9,6 +9,7 @@
 
 
 
+
     <!--폰트 시작-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -37,9 +38,9 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
     <script src="https://cdn.jsdelivr.net/npm/circletype@2.3.0/dist/circletype.min.js"></script>
 
     <script src="common.js" defer></script>
@@ -47,4 +48,19 @@
 </head>
 
 <body>
-        
+<div class="con">
+       <div class="section-1">
+              <div class="menu-bar">
+                     <ul>
+                            <li><a href="index.ssghtml.php">Home
+                                   </a></li>
+                            <li><a href="about.ssghtml.php">About
+                                   </a></li>
+                            <li><a href="bd.ssghtml.php">Branding
+                                   </a></li>
+                            <li><a href="pf.ssghtml.php">Portfolio
+                                   </a></li>
+                            <li><a href="ex.ssghtml.php">Experience
+                                   </a></li>
+                     </ul>
+              </div>

@@ -11,4 +11,3 @@ function Circle1__init() {
   
   Circle1__init();
   
-  
