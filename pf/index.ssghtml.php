@@ -57,6 +57,8 @@ require_once "head.php";
 </div>
 <div class="stars"></div>
 
+<div class="starstar"><img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/star.svg" alt=""></div>
+
 
 <?php
 require_once "foot.php";

@@ -1,0 +1,7 @@
+.menu-bar ul li:nth-of-type(2) a {
+    font-weight: 700;
+  }
+
+  .menu-bar ul li:nth-of-type(2) a::after {
+    width:100%;
+  }
