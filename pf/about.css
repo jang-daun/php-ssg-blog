@@ -1,79 +1,83 @@
 .menu-bar ul li:nth-of-type(2) a {
     font-weight: 700;
-  }
+}
 
-  .menu-bar ul li:nth-of-type(2) a::after {
-    width:100%;
-  }
+.menu-bar ul li:nth-of-type(2) a::after {
+    width: 100%;
+}
 
 
-  .section-1 {
+.section-1 {
     height: 100vh;
     position: relative;
     z-index: 0;
     overflow: hidden;
-    width:100%;
-  }
-  .circle {
-      position: absolute;
-      width:1000px;
-      height: 1000px;
-      left: 70%;
-      top:50%;
-      border:1px solid black;
-      border-radius: 50%;
-      transform: translateY(-50%);
-      
-  }
+    width: 100%;
+}
 
-  .swiper-container {
-    
-      width:100%;
-      height: 90vh;
-      transform: translateY(10%);
-  }
-  .swiper-slide {
-      
-      
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      
-  }
-
-  .swiper-slide .contain {
-      border:1px solid red;
-      width:1000px;
-      height: 80%;
-      position: relative;
-  }
-  .swiper-slide .orbit {
-      position: absolute;
-      
-  }
-  .swiper-slide .orbit img {
-      width:38mm; 
-  }
-
-  .swiper-slide .slogan img {
-      position: absolute;
-      width:116mm;
-      top:25%;
-  }
-
-
-  .swiper-slide .content img {
+.circled {
     position: absolute;
-    width:150mm;
-    top:50%;
+    width: 1000px;
+    height: 1000px;
+    left: 70%;
+    top: 50%;
+    border: 1px solid black;
+    border-radius: 50%;
+    transform: translateY(-50%);
+
+}
+
+.swiper-container {
+
+    width: 100%;
+    height: 90vh;
+    transform: translateY(10%);
+}
+
+.swiper-slide {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.swiper-slide .contain {
+    border: 1px solid red;
+    width: 1000px;
+    height: 80%;
+    position: relative;
+}
+
+.swiper-slide .orbit {
+    position: absolute;
+
+}
+
+.swiper-slide .orbit img {
+    width: 38mm;
+}
+
+.swiper-slide .slogan img {
+    position: absolute;
+    width: 116mm;
+    top: 25%;
+}
+
+
+.swiper-slide .content img {
+    position: absolute;
+    width: 150mm;
+    top: 50%;
 }
 
 .con .section-1 .swiper-container .swiper-pagination {
     position: absolute;
-    top:85%;
+    top: 85%;
     left: 20.7%;
-    
-    width:70px;
+
+    width: 70px;
     height: 30px;
     display: flex;
     justify-content: space-between;
@@ -89,39 +93,218 @@
 }
 
 
-.con .section-1 .swiper-container .swiper-pagination > .swiper-pagination-bullet-active {
-    width:15px;
+.con .section-1 .swiper-container .swiper-pagination>.swiper-pagination-bullet-active {
+    width: 15px;
     height: 15px;
-    border:1px solid black;
+    border: 1px solid black;
     background-color: white;
-     
+
 }
-@keyframes ani{
-0%{transform:translate(0,0);}
-100%{transform:translate(0,-5px);}
-}  
+
+@keyframes ani {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(0, -5px);
+    }
+}
 
 
 .swiper-slide .title img {
-    width:107.294mm;
+    width: 117.294mm;
     position: absolute;
-    top:25%;
+    top: 20%;
 }
 
 .swiper-slide .pfcontent img {
-    width:110.645mm;
+    width: 120.645mm;
     position: absolute;
-    top:35%;
+    top: 30%;
+}
+
+.swiper-slide .ability {
+    z-index: 999;
 }
 
 .swiper-slide .ability img:first-of-type {
-    width:110.703mm;
+    width: 120.703mm;
     position: absolute;
-    top:25%;
+    top: 25%;
+    z-index: 999;
+    left: 4.9%;
 }
 
 .swiper-slide .ability img:last-of-type {
-    width:109.469mm;
+    width: 119.469mm;
     position: absolute;
-    top:45%;
+    top: 45%;
+    z-index: 999;
+    left: 5%;
+}
+
+
+
+.circle-contain {
+    display: flex;
+    z-index: -1;
+    position: relative;
+    width: 100%;
+    height: 35%;
+    border: 1px solid blue;
+    top: 10%;
+}
+
+.circle-wrap {
+    margin: 50px auto;
+    width: 100px;
+    height: 100px;
+    background: #f0f0f0;
+    border-radius: 50%;
+    position: absolute;
+    top: 12%;
+
+}
+
+.circle-wrap:nth-of-type(1) {}
+
+.circle-wrap:nth-of-type(2) {
+    left: 20%;
+}
+
+.circle-wrap:nth-of-type(3) {
+    left: 40%;
+}
+
+
+
+.circle-wrap .circle .mask,
+.circle-wrap .circle .fill {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle-wrap .circle .mask {
+    clip: rect(0px, 100px, 100px, 50px);
+}
+
+.circle-wrap .circle .mask .fill {
+    clip: rect(0px, 50px, 100px, 0px);
+    background-color: #000;
+}
+
+.circle-wrap .circle .mask.full,
+.circle-wrap .circle .fill {
+    animation: fill ease-in-out 1s;
+    transform: rotate(160deg);
+}
+
+
+
+.circle-wrap .circle-2 .mask.full,
+.circle-wrap .circle-2 .fill {
+    animation: fill2 ease-in-out 1s;
+    transform: rotate(150deg);
+}
+
+
+.circle-wrap .circle-3 .mask.full,
+.circle-wrap .circle-3 .fill {
+    animation: fill3 ease-in-out 1s;
+    transform: rotate(90deg);
+}
+
+@keyframes fill {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(160deg);
+    }
+}
+
+@keyframes fill2 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(150deg);
+    }
+}
+
+@keyframes fill3 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(90deg);
+    }
+}
+
+.circle-wrap .inside-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #fff;
+    line-height: 80px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.circle-contain .inside-circle img {
+    width: 10mm;
+    position: absolute;
+    top: 28%
+}
+
+.circle-contain .inside-circle .ai {
+    left: 25%;
+    top: 29%
+}
+.circle-contain .inside-circle .c90 {
+    width:10mm;
+    left: 28%;
+    top: 150%;
+}
+
+.circle-contain .inside-circle .ps {
+    left: 28%;
+    top: 30%
+}
+
+.circle-contain .inside-circle .xd {
+    width: 11mm;
+    left: 23%;
+    top: 29%
+}
+
+.circle-contain .inside-circle .fm {
+    width: 8mm;
+    left: 32%;
+    top: 25%
+}
+
+.circle-contain .inside-circle .vc {
+    left: 25%;
+}
+
+.circle-contain .inside-circle .pr {
+    width: 10mm;
+    left: 30%;
+    top: 30%
 }

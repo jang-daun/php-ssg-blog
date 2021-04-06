@@ -8,7 +8,7 @@ require_once "head.php";
 <link rel="stylesheet" href="about.css">
 <script src="about.js" defer></script>
 
-<div class="circle"></div>
+<div class="circled"></div>
 
 
 <div class="swiper-container">
@@ -44,9 +44,96 @@ require_once "head.php";
                 <div class="orbit">
                     <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/no3.svg" alt="">
                 </div>
+                <div class="circle-contain">
+                    <div class="circle-wrap">
+                        <div class="circle circle-1">
+                            <div class="mask full">
+                                <div class="fill"></div>
+                            </div>
+                            <div class="mask half">
+                                <div class="fill"></div>
+                            </div>
+                            <div class="inside-circle">
+                                <img class="ai" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/aiai.svg" alt="">
+                                <img class="c90 a90" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/90.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="circle-wrap">
+                        <div class="circle circle-1">
+                            <div class="mask full">
+                                <div class="fill"></div>
+                            </div>
+                            <div class="mask half">
+                                <div class="fill"></div>
+                            </div>
+                            <div class="inside-circle">
+                                <img class="ps" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/psps.svg" alt="">
+                                <img class="c90 p90" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/90.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="circle-wrap">
+                        <div class="circle circle-2">
+                            <div class="mask full">
+                                <div class="fill"></div>
+                            </div>
+                            <div class="mask half">
+                                <div class="fill"></div>
+                            </div>
+                            <div class="inside-circle">
+                                <img class="xd" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/xdxd.svg" alt="">
+                                <img class="c90 x80" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/80.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="circle-contain">
+                    <div class="circle-wrap">
+                        <div class="circle circle-2">
+                            <div class="mask full">
+                                <div class="fill"></div>
+                            </div>
+                            <div class="mask half">
+                                <div class="fill"></div>
+                            </div>
+                            <div class="inside-circle">
+                                <img class="fm" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/fmfm.svg" alt="">
+                                <img class="c90 f80" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/80.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="circle-wrap">
+                        <div class="circle circle-2">
+                            <div class="mask full">
+                                <div class="fill"></div>
+                            </div>
+                            <div class="mask half">
+                                <div class="fill"></div>
+                            </div>
+                            <div class="inside-circle">
+                                <img class="vc" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/vcvc.svg" alt="">
+                                <img class="c90 v80" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/80.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="circle-wrap">
+                        <div class="circle circle-3">
+                            <div class="mask full">
+                                <div class="fill"></div>
+                            </div>
+                            <div class="mask half">
+                                <div class="fill"></div>
+                            </div>
+                            <div class="inside-circle">
+                                <img class="pr" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/prpr.svg" alt="">
+                                <img class="c90 p50" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/50.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="ability">
-                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/ability.svg" alt="">
-                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/ability-c.svg" alt="">
+                    
                 </div>
             </div>
         </div>
