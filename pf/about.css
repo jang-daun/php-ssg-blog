@@ -44,7 +44,7 @@
 }
 
 .swiper-slide .contain {
-    border: 1px solid red;
+    
     width: 1000px;
     height: 80%;
     position: relative;
@@ -128,21 +128,6 @@
     z-index: 999;
 }
 
-.swiper-slide .ability img:first-of-type {
-    width: 120.703mm;
-    position: absolute;
-    top: 25%;
-    z-index: 999;
-    left: 4.9%;
-}
-
-.swiper-slide .ability img:last-of-type {
-    width: 119.469mm;
-    position: absolute;
-    top: 45%;
-    z-index: 999;
-    left: 5%;
-}
 
 
 
@@ -151,8 +136,8 @@
     z-index: -1;
     position: relative;
     width: 100%;
-    height: 35%;
-    border: 1px solid blue;
+    height: 38%;
+
     top: 10%;
 }
 
@@ -170,11 +155,11 @@
 .circle-wrap:nth-of-type(1) {}
 
 .circle-wrap:nth-of-type(2) {
-    left: 20%;
+    left: 15%;
 }
 
 .circle-wrap:nth-of-type(3) {
-    left: 40%;
+    left: 30%;
 }
 
 
@@ -196,23 +181,23 @@
     background-color: #000;
 }
 
-.circle-wrap .circle .mask.full,
-.circle-wrap .circle .fill {
+.swiper-slide:hover .circle-wrap .circle .mask.full,
+.swiper-slide:hover .circle-wrap .circle .fill {
     animation: fill ease-in-out 1s;
     transform: rotate(160deg);
 }
 
 
 
-.circle-wrap .circle-2 .mask.full,
-.circle-wrap .circle-2 .fill {
+.swiper-slide:hover .circle-wrap .circle-2 .mask.full,
+.swiper-slide:hover .circle-wrap .circle-2 .fill {
     animation: fill2 ease-in-out 1s;
     transform: rotate(150deg);
 }
 
 
-.circle-wrap .circle-3 .mask.full,
-.circle-wrap .circle-3 .fill {
+.swiper-slide:hover .circle-wrap .circle-3 .mask.full,
+.swiper-slide:hover .circle-wrap .circle-3 .fill {
     animation: fill3 ease-in-out 1s;
     transform: rotate(90deg);
 }
@@ -307,4 +292,80 @@
     width: 10mm;
     left: 30%;
     top: 30%
+}
+.swiper-slide .ability img {
+    width:35mm;
+    position: absolute;
+    top:14%;
+    left: 50%;
+}
+
+.swiper-slide .pro-bar div {
+    width:200px;
+    background-color: #f0f0f0;
+    height: 8px;
+    position: absolute;
+    left: 67%;
+}
+
+.swiper-slide .pro-bar div:nth-of-type(1) {
+    top:15%;
+}
+.swiper-slide .pro-bar div:nth-of-type(2) {
+    top:33.5%;
+}
+.swiper-slide .pro-bar div:nth-of-type(3) {
+    top:51.5%;
+}
+.swiper-slide .pro-bar div:nth-of-type(4) {
+    top:67.5%;
+}
+.swiper-slide .pro-bar div:nth-of-type(5) {
+    top:86.5%;
+}
+
+.swiper-slide .pro-bar2 div {
+    background-color: #000;
+    width:0;
+    transition: width .4s;
+}
+.swiper-slide:hover .pro-bar2 div:nth-of-type(1) {
+    width:195px;
+    
+}
+.swiper-slide:hover .pro-bar2 div:nth-of-type(2) {
+    width:190px;
+}
+.swiper-slide:hover .pro-bar2 div:nth-of-type(3) {
+    width:195px;
+}
+.swiper-slide:hover .pro-bar2 div:nth-of-type(4) {
+    width:190px;
+}
+.swiper-slide:hover .pro-bar2 div:nth-of-type(5) {
+    width:185px;
+}
+
+
+.abnumber img {
+    width:8mm;
+    position: absolute;
+    left: 90%;
+}
+
+.abnumber img:nth-of-type(1) {
+    top:15%;
+}
+
+.abnumber img:nth-of-type(2) {
+    top:33.5%;
+}
+.abnumber img:nth-of-type(3) {
+    top:51.5%;
+}
+.abnumber img:nth-of-type(4) {
+    top:67.5%;
+}
+.abnumber img:nth-of-type(5) {
+    top:86.5%;
 }

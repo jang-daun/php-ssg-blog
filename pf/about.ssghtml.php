@@ -133,7 +133,28 @@ require_once "head.php";
                     </div>
                 </div>
                 <div class="ability">
-                    
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/abtxt.svg" alt="">
+                </div>
+                <div class="pro-bar">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="pro-bar pro-bar2">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="abnumber">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/9595.svg" alt="">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/9090.svg" alt="">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/9595.svg" alt="">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/9090.svg" alt="">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/8585.svg" alt="">
                 </div>
             </div>
         </div>
