@@ -46,10 +46,19 @@
 }
 
 .notitle img {
-    width:150mm;
+    width:100mm;
     position: absolute;
     left: 50%;
-    top:20%;
+    top:15%;
+    transform: translateX(-50%);
+}
+
+.title img {
+    width:50mm;
+    position: absolute;
+    left: 50%;
+    top:73%;
+    
     transform: translateX(-50%);
 }
 .device {
@@ -59,7 +68,7 @@
     width:250mm;
     position: absolute;
     left: 50%;
-    top:20%;
+    top:13%;
     transform: translateX(-50%);
 }
 
@@ -87,7 +96,7 @@
 }
 
 
-.btn svg {
+.btn img {
     width:24mm;
     z-index: 999;
 }
