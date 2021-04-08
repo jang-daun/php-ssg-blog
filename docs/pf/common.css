@@ -1,5 +1,4 @@
 
-  
   /* 노말라이즈 시작 */
   body,
   ul,
@@ -80,12 +79,4 @@
 
   .menu-bar ul li a:hover::after {
     width:100%;
-  }
-
-  .width {
-      width:100%;
-  }
-
-  .bold {
-    font-weight: 700;
   }
