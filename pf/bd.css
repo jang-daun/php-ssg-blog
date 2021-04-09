@@ -1,0 +1,38 @@
+
+
+ .menu-bar ul li a {
+    font-size: 20px;
+    margin:0 20px;
+    color:white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    position: relative;
+  }
+
+  .menu-bar ul li a:hover {
+    font-weight: 700;
+  }
+
+  .menu-bar ul li a::after {
+    position: absolute;
+    content:"";
+    width:0%;
+    height: 2px;
+    background-color: white;
+    top:100%;
+    left: 0;
+    transition: all .4s;
+  }
+
+.menu-bar ul li:nth-of-type(3) a {
+    font-weight: 700;
+}
+
+.menu-bar ul li:nth-of-type(3) a::after {
+    width:100%;
+}
+
+
+body {
+    background-color: black;
+} 
