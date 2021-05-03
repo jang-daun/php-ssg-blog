@@ -5,7 +5,7 @@ require_once "head.php";
 ?>
 
 
-<img style="width:1920px; margin-top:91px;"src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/denimpage.svg" alt="">
+<img style="width:100%; margin-top:91px;"src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/denimpage.svg" alt="">
 
 
 <?php

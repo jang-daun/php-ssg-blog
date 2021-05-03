@@ -4,7 +4,6 @@
 html {
     font-family: "Noto Sans KR", sans-serif;
     overflow-x: hidden;
-    width: 1920px;
 }
 
 /* 폰트 끝 */
@@ -56,20 +55,11 @@ a {
 }
 
 
-/* 커스텀 시작 */
-:root {
-    --site-width: 1920px;
-}
-
-
-.con {
-    width: var(--site-width);
-}
-
 
 /*헤더 시작*/
 .header {
-    width: 1920px;
+    width: 100%;
+
     background-color:black;
   }
   .header__menu-box > a {
@@ -102,7 +92,7 @@ a {
   
   .section-1 {
     font-weight: 400;
-    width: 1920px;
+    width: 100%;
     background-color: white;
   }
   .menu-box {
@@ -228,3 +218,9 @@ a {
  
   
   /*메뉴바 끝*/
+
+  .section-8 {
+    width:100%;
+    display: flex;
+    justify-content: center;
+} 
