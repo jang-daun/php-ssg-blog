@@ -4,7 +4,7 @@
 html {
     font-family: "Noto Sans KR", sans-serif;
     overflow-x: hidden;
-    width: 1920px;
+    width:100vw;
 }
 
 /* 폰트 끝 */
@@ -57,19 +57,11 @@ a {
 
 
 /* 커스텀 시작 */
-:root {
-    --site-width: 1920px;
-}
-
-
-.con {
-    width: var(--site-width);
-}
 
 /*메뉴바 시작*/
 
 .section-1 {
-    width: 1920px;
+    width: 100%;
 }
 
 .section-1 .con {
@@ -184,3 +176,17 @@ a {
     margin-right: 27px;
     color: #ff8100;
 }
+
+
+:root {
+    --site-width:1280px;
+
+  }
+  
+  .con-min-width {
+    min-width:var(--site-width);
+  }
+  
+  .con {
+    width:var(--site-width);
+  }
