@@ -25,10 +25,10 @@ require_once "head.php";
       <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/APC.svg" alt="">
     </div>
     <div class="btn">
-      <a href="web2/process.html" class="process">
+      <a href="web2/process.html" target="_blank" class="process">
         <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/process.svg" alt="">
       </a>
-      <a href="web2/index.ssghtml.php" class="web-site">
+      <a href="web2/index.ssghtml.php" target="_blank" class="web-site">
         <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/web-site.svg" alt="">
       </a>
     </div>
