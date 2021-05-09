@@ -19,13 +19,14 @@
     position: relative;
 }
 
-.section-2>img {
+.section-2 > img {
     position: absolute;
     top: 45%;
     transform: translateY(-50%) translateX(-50%);
     left: 50%;
+    border:1px solid red;
 }
-.section-2> .intro {
+.section-2 > .intro {
     position: absolute;
     top:65%;
     transform: translateY(-50%) translateX(-50%);
