@@ -67,7 +67,7 @@ require_once "head.php";
     <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/title.svg" alt="">
     <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/section3bg.jpg" alt="">
     <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/newnew.jpg" alt="">
-    <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/mainnew.svg" alt="">
+    <img class="ani" src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/mainnew.svg" alt="">
     <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/newchange.jpg" alt="">
   </div>
 </div>
@@ -76,21 +76,21 @@ require_once "head.php";
   <div class="con">
     <div class="outer">
       <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/outerouter.jpg" alt="">
-      <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/outertxt.svg" alt="">
+      <img class="ani" src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/outertxt.svg" alt="">
       <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/paris.jpg" alt="">
       <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/outerchange.jpg" alt="">
     </div>
     <div class="top bottom">
       <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/top-women.jpg" alt="">
-      <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/toptxt.svg" alt="">
+      <img class="ani" src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/toptxt.svg" alt="">
       <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/bottom-men.jpg" alt="">
-      <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/bottomtxt.svg" alt="">
+      <img class="ani" src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/bottomtxt.svg" alt="">
     </div>
     <div class="dress">
       <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/dresswomen3.jpg" alt="">
       <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/dresswomen2.jpg" alt="">
       <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/dresswomen1.jpg" alt="">
-      <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/dresstxt.svg" alt="">
+      <img class="ani" src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/dresstxt.svg" alt="">
       <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/dr1ch.jpg" alt="">
       <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/dr3ch.jpg" alt="">
       <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/dr2ch.jpg" alt="">
@@ -102,22 +102,22 @@ require_once "head.php";
   <div class="con">
     <img class="bg" src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/parisbg.jpg" alt="">
     <div class="bag">
-      <img style="margin-top:50px" src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/bagtxt.svg" alt="">
+      <img class="ani" style="margin-top:50px" src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/bagtxt.svg" alt="">
       <img style="margin-top:50px" src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/bag1.jpg" alt="">
       <img style="margin-top:50px" src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/bag2.jpg" alt="">
     </div>
     <div class="shoes">
-      <img style="margin-top:50px" src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/shoestxt.svg" alt="">
+      <img class="ani" style="margin-top:50px" src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/shoestxt.svg" alt="">
       <img style="margin-top:50px" src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/shoes1.jpg" alt="">
       <img style="margin-top:50px" src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/shoes2.jpg" alt="">
     </div>
     <div class="acc">
-      <img style="margin-top:50px" src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/acctxt.svg" alt="">
+      <img class="ani" style="margin-top:50px" src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/acctxt.svg" alt="">
       <img style="margin-top:50px" src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/acc1.jpg" alt="">
       <img style="margin-top:50px" src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/acc2.jpg" alt="">
     </div>
     <div class="goods">
-      <img style="margin-top:50px" src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/goodtxt.svg" alt="">
+      <img class="ani" style="margin-top:50px" src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/goodtxt.svg" alt="">
       <img style="margin-top:50px" src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/goods1.jpg" alt="">
       <img style="margin-top:50px" src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/apc/goods2.jpg" alt="">
     </div>
