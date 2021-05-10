@@ -1,7 +1,6 @@
 const Timeline__Section1__1 = gsap.timeline({
     scrollTrigger: {
       trigger: ".section-2",
-      markers: ture,
       start: "-=200 center",
       end: "bottom top"
     }
@@ -19,7 +18,6 @@ const Timeline__Section1__1 = gsap.timeline({
   const Timeline__Section2__1 = gsap.timeline({
     scrollTrigger: {
       trigger: ".section-2",
-      markers: ture,
       start: "+=80 center",
       end: "bottom top"
     }
@@ -74,7 +72,6 @@ const Timeline__Section1__1 = gsap.timeline({
   const Timeline__Section3__1 = gsap.timeline({
     scrollTrigger: {
       trigger: ".section-3",
-      markers: ture,
       start: "top center",
       end: "bottom top"
     }
@@ -109,7 +106,6 @@ const Timeline__Section1__1 = gsap.timeline({
   const Timeline__Section4__1 = gsap.timeline({
     scrollTrigger: {
       trigger: ".contents",
-      markers: ture,
       start: "-=150 center",
       end: "bottom top"
     }
@@ -166,7 +162,6 @@ const Timeline__Section1__1 = gsap.timeline({
   const Timeline__Section5__1 = gsap.timeline({
     scrollTrigger: {
       trigger: ".section-4",
-      markers: ture,
       start: "-=150 center",
       end: "bottom top"
     }
