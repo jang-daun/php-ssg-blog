@@ -373,4 +373,11 @@ a {
     left: 50%;
     transform: translateX(-50%);
 }
+
+.apcbg {
+    position: absolute;
+    top:1002%;
+    left: 25%;
+    width:11%;
+}
 /*section-4 끝*/
