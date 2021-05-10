@@ -100,9 +100,9 @@
                 </ul>
             </nav>
             <div class="more-box flex flex-j-c">
-                <span><i class="fas fa-search"></i></span>
-                <span>후원하기</span>
-                <span>로그인</span>
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#">후원하기</a>
+                <a href="#">로그인</a>
             </div>
         </div>
     </div>

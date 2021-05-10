@@ -54,12 +54,13 @@
 }
 
 .title img {
-    width:50mm;
+    width:40mm;
     position: absolute;
     left: 50%;
     top:73%;
-    
+    z-index: 999;
     transform: translateX(-50%);
+    margin-top: 10px;
 }
 .device {
     z-index: 999;
@@ -70,6 +71,7 @@
     left: 50%;
     top:13%;
     transform: translateX(-50%);
+    z-index: 999;
 }
 
 .btn {
@@ -100,3 +102,8 @@
     width:24mm;
     z-index: 999;
 }
+
+.notitle, .device, .title, .btn {
+    z-index: 999;
+}
+

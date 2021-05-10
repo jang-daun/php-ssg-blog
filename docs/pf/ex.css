@@ -1,0 +1,53 @@
+
+  .menu-bar ul li:nth-of-type(5) a {
+    font-weight: 700;
+}
+
+.menu-bar ul li:nth-of-type(5) a::after {
+    width:100%;
+}
+
+.swiper-container {
+
+    height: 700px;
+    margin-top: 150px;
+    width:80%;
+}
+
+.swiper-container .img-box img {
+    width:206.333mm;
+}
+.swiper-container .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-container .content {
+    display: flex;
+    height: 72%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.swiper-container .content img {
+    width:4.683mm;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets > .swiper-pagination-bullet {
+    opacity: 1;
+    background-color: white;
+    border:1px solid black;
+    transition: width .4s, height .4s;
+    margin: 0 10px;
+}
+.swiper-container-horizontal > .swiper-pagination-bullets > .swiper-pagination-bullet-active {
+    background-color: black;
+    width: 15px;
+    height: 15px;
+}

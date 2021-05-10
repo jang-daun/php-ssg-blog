@@ -35,10 +35,40 @@ require_once "head.php";
   </section>
   <section class="section section1 section2 con-min-width bg-black">
     <div class="backcircle backcircle2"></div>
+    <div class="notitle">
+      <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/no2p.svg" alt="">
+    </div>
+    <div class="device">
+      <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/greenpf.png" alt="">
+    </div>
+    <div class="title">
+      <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/grlogo.svg" style="width:80mm; margin-top:10px;" alt="">
+    </div>
+    <div class="btn">
+      <a href="web2/process.html" target="_blank" class="process" style="border:1px solid black;">
+        <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/problack.svg" alt="">
+      </a>
+      <a href="web1/index.ssghtml.php" target="_blank" class="web-site" style="border:1px solid black;">
+        <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/webblack.svg" alt="">
+      </a>
+    </div>
   </section>
   <section class="section section1 con-min-width bg-white">
     <div class="backcircle backcircle3"></div>
-  </section>
+    <div class="notitle">
+      <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/ccuxui.svg" alt="">
+    </div>
+    <div class="device">
+      <img style="width:240mm;" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/cc.png" alt="">
+    </div>
+    <div class="title">
+      <img style="width:25mm; margin-top:20px;" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/ct.png" alt="">
+    </div>
+    <div class="btn">
+      <a href="mobile1/index.html" target="_blank" class="process">
+        <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/process.svg" alt="">
+      </a>
+    </div>
   </section>
 </div>
 

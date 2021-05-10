@@ -24,7 +24,6 @@
     top: 45%;
     transform: translateY(-50%) translateX(-50%);
     left: 50%;
-    border:1px solid red;
 }
 .section-2 > .intro {
     position: absolute;

@@ -46,11 +46,21 @@
 }
 
 .notitle img {
-    width:150mm;
+    width:100mm;
     position: absolute;
     left: 50%;
-    top:20%;
+    top:15%;
     transform: translateX(-50%);
+}
+
+.title img {
+    width:40mm;
+    position: absolute;
+    left: 50%;
+    top:73%;
+    z-index: 999;
+    transform: translateX(-50%);
+    margin-top: 10px;
 }
 .device {
     z-index: 999;
@@ -59,8 +69,9 @@
     width:250mm;
     position: absolute;
     left: 50%;
-    top:20%;
+    top:13%;
     transform: translateX(-50%);
+    z-index: 999;
 }
 
 .btn {
@@ -87,7 +98,12 @@
 }
 
 
-.btn svg {
+.btn img {
     width:24mm;
     z-index: 999;
 }
+
+.notitle, .device, .title, .btn {
+    z-index: 999;
+}
+

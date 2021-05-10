@@ -25,3 +25,4 @@ $('#fullpage section:nth-of-type(2)').mouseenter(function(){
 $('#fullpage section:nth-of-type(2)').mouseleave(function(){
   $('.menu-bar ul li a').removeClass('white');
 });
+
