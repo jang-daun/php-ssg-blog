@@ -45,7 +45,7 @@ require_once "head.php";
       <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/grlogo.svg" style="width:80mm; margin-top:10px;" alt="">
     </div>
     <div class="btn">
-      <a href="web2/process.html" target="_blank" class="process" style="border:1px solid black;">
+      <a href="web1/process.html" target="_blank" class="process" style="border:1px solid black;">
         <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/problack.svg" alt="">
       </a>
       <a href="web1/index.ssghtml.php" target="_blank" class="web-site" style="border:1px solid black;">
