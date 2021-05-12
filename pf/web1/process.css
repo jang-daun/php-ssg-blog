@@ -205,10 +205,12 @@ a {
 }
 .section-6 .color .green {
     color:#66CC00;
+    margin-right: 10px;
 }
 
-.section-6 .color .green {
+.section-6 .color .sky {
     color:#51CAFF;
+    margin-left: 10px;
 }
 .section-6 .color > * {
     margin: 0 30px;
