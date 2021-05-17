@@ -13,6 +13,7 @@
     text-decoration: none;
   }
   
+  
   /* 노말라이즈 끝 */
 
   :root {
@@ -79,4 +80,8 @@
 
   .menu-bar ul li a:hover::after {
     width:100%;
+  }
+
+  html {
+    overflow-x: hidden;
   }

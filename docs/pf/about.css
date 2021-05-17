@@ -61,18 +61,18 @@
 
 .swiper-slide .slogan img {
     position: absolute;
-    width: 116mm;
+    width: 370px;
     top: 25%;
 }
 
 
 .swiper-slide .content img {
     position: absolute;
-    width: 150mm;
+    width: 504px;
     top: 50%;
 }
 
-.con .section-1 .swiper-container .swiper-pagination {
+.section-1 .swiper-container .swiper-pagination {
     position: absolute;
     top: 85%;
     left: 20.7%;
@@ -85,7 +85,7 @@
 }
 
 
-.con .section-1 .swiper-container .swiper-pagination .swiper-pagination-bullet {
+.section-1 .swiper-container .swiper-pagination .swiper-pagination-bullet {
 
     background-color: black;
     transition: width .4s, height .4s;
@@ -93,7 +93,7 @@
 }
 
 
-.con .section-1 .swiper-container .swiper-pagination>.swiper-pagination-bullet-active {
+.section-1 .swiper-container .swiper-pagination>.swiper-pagination-bullet-active {
     width: 15px;
     height: 15px;
     border: 1px solid black;
@@ -119,9 +119,9 @@
 }
 
 .swiper-slide .pfcontent img {
-    width: 120.645mm;
+    width: 487px;
     position: absolute;
-    top: 30%;
+    top: 20%;
 }
 
 .swiper-slide .ability {
@@ -152,7 +152,7 @@
 
 }
 
-.circle-wrap:nth-of-type(1) {}
+
 
 .circle-wrap:nth-of-type(2) {
     left: 15%;
@@ -369,3 +369,90 @@
 .abnumber img:nth-of-type(5) {
     top:86.5%;
 }
+
+.twinkle {
+    width:81px;
+    position: absolute;
+    top:30%;
+    left: 13%;
+    animation:sca 1s infinite alternate;  
+}
+@keyframes sca{
+0%{transform:scale(0);}
+100%{transform:scale(100%);}
+} 
+
+.twinkle2 {
+    width:81px;
+    position: absolute;
+    top:57%;
+    left: 50%;
+    animation:sca2 1s infinite alternate;
+    animation-delay: .2s;
+} 
+
+@keyframes sca2 {
+    0%{transform:scale(100%);}
+    100%{transform:scale(0);}
+    } 
+
+.twinkle3 {
+    width:51px;
+    position: absolute;
+    top:57%;
+    left: 54%;
+    animation:sca3 1s infinite alternate;
+    animation-delay: .2s;
+} 
+
+@keyframes sca3 {
+    0%{transform:scale(0);}
+    100%{transform:scale(100%);}
+
+} 
+
+
+
+
+
+
+.twinkle4 {
+    width:81px;
+    position: absolute;
+    top:50%;
+    left: 13%;
+    animation:sca2 1s infinite alternate;  
+}
+@keyframes sca{
+0%{transform:scale(0);}
+100%{transform:scale(100%);}
+} 
+
+.twinkle5 {
+    width:81px;
+    position: absolute;
+    top:37%;
+    left: 50%;
+    animation:sca 1s infinite alternate;
+    animation-delay: .2s;
+} 
+
+@keyframes sca2 {
+    0%{transform:scale(100%);}
+    100%{transform:scale(0);}
+    } 
+
+.twinkle6 {
+    width:51px;
+    position: absolute;
+    top:37%;
+    left: 54%;
+    animation:sca3 1s infinite alternate;
+    animation-delay: .2s;
+} 
+
+@keyframes sca3 {
+    0%{transform:scale(0);}
+    100%{transform:scale(100%);}
+
+} 
