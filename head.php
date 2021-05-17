@@ -169,7 +169,7 @@ if ( !isset($pageThumbUrl) ) {
                         </a>
                     </li>
                     <li>
-                        <a href="pf.ssghtml.php" class="block">
+                        <a href="pf/index.ssghtml.php" class="block">
                             <span>PORTFOLIO</span>
                             <!--<span><i class="fas fa-list-alt"></i></span>-->
                         </a>
