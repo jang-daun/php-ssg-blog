@@ -11,31 +11,36 @@ require_once "head.php";
 <div class="circled"></div>
 
 
+
+
 <div class="swiper-container">
     <div class="swiper-wrapper">
         <div class="swiper-slide">
+            <img class="twinkle twinkle1" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/tw1.svg" alt="">
+            <img class="twinkle twinkle2" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/tw2.svg" alt="">
+            <img class="twinkle twinkle3" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/tw1.svg" alt="">
             <div class="contain">
                 <div class="orbit">
                     <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/no1.svg" alt="">
                 </div>
                 <div class="slogan">
-                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/abouttitlefianl.svg" alt="">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/abouttitlefinal.svg" alt="">
                 </div>
                 <div class="content">
-                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/abouttxtfianl.svg" alt="">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/abouttxtfinal.svg" alt="">
                 </div>
             </div>
         </div>
         <div class="swiper-slide">
+            <img class="twinkle twinkle4" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/tw2.svg" alt="">
+            <img class="twinkle twinkle5" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/tw1.svg" alt="">
+            <img class="twinkle twinkle6" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/tw2.svg" alt="">
             <div class="contain">
                 <div class="orbit">
                     <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/no2.svg" alt="">
                 </div>
-                <div class="title">
-                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/tt.svg" alt="">
-                </div>
                 <div class="pfcontent">
-                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/profilecontent.svg" alt="">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/about2me.svg" alt="">
                 </div>
             </div>
         </div>
