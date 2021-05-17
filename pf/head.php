@@ -48,7 +48,7 @@
 </head>
 
 <body>
-<div class="con">
+
        <div class="section-1">
               <div class="menu-bar">
                      <ul>
@@ -64,3 +64,4 @@
                                    </a></li>
                      </ul>
               </div>
+              

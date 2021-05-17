@@ -19,10 +19,10 @@ require_once "head.php";
                     <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/no1.svg" alt="">
                 </div>
                 <div class="slogan">
-                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/aboutslogan.svg" alt="">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/abouttitlefianl.svg" alt="">
                 </div>
                 <div class="content">
-                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/aboutcontent.svg" alt="">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/abouttxtfianl.svg" alt="">
                 </div>
             </div>
         </div>
