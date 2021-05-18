@@ -85,3 +85,8 @@
   html {
     overflow-x: hidden;
   }
+  .logobox {
+    position: absolute;
+    top:40px;
+    left:230px;
+  }

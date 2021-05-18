@@ -5,4 +5,8 @@ var swiper = new Swiper('.swiper-container', {
       clickable: true,
       
     },
+    navigation: {
+      nextEl: '.button-next',
+      prevEl: '.button-prev',
+    },
   });
