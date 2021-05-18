@@ -16,7 +16,8 @@ require_once "head.php";
 <div class="section-2 section">
     <div class="con">
         <div class="maintitle">
-            <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/title1.svg" alt="새로운 혁명의 길을 비추다">
+            <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/title1.svg" alt="길을 비추다">
+            <img class="revolution" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio2/revolution.svg" alt="혁명">
         </div>
         <div class="mainvisual">
             <img class="bgshot" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/visual1.png" alt="홈페이지샷">

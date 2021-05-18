@@ -151,3 +151,20 @@ html {
   width:44px;
   margin-left: 10px;
 }
+
+
+.section-2 .maintitle {
+  position: relative;
+}
+
+.section-2 .revolution {
+  position: absolute;
+  left: 34%;
+  width:200px;
+  animation: revol 2s forwards; 
+}
+
+@keyframes revol {
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+  } 
