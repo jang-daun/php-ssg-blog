@@ -7,7 +7,11 @@ require_once "head.php";
 <link rel="stylesheet" href="bd.css">
 <script src="bd.js" defer></script>
 
-
+<div class="logobox">
+       <a href="index.ssghtml.php">
+              <img style="width:60px;" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio2/relogoblack.svg" alt="">
+       </a>
+</div>
 </div>
 <div class="section-2 section">
     <div class="con">

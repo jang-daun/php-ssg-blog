@@ -58,7 +58,11 @@ require_once "head.php";
 <div class="stars"></div>
 
 <div class="starstar"><img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/star.svg" alt=""></div>
-
+<div class="logobox">
+       <a href="index.ssghtml.php">
+              <img style="width:60px;" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio2/relogowhite.svg" alt="">
+       </a>
+</div>
 
 <?php
 require_once "foot.php";

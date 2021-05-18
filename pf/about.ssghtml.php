@@ -7,7 +7,11 @@ require_once "head.php";
 
 <link rel="stylesheet" href="about.css">
 <script src="about.js" defer></script>
-
+<div class="logobox">
+       <a href="index.ssghtml.php">
+              <img style="width:60px;" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio2/relogoblack.svg" alt="">
+       </a>
+</div>
 <div class="circled"></div>
 
 
@@ -45,6 +49,12 @@ require_once "head.php";
             </div>
         </div>
         <div class="swiper-slide">
+            <img class="twinkle twinkle7" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/tw1.svg" alt="">
+            <img class="twinkle twinkle8" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/tw2.svg" alt="">
+            <img class="twinkle twinkle9" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/tw2.svg" alt="">
+            <img class="twinkle twinkle10" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/tw2.svg" alt="">
+            <img class="twinkle twinkle11" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/tw1.svg" alt="">
+            <img class="twinkle twinkle12" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/tw1.svg" alt="">
             <div class="contain">
                 <div class="orbit">
                     <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/no3.svg" alt="">
@@ -166,6 +176,9 @@ require_once "head.php";
     </div>
     <!-- Add Pagination -->
     <div class="swiper-pagination"></div>
+    <!-- If we need navigation buttons -->
+    <div class="button-prev"><img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/arrowslide.svg" alt=""></div>
+    <div class="button-next"><img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/arrowslide2.svg" alt=""></div>
 </div>
 
 <?php

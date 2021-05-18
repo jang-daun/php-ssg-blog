@@ -50,7 +50,9 @@
 <body>
 
        <div class="section-1">
+              
               <div class="menu-bar">
+                     
                      <ul>
                             <li><a href="index.ssghtml.php">Home
                                    </a></li>

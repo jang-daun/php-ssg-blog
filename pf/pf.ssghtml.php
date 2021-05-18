@@ -10,7 +10,11 @@ require_once "head.php";
 
 <link rel="stylesheet" href="pf.css">
 <script src="pf.js" defer></script>
-
+<div class="logobox">
+       <a href="index.ssghtml.php">
+              <img style="width:60px;" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio2/relogoblack.svg" alt="">
+       </a>
+</div>
 
 <div id="fullpage">
   <section class="section section1 con-min-width bg-red fp-auto-height-responsive">
