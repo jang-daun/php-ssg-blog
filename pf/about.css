@@ -445,8 +445,8 @@
 .twinkle6 {
     width:51px;
     position: absolute;
-    top:37%;
-    left: 54%;
+    top:43%;
+    left: 47%;
     animation:sca3 1s infinite alternate;
     animation-delay: .2s;
 } 
@@ -567,4 +567,12 @@
 }
 .swiper-container .button-next {
     right: 17%;
+}
+
+.me, .moone {
+    width:350px;
+    position: absolute;
+    right:5%;
+    z-index: -999;
+    top:12%;
 }

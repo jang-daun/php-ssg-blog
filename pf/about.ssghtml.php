@@ -33,6 +33,7 @@ require_once "head.php";
                 <div class="content">
                     <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/abouttxtfinal.svg" alt="">
                 </div>
+                <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio2/me.jpg" alt="" class="me">
             </div>
         </div>
         <div class="swiper-slide">
@@ -46,6 +47,7 @@ require_once "head.php";
                 <div class="pfcontent">
                     <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/about2me.svg" alt="">
                 </div>
+                <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio2/moon.jpg" alt="" class="moone">
             </div>
         </div>
         <div class="swiper-slide">
