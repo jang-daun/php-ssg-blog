@@ -33,7 +33,8 @@ require_once "head.php";
                 <div class="content">
                     <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/abouttxtfinal.svg" alt="">
                 </div>
-                <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio2/me.jpg" alt="" class="me">
+                <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio2/lpf.png" alt="" class="me">
+                <div class="circlepf"></div>
             </div>
         </div>
         <div class="swiper-slide">
