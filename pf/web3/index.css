@@ -32,7 +32,6 @@ a {
 .flex-j-c {
     justify-content: center;
 }
-
 .flex-j-sb {
     justify-content:space-between;
 }
@@ -49,3 +48,79 @@ a {
     border: 1px solid orange;
 }
 
+/*커스텀 시작*/
+
+/*탑바 시작*/
+.con {
+    width:1280px;
+}
+
+.top-bar {
+    width:100%;
+    height: 50px;
+}
+.top-bar ul {
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.top-bar ul li {
+
+}
+.top-bar ul li a {
+    padding: 10px 15px;
+    display: block;
+    transition: color .4s;
+}
+.top-bar ul li:last-child a {
+    padding-right: 0;
+}
+
+.top-bar ul li a:hover {
+    color:#083B82;
+}
+
+/*메뉴바*/
+.menu-bar {
+    height: 90px;
+}
+.menu-box a {
+    font-size: 18px;
+    
+}
+.menu-box .bar {
+    width:20px;
+    height: 18px;
+    position: relative;
+}
+.menu-box .bar span {
+    position: absolute;
+    width:20px;
+    height: 1.2925px;
+    background-color: black;
+    display: block;
+    top:0;
+
+}
+.menu-box .bar span:nth-of-type(2) {
+    top:50%;
+    
+}
+.menu-box .bar span:nth-of-type(3) {
+    top:100%;
+}
+
+.menu-bar .con {
+    border:1px solid red;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-box a {
+    padding: 20px 10px;
+    margin: 0 10px;
+    transition: ;
+}
