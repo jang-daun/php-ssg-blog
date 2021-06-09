@@ -1,0 +1,51 @@
+/*폰트 설정*/
+html {
+    font-family: 'NanumSquare', sans-serif;
+}
+
+/* 노말라이즈 시작 */
+body,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* 노말라이즈 끝 */
+
+/* 라이브러리 시작 */
+.con {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-j-c {
+    justify-content: center;
+}
+
+.flex-j-sb {
+    justify-content:space-between;
+}
+
+.bb {
+    border: 1px solid blue;
+}
+
+.br {
+    border: 1px solid red;
+}
+
+.bo {
+    border: 1px solid orange;
+}
+
