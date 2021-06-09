@@ -101,18 +101,30 @@ a {
     background-color: black;
     display: block;
     top:0;
-
+    transition: all .3s;
 }
+
 .menu-box .bar span:nth-of-type(2) {
     top:50%;
-    
+    height: 1.5px;
 }
 .menu-box .bar span:nth-of-type(3) {
     top:100%;
 }
 
+.menu-box .bar {
+    cursor: pointer;
+}
+.bar:hover span:nth-of-type(1) {
+    transform: translateX(6px);
+    
+}
+
+.bar:hover span:nth-of-type(3) {
+    transform: translateX(6px);
+    
+}
 .menu-bar .con {
-    border:1px solid red;
     height: 100%;
     display: flex;
     justify-content: space-between;
@@ -120,7 +132,26 @@ a {
 }
 
 .menu-box a {
-    padding: 20px 10px;
-    margin: 0 10px;
-    transition: ;
+    padding: 20px 15px;
+    margin: 0 15px;
+    transition: all .4s;
+    position: relative;
+}
+.menu-box ul > li > a::after {
+    content:"";
+    position: absolute;
+    width:7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #083B82;
+    top:-3%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+.menu-box li:hover a {
+    font-weight: 700;
+}
+.menu-box li:hover a::after {
+    opacity: 1;
 }
