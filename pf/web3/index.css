@@ -84,6 +84,7 @@ a {
 /*메뉴바*/
 .menu-bar {
     height: 90px;
+    border-bottom: 4px solid #083B82;
 }
 .menu-box a {
     font-size: 18px;
@@ -154,4 +155,143 @@ a {
 }
 .menu-box li:hover a::after {
     opacity: 1;
+}
+
+
+/*슬라이드*/
+
+.swiper-container {
+    height: 580px;
+    margin: 0 auto;
+    position: relative;
+    z-index: -1;
+}
+
+.swiper-wrapper {
+    height: 100%;
+    z-index: -99;
+}
+
+.swiper-slide {
+    height:100%;
+    margin:0 auto;
+}
+
+.swiper-container > img {
+    width:420px;
+    position: absolute;
+    top:60%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.swiper-container > span {
+    font-size: 30px;
+    font-weight: 900;
+    color:white;
+    position: absolute;
+    top:30%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-style: italic;
+}
+.swiper-container > span:nth-of-type(2) {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    top:40%;
+}
+.swiper-container > span:nth-of-type(2) > article {
+    font-weight: 900;
+    font-size: 50px;
+    display: inline-block;
+}
+.swiper-container > article {
+    position: absolute;
+    top:55%;
+    left: 50%;
+    transform: translateX(-50%);
+    width:100px;
+    height: 1px;
+    background-color: white;
+    animation:ani 1s alternate;  
+}
+.swiper-slide > img {
+    width:1920px;
+    
+}
+@keyframes ani{
+0%{width:0;}
+100%{width:100px;}
+}  
+
+
+/*탭메뉴*/
+#contents {
+    width:100%;
+    height: 300px;
+    position: relative;
+}
+#contents > div {
+    margin: 0 auto;
+    width:1280px;
+    height: 250px;
+    position: absolute;
+    top:-30%;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 7px 7px 10px 0px rgba(0,0,0,0.1);
+}
+
+#contents .cont1 .tab-menu .tab-btn ul {
+    display: flex;
+}
+
+#contents .cont1 .tab-menu .tab-btn li {
+    width:180px; 
+    background: white;
+    height: 55px;
+    display: flex;
+    justify-content: center; align-items: center;
+    border-bottom: 3px solid white;
+    transition: font-weight .3s;
+}
+#contents .cont1 .tab-menu .tab-btn li.active {
+    border-bottom: 3px solid #083B82;
+    box-sizing: content-box;
+    font-weight: 900;
+}
+#contents .cont1 .tab-menu .tab-btn li a {
+    padding: 10px;
+    display: block;
+    
+}
+#contents .cont1 .tab-cont {
+    background: white; padding: 20px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+}
+.re1 {
+    display: flex;
+    
+}
+.re1 > div {
+    width:204px;
+    height: 138px;
+    border:1px solid red;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.re1 > div > div {
+    border:1px solid red;
+}
+
+.re1 > div > div:nth-of-type(2) {
+    border:1.5px solid #083B82;
+    margin-top: 10px;
+    width:190px;
+    height: 48px;
+    border-radius: 10px;
 }
