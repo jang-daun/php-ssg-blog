@@ -9,7 +9,7 @@ const swiper = new Swiper('.swiper-container', {
   });
 
   //tab
-  var tabBtn = $(".tab-btn > ul > li");
+var tabBtn = $(".tab-btn > ul > li");
 var tabCont = $(".tab-cont > div");
 
 tabCont.hide().eq(0).show();
