@@ -437,16 +437,15 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    border:1px solid red;
 }
 .ktx .contents .ktx_box > div > article {
-    border:1px solid red;
     width:250px;
     height: 220px;
 }
 .ktx .ktx_box__title {
     font-size: 22px;
     font-weight: 900;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 .ktx .ktx_box__content {
@@ -457,8 +456,18 @@ a {
 }
 .ktx .ktx_box__reserve {
     border:1px solid white;
-    padding: 10px 20px;
+    padding: 15px 25px;
     align-items: center;
+    display: flex;
+    width:100px;
+    align-items: center;   
+}
+.ktx .ktx_box__reserve:hover {
+    background-color: white;
+    
+}
+.ktx .ktx_box__reserve:hover span {
+    color:#083B82;
 }
 
 .ktx .ktx_box__reserve > span {
@@ -469,3 +478,7 @@ a {
 .ktx .ktx_box__reserve > img {
     width:17px;
 }
+.ktx .ktx_box__reserve > svg {
+    width:17px;
+}
+
