@@ -206,7 +206,7 @@ a {
     font-size: 50px;
     display: inline-block;
 }
-.swiper-container > article {
+.swiper-container .width {
     position: absolute;
     top:55%;
     left: 50%;
@@ -214,22 +214,24 @@ a {
     width:100px;
     height: 1px;
     background-color: white;
-    animation:ani 1s alternate;  
+    animation:line 1s alternate;  
 }
+@keyframes line {
+    0%{width:0;}
+    100%{width:100px;}
+    }  
+    
 .swiper-slide > img {
     width:100%;
     
 }
-@keyframes ani{
-0%{width:0;}
-100%{width:100px;}
-}  
 
 
 /*탭메뉴*/
 #contents {
     width:100%;
-    height: 300px;
+    height: 250px;
+    
     position: relative;
 }
 #contents > div {
@@ -237,7 +239,7 @@ a {
     width:1280px;
     height: 250px;
     position: absolute;
-    top:-50%;
+    top:-60%;
     left: 50%;
     transform: translateX(-50%);
     box-shadow: 7px 7px 10px 0px rgba(0,0,0,0.1);
@@ -276,7 +278,7 @@ a {
     display: flex;
 }
 .re2 {
-    border:1px solid red;
+    
 }
 .re1 > div {
     width:207px;
@@ -341,8 +343,10 @@ a {
 /*ktx예매 시작*/
 .ktx {
     width:100%;
-    height: 950px;
+    height: 520px;
     position: relative;
+    display: flex;
+    align-items: center;
     
 }
 .ktx .line {
@@ -358,21 +362,20 @@ a {
     width:560px;
     top:14%;
     left: -8%;
-    animation:ani 1s infinite alternate;  
+    animation:anis 1s infinite alternate;  
     z-index: -99;
 }
-@keyframes ani{
+@keyframes anis {
 0%{transform:translate(0,0);}
 100%{transform:translate(0,30px);}
 }  
-
-.ktx .title {
+.title {
     width:100%;
     display: flex;
     align-items: center;
 }
 
-.ktx .title div {
+.title div {
     width:29px;
     height: 29px;
     display: inline-block;
@@ -380,7 +383,7 @@ a {
     border-radius: 50%;
     position: relative;
 }
-.ktx .title div::after {
+.title div::after {
     content: "";
     position: absolute;
     width:16px;
@@ -392,13 +395,13 @@ a {
     border-radius: 50%;
 }
 
-.ktx .title a {
+.title a {
     font-weight: 900;
     font-size: 35px;
     margin-left: 20px;
 }
 
-.ktx .contents {
+.contents {
     width:100%;
     margin-top: 70px;
     display: flex;
@@ -460,7 +463,9 @@ a {
     align-items: center;
     display: flex;
     width:100px;
-    align-items: center;   
+    align-items: center;  
+    position: relative; 
+    transition: background-color .4s;
 }
 .ktx .ktx_box__reserve:hover {
     background-color: white;
@@ -476,9 +481,64 @@ a {
     width:100px;
 }
 .ktx .ktx_box__reserve > img {
-    width:17px;
+    width:20px;
+    position: absolute;
+    right: 15%;
+
 }
-.ktx .ktx_box__reserve > svg {
-    width:17px;
+.ktx .ktx_box__reserve > img:last-child {
+    opacity: 0;
+    visibility: hidden;
+}
+.ktx .ktx_box__reserve:hover > img:last-child {
+    opacity: 1;
+    visibility: visible;
+}
+.ktx .ktx_box__reserve:hover > img:first-child {
+    opacity: 0;
+    visibility: hidden;
 }
 
+.ktx .adult .ktx_box__reserve:hover span {
+    color:#1565A5;;
+}
+.ktx .adult .ktx_box__reserve:hover span {
+    color:#1565A5;
+}
+
+.ktx .baby .ktx_box__reserve:hover span {
+    color:#1F7FB9;
+}
+.ktx .baby .ktx_box__reserve:hover span {
+    color:#1F7FB9;
+}
+
+.ktx .happy .ktx_box__reserve:hover span {
+    color:#5EB6EB;
+}
+.ktx .happy .ktx_box__reserve:hover span {
+    color:#5EB6EB;
+}
+
+
+/*프로모션 시작*/
+
+.pn {
+    width: 100%;
+    border:1px solid red;
+    height: 990px;
+    display: flex;
+    align-items: center;
+}
+
+.pn .contents img {
+    width:440px;
+}
+
+.pn .contents > div {
+    width:50%;
+    
+}
+.pn .contents . {
+    border:1px solid red;
+}

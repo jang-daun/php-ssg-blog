@@ -1,12 +1,13 @@
-const swiper = new Swiper('.swiper-container', {
-    // Optional parameters
-    loop: true,
-    effect: 'fade',
-    autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
-      },
-  });
+
+
+    var swiper = new Swiper('#slide .swiper-container', {
+        loop: true,
+        effect: 'fade',
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+          },
+      });
 
   //tab
 var tabBtn = $(".tab-btn > ul > li");
@@ -23,3 +24,6 @@ tabBtn.click(function(e){
     tabCont.css("display", "none");
     tabCont.eq(index).css("display", "block");
 });
+
+
+
