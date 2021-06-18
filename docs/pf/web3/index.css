@@ -352,16 +352,16 @@ a {
 .ktx .line {
     position: absolute;
     width:360px;
-    top:-8%;
+    top:-3%;
     right: -3%;
     z-index: -99;
 }
 
 .ktx .circle {
     position: absolute;
-    width:560px;
-    top:14%;
-    left: -8%;
+    width:360px;
+    top:3%;
+    left: -2%;
     animation:anis 1s infinite alternate;  
     z-index: -99;
 }
@@ -525,86 +525,105 @@ a {
 
 .promotion {
     width: 100%;
-    height: 990px;
+    height: 900px;
     display: flex;
     align-items: center;
-    
+    position: relative;
 }
 
+.promo-bg {
+    position: absolute;
+    bottom:-15%;
+    left: 0;
+    z-index: -99;
+    background-color: #083B82;
+    width:100%;
+    height: 630px;
+}
 .promotion .contents img {
-    width:440px;
+    width:1280px;
 }
 
 .promotion .contents > .swiper-container {
-    width:50%;
+    width:100%;
     
 }
 .promotion .contents > .notice {
-    width:50%;
+    width:100%;
     
 }
 .promotion .contents {
     width:100%;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 .promotion .swiper-container {
     z-index: -1;
     width:440px;
+    height: 400px;
     overflow-x: hidden;
 }
 
 .promotion > .con > .contents .button-prev {
   font-size:2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   outline:0;
   cursor:pointer;
   position:absolute;
-  right:calc(100%);
+  right:calc(103%);
   left: auto;
-  top:50%;
-  color:black;
+  top:20%;
   display:flex;
   justify-content:center;
   align-items:center;
   width:60px;
-  height:100px;
-  background-color: rgba(0,0,0,.1);
+  height:60px;
+  border-radius: 50%;
+  background-color: #083B82;
+  transition: all.4s;
   transform: translateY(-50%);
 }
 .promotion > .con > .contents .button-next {
   right:auto;
-  left:calc(34.4%);
+  left:calc(103%);
   font-size:2rem;
   outline:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor:pointer;
   position:absolute;
-  top:50%;
-  color:black;
+  top:20%;
   display:flex;
   justify-content:center;
   align-items:center;
   width:60px;
-  height:100px;
-  background-color: rgba(0,0,0,.1);
+  border-radius: 50%;
+  height:60px;
+  transition: all.4s;
+  background-color: #083B82;
   transform: translateY(-50%);
 }
+
 .promotion > .con > .contents .button-prev > img {
-    width:15px;
+    width:16px;
 }
 .promotion > .con > .contents .button-next > img {
-    width:15px;
+    width:16px;
 }
 
 /*공지사항*/
 .promotion .notice {
+    width:100%;
     display: flex;
-    height: 582px;
     
-    justify-content: space-between;
 }
 .promotion .notice__box_1 {
-    width:50%;
-    height: 100%;
-    
+    width:100%;
+    display: flex;
 }
 .promotion .notice__box_shadow {
     box-shadow: 7px 7px 10px 0px rgba(0,0,0,0.1);
@@ -615,10 +634,11 @@ a {
     justify-content: space-around;
     align-items: center;
     cursor: pointer;
+    background-color: white;
 }
 
 .promotion .notice__box_1_title {
-    font-size: 29px;
+    font-size: 24px;
     width:230px;
     font-weight: bold;
     transition: text-decoration .4s;
@@ -664,7 +684,6 @@ a {
 
 .promotion .notice__box_1 {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
 }
 
@@ -699,8 +718,8 @@ a {
 .infocircle {
     position: absolute;
     width:480px;
-    top:-8%;
-    right: -3%;
+    top:-25%;
+    right: -10%;
     z-index: -1;
     animation:anis 1s infinite alternate;  
 }
@@ -818,21 +837,23 @@ a {
 
 .trip {
     width:100%;
-    height: 1100px;
+    height: 990px;
     display: flex;
     align-items: center;
+    
 }
 
 .trip .con {
     width:1280px;
-    height: 630px;
+    
+    height: 750px;
 }
 .trip .contents {
     width:100%;
-    height: 100%;
     display: flex;
     align-items: center;
     
+    height: 85%;
 }
 .trip .contents > div {
     width:50%;
@@ -844,6 +865,8 @@ a {
 }
 
 .trip .txt {
+    height: 100%;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -978,10 +1001,16 @@ a {
     left: 150%;
     transform: translateY(-50%);  
     transition: all.4s;
+    
+}
+.trip .btn_circle_1__txt:hover {
+    color: #083B82;
+    font-size: 20px;
 }
 .click {
     font-weight: 700;   
     color: #083B82;
+    font-size: 20px;
 }
 
 .trip .btn_circle_1:hover > .btn_circle_1__txt {
