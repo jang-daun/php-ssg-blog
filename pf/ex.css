@@ -34,6 +34,7 @@
     justify-content: space-between;
     margin-left: 20px;
 }
+
 .swiper-container .content img {
     width:4.683mm;
 }
@@ -65,11 +66,11 @@
 .swiper-slide {
     position: relative;
 }
+
 .click img {
     position: absolute;
     top:50%;
     left: 50%;
-    
     width:242px;
     animation:ani 1s infinite alternate;  
 }
