@@ -23,20 +23,23 @@ require_once "head.php";
       <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/no1p.svg" alt="">
     </div>
     <div class="device">
-      <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/mac.png" alt="">
+    <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio2/pro-korail.png" alt="">
     </div>
     <div class="title">
-      <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/APC.svg" alt="">
+      <img style="width:70mm;" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio2/letskorail.svg" alt="">
     </div>
     <div class="btn">
-      <a href="web2/process.html" target="_blank" class="process">
+      <a href="web3/process.html" target="_blank" class="process">
         <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/process.svg" alt="">
       </a>
-      <a href="web2/index.ssghtml.php" target="_blank" class="web-site">
+      <a href="web3/index.html" target="_blank" class="web-site">
         <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/web-site.svg" alt="">
       </a>
     </div>
   </section>
+
+
+
   <section class="section section1 section2 con-min-width bg-black">
     <div class="backcircle backcircle2"></div>
     <div class="notitle">
@@ -57,16 +60,38 @@ require_once "head.php";
       </a>
     </div>
   </section>
+
+  <section class="section section1 con-min-width bg-red fp-auto-height-responsive">
+    <div class="backcircle"></div>
+    <div class="notitle">
+      <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio2/apc-title.svg" alt="">
+    </div>
+    <div class="device">
+      <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/mac.png" alt="">
+    </div>
+    <div class="title">
+      <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/APC.svg" alt="">
+    </div>
+    <div class="btn">
+      <a href="web2/process.html" target="_blank" class="process">
+        <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/process.svg" alt="">
+      </a>
+      <a href="web2/index.ssghtml.php" target="_blank" class="web-site">
+        <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/web-site.svg" alt="">
+      </a>
+    </div>
+  </section>
+
   <section class="section section1 con-min-width bg-white">
     <div class="backcircle backcircle3"></div>
     <div class="notitle">
-      <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/ccuxui.svg" alt="">
+      <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio2/ux.svg" alt="">
     </div>
     <div class="device">
       <img style="width:240mm;" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/cc.png" alt="">
     </div>
     <div class="title">
-      <img style="width:25mm; margin-top:20px;" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/ct.png" alt="">
+      <img style="width:23mm; margin-top:20px;" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/ct.png" alt="">
     </div>
     <div class="btn">
       <a href="mobile1/index.html" target="_blank" class="process">

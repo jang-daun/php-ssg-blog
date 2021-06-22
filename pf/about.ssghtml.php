@@ -48,7 +48,7 @@ require_once "head.php";
                 <div class="pfcontent">
                     <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/about2me.svg" alt="">
                 </div>
-                <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio2/moon.jpg" alt="" class="moone">
+                <img style="border-radius:50%;" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio2/moon.jpg" alt="" class="moone">
             </div>
         </div>
         <div class="swiper-slide">
