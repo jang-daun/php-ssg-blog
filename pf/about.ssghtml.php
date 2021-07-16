@@ -31,7 +31,7 @@ require_once "head.php";
                     <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/abouttitlefinal.svg" alt="">
                 </div>
                 <div class="content">
-                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/abouttxtfinal.svg" alt="">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio2/abl.svg" alt="">
                 </div>
                 <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio2/lpf.png" alt="" class="me">
                 <div class="circlepf"></div>
