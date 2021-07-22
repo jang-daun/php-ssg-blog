@@ -97,7 +97,7 @@ if ( !isset($pageThumbUrl) ) {
     <div class="cursor-shadow"></div>
 
     <div class="body-content">
-        <!--탑바 시작-->
+        <!--
         <header class="top-bar con-min-width visible-md-up">
             <div class="con height-100p flex flex-jc-sb">
                 <a href="index.ssghtml.php" class="logo">
@@ -132,8 +132,8 @@ if ( !isset($pageThumbUrl) ) {
                 </nav>
             </div>
         </header>
-        <!--탑바 끝-->
-
+        -->
+        
         <!--모바일 탑바 시작-->
         <div class="mobile-top-bar-padding visible-sm-down"></div>
 

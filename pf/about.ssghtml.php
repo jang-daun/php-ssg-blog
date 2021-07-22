@@ -28,7 +28,7 @@ require_once "head.php";
                     <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/no1.svg" alt="">
                 </div>
                 <div class="slogan">
-                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/abouttitlefinal.svg" alt="">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio2/tt1.svg" alt="">
                 </div>
                 <div class="content">
                     <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio2/abl.svg" alt="">

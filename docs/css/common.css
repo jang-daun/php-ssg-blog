@@ -358,9 +358,6 @@ a {
 
 /*하단바 시작*/
 .bottom-bar {
-    background-color: white;
-    border-top: 1px solid black;
-    margin-top: 20px;
 }
 
 .bottom-bar>.con {

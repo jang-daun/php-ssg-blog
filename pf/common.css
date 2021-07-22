@@ -90,3 +90,35 @@
     top:40px;
     left:230px;
   }
+
+
+
+
+  * {
+    cursor: none;
+}
+
+.cursor {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    pointer-events: none;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 99;
+    mix-blend-mode: difference;
+}
+
+.cursor-shadow {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    pointer-events: none;
+    transform: translateX(-50%) translateY(-50%);
+    transition: top .2s, left .2s;
+    mix-blend-mode: difference;
+    z-index: 98;
+}
