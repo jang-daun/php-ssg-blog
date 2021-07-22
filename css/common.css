@@ -161,7 +161,6 @@ a {
 /*바디 콘테트 시작*/
 .body-content {
     display: flex;
-    flex-direction: column;
     min-height: 100vh;
     background-color: white;
 }
@@ -466,34 +465,7 @@ main {
 /*메인 끝*/
 
 /*커서 시작*/
-* {
-    cursor: none;
-}
 
-.cursor {
-    position: fixed;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: white;
-    pointer-events: none;
-    transform: translateX(-50%) translateY(-50%);
-    z-index: 99;
-    mix-blend-mode: difference;
-}
-
-.cursor-shadow {
-    position: fixed;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: white;
-    pointer-events: none;
-    transform: translateX(-50%) translateY(-50%);
-    transition: top .2s, left .2s;
-    mix-blend-mode: difference;
-    z-index: 98;
-}
 
 /*커서 끝*/
 
@@ -528,3 +500,24 @@ main {
 
 
 /* 커스텀 끝 */
+
+
+.php_background {
+    width:100vw;
+    height: 100vh;
+    position: fixed;
+    top:0;
+}
+.php_bar {
+    position: fixed;
+    bottom:2%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.php_app {
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:50px;
+}

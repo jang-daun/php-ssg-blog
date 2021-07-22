@@ -93,10 +93,11 @@ if ( !isset($pageThumbUrl) ) {
 </head>
 
 <body>
-    <div class="cursor"></div>
-    <div class="cursor-shadow"></div>
 
     <div class="body-content">
+        <img class="php_background" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/background.jpg" alt="">
+        <img class="php_bar" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/bar.png" alt="">
+        <img class="php_app" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/thedownclub.png" alt="">
         <!--
         <header class="top-bar con-min-width visible-md-up">
             <div class="con height-100p flex flex-jc-sb">
