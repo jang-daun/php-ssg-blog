@@ -162,8 +162,8 @@ a {
 .body-content {
     display: flex;
     min-height: 100vh;
-    background-color: white;
-}
+    background-color:  #FFE8A3;
+};
 
 .body-content main {
     flex-grow: 1;

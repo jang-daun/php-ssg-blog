@@ -59,6 +59,13 @@ if ( !isset($pageThumbUrl) ) {
     <!--폰트 어썸-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 
+    <!--gsap 시작-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
     <!--제이쿼리-->
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -95,9 +102,7 @@ if ( !isset($pageThumbUrl) ) {
 <body>
 
     <div class="body-content">
-        <img class="php_background" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/background.jpg" alt="">
-        <img class="php_bar" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/bar.png" alt="">
-        <img class="php_app" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/thedownclub.png" alt="">
+        
         <!--
         <header class="top-bar con-min-width visible-md-up">
             <div class="con height-100p flex flex-jc-sb">
