@@ -48,7 +48,8 @@
 </head>
 
 <body>
-
+<div class="cursor"></div>
+<div class="cursor-shadow"></div>
        <div class="section-1">
               
               <div class="menu-bar">

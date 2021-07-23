@@ -1,0 +1,76 @@
+html {
+    overflow-y: hidden;
+}
+.line {
+    width:85vw;
+    
+    position: absolute;
+    top:52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.down {
+    position: absolute;
+    top:5%;
+    left: 13%;
+    width:696.8359px;
+    
+}
+.thelist {
+    width:442.7754px;
+    position: absolute;
+    bottom:5%;
+    right: 13%;
+}
+
+.deco {
+    position: absolute;
+}
+
+.circle1 {
+    width:21px;
+    top:17%;
+    left: 15%;
+    animation:ani 1s infinite alternate;  
+}
+@keyframes ani{
+0%{transform:translate(0,0);}
+100%{transform:translate(0,10px);}
+
+}
+
+.circle2 {
+    width:15px;
+    bottom:17%;
+    right: 12%;
+    animation:ani 1s infinite alternate;  
+}
+@keyframes ani{
+0%{transform:translate(0,0);}
+100%{transform:translate(0,10px);}
+
+}
+.sline1 {
+    width:113px;
+    bottom: 6%;
+    right:43%;
+}
+
+.sline2 {
+    width:103px;
+    bottom: 19%;
+    right:14%;
+}
+.sline3 {
+    width:109px;
+    top:17%;
+    left: 8%;
+}
+
+.sline4 {
+    width:87px;
+    top:8%;
+    left: 58%;
+}
