@@ -83,7 +83,8 @@
 </head>
 
 <body>
-
+    <div class="cursor"></div>
+    <div class="cursor-shadow"></div>    
     <div class="body-content">
         
         <!--
@@ -127,18 +128,13 @@
         <div class="mobile-top-bar-padding visible-sm-down"></div>
 
         <header class="mobile-top-bar con-min-width visible-sm-down flex">
-            <div class="mobile-top-bar__btn-toggle-side-bar flex-as-c flex-1-0-0">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
             <a href="index.html" class="mobile-logo-box">
-                <img src="https://jang-daun.github.io/myblog/img/logo/heart-2.svg" alt="">
+                <img class="" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/mobilelogo.svg" alt="">
             </a>
-            <div class="flex-1-0-0"></div>
         </header>
         <!--모바일 탑바 끝-->
 
+ 
         <!--모바일 사이드 바 시작-->
 
         <div data-sel-index="0" class="mobile-side-bar visible-sm-down">
@@ -173,6 +169,11 @@
             </nav>
         </div>
         <!--모바일 사이드 바 끝-->
+
+        <div class="visible-sm-down phpsidezindex mobile-top-bar__btn-toggle-side-bar flex-as-c flex-1-0-0">
+            <img class="phpside" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/sidebar.svg" alt="">
+        </div>
+
 
         <main class="">
 
