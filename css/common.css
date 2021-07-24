@@ -122,6 +122,9 @@ a {
 .bg-red {
     background-color: red;
 }
+.bg-white {
+    background-color: white;
+}
 
 .bg-gold {
     background-color: gold;
@@ -235,13 +238,17 @@ a {
 
 /*모바일 탑 바 시작*/
 .mobile-top-bar {
-    background-color: white;
+    
     height: var(--mobile-top-bar__height);
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .mobile-top-bar-padding {
@@ -251,10 +258,9 @@ a {
 .mobile-logo-box img {
     display: flex;
     align-items: center;
-    justify-content: :center;
+    justify-content: center;
     width: 40px;
     height: 60px;
-    padding-top: 18px;
 }
 
 .mobile-icon>div {
@@ -283,7 +289,7 @@ a {
     left: 0;
     width: 30px;
     height: 20%;
-    background-color: black;
+    background-color: white;
     transition: top var(--mobile-top-bar__btn-toggle-side-bar__dur), transform var(--mobile-top-bar__btn-toggle-side-bar__dur), opacity var(--mobile-top-bar__btn-toggle-side-bar__dur);
 }
 
@@ -326,7 +332,7 @@ a {
     left: -100%;
     width: 100%;
     bottom: 0;
-    background-color: white;
+    background-color: rgba(255,255,255,1);
     transition: left .3s;
     display: flex;
     align-items: center;
@@ -465,7 +471,34 @@ main {
 /*메인 끝*/
 
 /*커서 시작*/
+* {
+    cursor: none;
+}
 
+.cursor {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    pointer-events: none;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 99;
+    mix-blend-mode: difference;
+}
+
+.cursor-shadow {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    pointer-events: none;
+    transform: translateX(-50%) translateY(-50%);
+    transition: top .2s, left .2s;
+    mix-blend-mode: difference;
+    z-index: 98;
+}
 
 /*커서 끝*/
 
@@ -520,4 +553,16 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     width:50px;
+}
+
+.phpside {
+    width:40px;
+    position: fixed;
+    
+    top:20%;
+    left: 50%;
+    transform: translateX(-50%)
+}
+.phpsidezindex {
+    z-index: 999;
 }

@@ -104,3 +104,21 @@ $(window).mousemove(function (e) {
         left: e.clientX
     });
 });
+
+/*
+  function MobileSideBar_init() {
+    $('.mobile-top-bar__btn-toggle-side-bar').click(function () {
+        let $this = $(this);
+
+        if ($this.hasClass('bg-white')) {
+            $this.removeClass('bg-white');
+            $('.mobile-top-bar').removeClass('bg-white');
+        } else {
+            $this.addClass('bg-white');
+            $('.mobile-top-bar').addClass('bg-white');
+        }
+    });
+}
+
+MobileSideBar_init();
+*/

@@ -13,7 +13,7 @@ setInterval(function(){
 const Timeline__Section3__1 = gsap.timeline({
     scrollTrigger: {
       trigger: ".line",
-      start: "-=100 top",
+      start: "-=10000 top",
       end: "bottom top"
     }
   });

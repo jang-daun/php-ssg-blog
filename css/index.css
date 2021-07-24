@@ -1,9 +1,8 @@
 html {
-    overflow-y: hidden;
+    overflow: hidden;
 }
 .line {
     width:85vw;
-    
     position: absolute;
     top:52%;
     left: 50%;
@@ -72,5 +71,6 @@ html {
 .sline4 {
     width:87px;
     top:8%;
-    left: 58%;
+    left: 59%;
 }
+
