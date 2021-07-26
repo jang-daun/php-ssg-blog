@@ -74,3 +74,18 @@ html {
     left: 59%;
 }
 
+
+.clickm {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.click {
+    width:180px;
+    animation:rotate 1s infinite alternate;  
+}
+@keyframes rotate{
+0%{transform:rotate(10deg);}
+100%{transform:rotate(-10deg);}

@@ -38,6 +38,10 @@ $articles = &getArticles();
 <img class="down visible-md-up" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/down.svg" alt="">
 <img class="thelist visible-md-up" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/thelist.svg" alt="">
 
+<a class="clickm" href="https://b.downloadingthelist.com/pf/index.html">
+    <img class="click" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/click.svg" alt="">
+</a>
+
 <?php
 require_once "foot.php";
 ?>
