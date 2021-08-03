@@ -43,7 +43,7 @@ require_once "head.php";
   <section class="section section1 section2 con-min-width bg-black">
     <div class="backcircle backcircle2"></div>
     <div class="notitle">
-      <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/no2p.svg" alt="">
+      <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio2/no2.svg" alt="">
     </div>
     <div class="device">
       <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/greenpf.png" alt="">
