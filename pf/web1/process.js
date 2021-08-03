@@ -95,14 +95,7 @@ const Timeline__Section2__1 = gsap.timeline({
       duration: 0.45
     },
   );
-  Timeline__Section5__1.from(
-    ".section-5 .lines",
-    {
-      opacity: 0,
-      width:0,
-      duration: 0.3
-    },
-  );
+  
   Timeline__Section5__1.from(
     ".section-5 .ctct div:last-of-type",
     {

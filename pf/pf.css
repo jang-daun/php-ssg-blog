@@ -46,10 +46,10 @@
 }
 
 .notitle img {
-    width:100mm;
+    width:90mm;
     position: absolute;
     left: 50%;
-    top:15%;
+    top:17%;
     transform: translateX(-50%);
 }
 
@@ -99,7 +99,7 @@
 
 
 .btn img {
-    width:24mm;
+    width:22mm;
     z-index: 999;
 }
 
