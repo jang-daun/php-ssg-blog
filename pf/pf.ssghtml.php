@@ -53,10 +53,10 @@ require_once "head.php";
     </div>
     <div class="btn">
       <a href="web1/process.html" target="_blank" class="process" style="border:1px solid black;">
-        <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/problack.svg" alt="">
+        <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio2/precess.svg" alt="">
       </a>
       <a href="web1/index.ssghtml.php" target="_blank" class="web-site" style="border:1px solid black;">
-        <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/webblack.svg" alt="">
+        <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio2/website.svg" alt="">
       </a>
     </div>
   </section>
