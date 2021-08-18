@@ -39,7 +39,7 @@
 
     <link rel="stylesheet" href="common.css">
     <script src="common.js" defer></script>
-
+    <!--gsap 끝-->
 </head>
 
 <body>
@@ -50,7 +50,7 @@
             <a href="#">후원 출판사</a>
         </div>
         <div class="tob-bar__logo">
-            <a href="#">
+            <a href="index.ssghtml.php">
                 <img style="width:238px;" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/logo.svg" alt="로고">
             </a>
         </div>
@@ -194,31 +194,71 @@
             </div>
         </form>
     </div>
-
-    
-
     <!--gnb 끝-->
 
 
-    <!--메인 비주얼-->
-    <div class="main ">
-        <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/menu_underline.svg" alt="" class="underline">
-        <div class="main_visual bo flex">
+    <!--메인 비주얼 시작-->
+    <div class="main">
+        <div class="main_visual flex">
             <div class="main_visual__main">
                 <div class="img-box">
-                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/main_1.jpg" alt="" class="메인1">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/main_1.jpg" alt="메인1">
+                    <img class="main_txt" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/main_1_1.svg"
+                        alt="메인텍스트1">
                 </div>
             </div>
             <div class="main_visual__main">
                 <div class="img-box">
-                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/main_3.jpg" alt="" class="메인1">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/main_3.jpg" alt="메인2">
+                    <img class="main_txt" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/main_2_1.svg"
+                        alt="메인텍스트2">
                 </div>
             </div>
             <div class="main_visual__main">
                 <div class="img-box">
-                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/main_2.jpg" alt="" class="메인1">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/main_2.jpg" alt="메인3">
+                    <img class="main_txt" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/main_3_1.svg"
+                        alt="메인텍스트3">
                 </div>
             </div>
         </div>
-        
+        <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/menu_underline.svg" alt="" class="underline">
     </div>
+
+
+    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/scroll.svg" alt="" class="scroll">
+    <span class="scroll-line"></span>
+
+    <!--메인 비주얼 끝-->
+
+    <!--금주의 그림책 시작-->
+    <div class="week bb flex">
+        <img class="deco deco_1" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/deco_1.svg" alt="">
+        <img class="deco deco_6" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/deco_6.svg" alt="">
+        <img class="deco deco_3" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/deco_3.svg" alt="">
+        <img class="deco deco_4" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/deco_4.svg" alt="">
+        <img class="deco deco_5" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/deco_5.svg" alt="">
+        <img class="deco deco_2" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/deco_2.svg" alt="">
+
+        <div class="week__title bb">
+            금주의 그림책
+        </div>        
+        <div class="week__main-bord con con-min-width">
+            <div class="week__kepp_btn flex bb">
+                <div class="keep_btn_yellow bb btn">
+                    <img class="yellow" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/week_yellow.svg" alt="">
+                    <span>한국</span>
+                </div>
+                <div class="keep_btn_sky bb btn">
+                    <img class="sky" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/week_sky.svg" alt="">
+                    <span>한국</span>
+                </div>
+                <div class="keep_btn_green bb btn">
+                    <img class="green" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/week_green.svg" alt="">
+                    <span>한국</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--금주의 그림책 끝-->
