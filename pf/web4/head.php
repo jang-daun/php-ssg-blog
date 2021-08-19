@@ -235,30 +235,50 @@
     <div class="week bb flex">
         <img class="deco deco_1" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/deco_1.svg" alt="">
         <img class="deco deco_6" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/deco_6.svg" alt="">
-        <img class="deco deco_3" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/deco_3.svg" alt="">
+        
         <img class="deco deco_4" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/deco_4.svg" alt="">
         <img class="deco deco_5" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/deco_5.svg" alt="">
         <img class="deco deco_2" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/deco_2.svg" alt="">
 
-        <div class="week__title bb">
+        <div class="week__title">
             금주의 그림책
         </div>        
         <div class="week__main-bord con con-min-width">
-            <div class="week__kepp_btn flex bb">
-                <div class="keep_btn_yellow bb btn">
-                    <img class="yellow" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/week_yellow.svg" alt="">
+            <div class="main-bord_btn flex">
+                <div class="btn">
+                    <img class="week_yellow" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/week_yellow.svg" alt="">
                     <span>한국</span>
                 </div>
-                <div class="keep_btn_sky bb btn">
-                    <img class="sky" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/week_sky.svg" alt="">
-                    <span>한국</span>
+                <div class="btn">
+                    <img class="week_sky" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/week_sky.svg" alt="">
+                    <span>번역</span>
                 </div>
-                <div class="keep_btn_green bb btn">
-                    <img class="green" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/week_green.svg" alt="">
-                    <span>한국</span>
+                <div class="btn">
+                    <img class="week_green" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/week_green.svg" alt="">
+                    <span>원서</span>
                 </div>
             </div>
+            <div class="main-bord_contents flex bb">
+                <div class="main-bord_contents__book bb">
+                    <div class="color_square bo"></div>
+                    <div class="book_square bo"></div>
+                </div>
+                <div class="main-bord_contents__contents bb"></div>
+            </div>
+            <div class="main-bord_contents main-bord_contents-2 flex br">
+                <div class="main-bord_contents__book bb">
+                    <div class="color_square"></div>
+                </div>
+                <div class="main-bord_contents__contents bb"></div>
+            </div>
+            <div class="main-bord_contents main-bord_contents-3 flex bo">
+                <div class="main-bord_contents__book bb">
+                    <div class="color_square"></div>
+                </div>
+                <div class="main-bord_contents__contents bb"></div>
+            </div>
         </div>
+        <img class="deco deco_3" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/deco_3.svg" alt="">
     </div>
 
     <!--금주의 그림책 끝-->

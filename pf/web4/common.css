@@ -413,7 +413,7 @@ form ul {
     margin-top: 120px;
     position: relative;
     justify-content: center;
-    overflow: hidden;
+    overflow-x: hidden;
     flex-direction: column;
 }
 
@@ -424,18 +424,17 @@ form ul {
 
 .deco_1 {
     width:80px;
-    top:30%;
+    top:20%;
     right:10%;
 }
 .deco_2 {
     width:70px;
     top:20%;
     left:8%;
-    z-index: -1;
 }
 .deco_3 {
     width:180px;
-    top:63%;
+    top:75%;
     right:13%;
     
 }
@@ -444,30 +443,31 @@ form ul {
     width:210px;
     top:65%;
     left:-5%;
+    z-index: -1;
 }
 
 .deco_5 {
     width:250px;
     top:0%;
     left:10%;
-    z-index: -3;
+    z-index: -1;
 }
 .deco_6 {
     width:400px;
-    bottom:15%;
+    bottom:12%;
     right:-2%;
-    z-index: -3;
+    z-index: -1;
 }
 
-/*main-bord*/
 .week__main-bord {
     background-color: white;
     z-index: ;
     height: 650px;
     box-shadow: 5px 5px 5px 5px rgba(0,0,0,.025);
-    position: relative;
 }
 
+
+/*금주의 타이틀*/
 .week__title {
     display: flex;
     font-family: 'S-CoreDream-4Regular';
@@ -479,22 +479,79 @@ form ul {
     margin-bottom: 40px;
 }
 
-.week__kepp_btn {
-    position: absolute;
-    width:320px;
-    height: 70px;
-    right:5%;
-    top:-1%;
-    justify-content: space-around;
+/*금주의 버튼*/
+
+.main-bord_btn {
+    width:100%;
+    height: 68px;
+    justify-content: flex-end;
+    cursor: pointer;
 }
 
-.week .btn {
+.week .main-bord_btn .btn {
+    width:83px;
+    margin-left: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.week .main-bord_btn .btn:last-of-type {
+    margin-right: 20px;
+}
+
+.week .main-bord_btn .btn > * {
+    position: absolute;
+}
+.week .main-bord_btn .btn > span {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.week .main-bord_btn .btn:hover > span {
+    font-family: 'S-CoreDream-4Regular';
+}
+
+/*금주의 그림책 컨텐츠*/
+.main-bord_contents {
+    margin-top: 50px;
+    height: 440px;
+    justify-content: space-around;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.main-bord_contents__book {
+    width:330px;
+    margin-right: 110px;
+}
+
+.main-bord_contents__contents {
+    width:660px;
+}
+
+.main-bord_contents-2, .main-bord_contents-3 {
+    opacity: 0;
+}
+
+
+.main-bord_contents__book {
     position: relative;
 }
-.week .btn > * {
+
+.main-bord_contents__book > * {
     position: absolute;
+    width:290px;
+    height: 377.725px;
 }
 
-.week .btn img {
-    width:83px;
+.main-bord_contents__book > .color_square {
+    top:0;
+    left: 0;
+}
+.main-bord_contents__book > .book_square {
+    bottom:0;
+    right: 0;
 }
