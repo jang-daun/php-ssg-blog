@@ -60,7 +60,6 @@
             <a href="#">산그림</a>
         </div>
     </div>
-    <!--탑 바 끝-->
 
     <!--gnb 시작-->
     <div class="gnb con con-min-width flex">
@@ -194,8 +193,6 @@
             </div>
         </form>
     </div>
-    <!--gnb 끝-->
-
 
     <!--메인 비주얼 시작-->
     <div class="main">
@@ -229,24 +226,24 @@
     <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/scroll.svg" alt="" class="scroll">
     <span class="scroll-line"></span>
 
-    <!--메인 비주얼 끝-->
 
     <!--금주의 그림책 시작-->
-    <div class="week bb flex">
+    <div class="week flex">
         <img class="deco deco_1" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/deco_1.svg" alt="">
         <img class="deco deco_6" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/deco_6.svg" alt="">
-        
+
         <img class="deco deco_4" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/deco_4.svg" alt="">
         <img class="deco deco_5" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/deco_5.svg" alt="">
         <img class="deco deco_2" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/deco_2.svg" alt="">
 
         <div class="week__title">
             금주의 그림책
-        </div>        
+        </div>
         <div class="week__main-bord con con-min-width">
             <div class="main-bord_btn flex">
                 <div class="btn">
-                    <img class="week_yellow" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/week_yellow.svg" alt="">
+                    <img class="week_yellow" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/week_yellow.svg"
+                        alt="">
                     <span>한국</span>
                 </div>
                 <div class="btn">
@@ -254,31 +251,125 @@
                     <span>번역</span>
                 </div>
                 <div class="btn">
-                    <img class="week_green" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/week_green.svg" alt="">
+                    <img class="week_green" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/week_green.svg"
+                        alt="">
                     <span>원서</span>
                 </div>
             </div>
-            <div class="main-bord_contents flex bb">
-                <div class="main-bord_contents__book bb">
-                    <div class="color_square bo"></div>
-                    <div class="book_square bo"></div>
-                </div>
-                <div class="main-bord_contents__contents bb"></div>
-            </div>
-            <div class="main-bord_contents main-bord_contents-2 flex br">
-                <div class="main-bord_contents__book bb">
+
+            <!--금주의 그림책 한국-->
+            <div class="main-bord_contents active flex">
+                <div class="main-bord_contents__book main-bord_contents__book-1">
                     <div class="color_square"></div>
+                    <div class="book_square">
+                        <img class="week_ko" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/week_ko.jpg"
+                            alt="">
+                    </div>
                 </div>
-                <div class="main-bord_contents__contents bb"></div>
+                <div class="main-bord_contents__contents flex">
+                    <div class="contents__title flex">
+                        <span>다 같은 나무인 줄 알았어</span>
+                        <span class="flex">2021-07-21</span>
+                    </div>
+                    <div class="contents__pre">
+                        <span>그림작가 김선남 / 글작가 김선남<br>
+                            페이지 48 쪽<br>
+                            출판사 그림책공작소<br>
+                            발행일 2021-07-15</span>
+                    </div>
+                    <div class="contents__view">
+                        <span>꽃과 잎, 향기와 그늘마저 다 다른 나무들!<br>
+                            그 개성이 드러날 때 나무는 빛이 납니다. <br>
+                            <br>
+                            여러분은 언제 빛이 나나요?<br>
+                            <br>
+                            본연의 모습으로 저마다의 삶을 살아가는 나무들을 가만히 마주해 보세요! <br>
+                            <br>
+                            오랫동안 애정 어린 눈빛으로 나무를 지켜봐온 나무 그림책의 대명사,<br>
+                            김선남 작가의 다정한 목소리와 아름다운 그림으로.</span>
+                    </div>
+                </div>
             </div>
-            <div class="main-bord_contents main-bord_contents-3 flex bo">
-                <div class="main-bord_contents__book bb">
+
+            <!--금주의 그림책 번역-->
+            <div class="main-bord_contents main-bord_contents-2">
+                <div class="main-bord_contents__book main-bord_contents__book-1">
                     <div class="color_square"></div>
+                    <div class="book_square">
+                        <img class="week_tran" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/week_tran.jpg"
+                            alt="">
+                    </div>
                 </div>
-                <div class="main-bord_contents__contents bb"></div>
+                <div class="main-bord_contents__contents flex">
+                    <div class="contents__title flex">
+                        <span>기차 타고 세계 여행</span>
+                        <span class="flex">2021-08-05</span>
+                    </div>
+                    <div class="contents__pre">
+                        <span>그림작가 라이언 존슨 / 글작가 너새니얼애덤스<br>
+                            페이지 80 쪽<br>
+                            출판사 북극곰<br>
+                            발행일 2021-08-01</span>
+                    </div>
+                    <div class="contents__view">
+                        <span>
+                            출발합니다, 모두 타세요!<br>
+                            한 권의 책으로 떠나는 아름다운 세계 기차 여행<br>
+                            <br>
+                            스위스의 눈 덮인 알프스산맥을 가로지르는 빙하 특급 열차,<br>
+                            눈 로라를 만나는 북극권 열차,<br>
+                            영국의 유명한 침대 열차와 영화 속 증기 기관차,<br>드넓은 사막을 가로지르는 나미비아의 사막 특급 열차,<br>
+                            유럽과 아시아를 잇는 시베리아 횡단 열차까지!
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!--금주의 그림책 원서-->
+            <div class="main-bord_contents main-bord_contents-3 ">
+                <div class="main-bord_contents__book main-bord_contents__book-1">
+                    <div class="color_square"></div>
+                    <div class="book_square">
+                        <img class="week_eng" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/week_eng.jpg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="main-bord_contents__contents flex">
+                    <div class="contents__title flex">
+                        <span>NEIGHBORS (옆집엔 누가 살까?)</span>
+                        <span class="flex">2021-07-14</span>
+                    </div>
+                    <div class="contents__pre">
+                        <span>그림작가 카샤 데니세비치 / 글작가 카샤 데니세비치<br>
+                            페이지 44 쪽<br>
+                            출판사 Chronicle Books<br>
+                            발행일 2020-09-22</span>
+                    </div>
+                    <div class="contents__view">
+                        <span>
+                            Neighbors is a contemplative picture book about the lives of
+                            <br>our neighbors —who are all around us and ever-present,
+                            <br>yet somehow surprisingly elusive.<br>
+                            <br>
+                            They're everywhere: next door, above, and even below. <br>
+                            More often than not, they are a mystery, <br>a presence suggested by low hums, footfalls,
+                            or perhaps a slammed door.<br>
+
+                        </span>
+                    </div>
+                </div>
             </div>
         </div>
+
         <img class="deco deco_3" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/deco_3.svg" alt="">
     </div>
 
-    <!--금주의 그림책 끝-->
+
+    <!--신간 그림책 시작-->
+
+    <div class="new flex">
+        <img class="new__background" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/new.svg" alt="">
+
+        <div class="new__title">
+            신간 그림책
+        </div>
+    </div>

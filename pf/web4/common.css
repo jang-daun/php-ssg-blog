@@ -24,6 +24,12 @@ html {
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'RIDIBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* 폰트 끝 */
 
@@ -521,6 +527,7 @@ form ul {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    
 }
 
 .main-bord_contents__book {
@@ -530,12 +537,16 @@ form ul {
 
 .main-bord_contents__contents {
     width:660px;
+    font-family: 'RIDIBatang';
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.main-bord_contents-2, .main-bord_contents-3 {
-    opacity: 0;
-}
 
+
+.active {
+    display: flex;
+}
 
 .main-bord_contents__book {
     position: relative;
@@ -548,10 +559,81 @@ form ul {
 }
 
 .main-bord_contents__book > .color_square {
-    top:0;
+    top:2%;
     left: 0;
 }
 .main-bord_contents__book > .book_square {
-    bottom:0;
+    bottom:2%;
     right: 0;
+}
+
+.main-bord_contents__book-1 .color_square {
+    background-color: #FAF194;
+}
+
+
+.main-bord_contents-2 .color_square {
+    background-color: #BAE8E4;
+}
+
+.main-bord_contents-3 .color_square {
+    background-color: #C2D991;
+}
+
+.main-bord_contents__book img {
+    width:290px;
+    height: 377.725px;
+}
+.week .contents__title {
+    justify-content: space-between;
+    width:660px;
+}
+.week .contents__title > span:first-of-type {
+    font-size: 28px;
+}
+.week .contents__title > span:last-of-type {
+    align-self: center;
+    color:#555555;
+}
+
+.week .contents__pre span {
+    font-size: 17px;
+    color:#555555;
+    line-height: 22px;
+    
+}
+
+.week .contents__view span {
+    font-size: 19px;
+    line-height: 25px;
+}
+
+.main-bord_contents__book, .main-bord_contents__contents {
+    cursor: pointer;
+}
+
+
+/*신간 그림책*/
+
+.new {
+    width: 100%;
+    margin-top: 120px;
+    position: relative;
+}
+.new__background {
+    width:100%;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+.new__title {
+    display: flex;
+    font-family: 'S-CoreDream-4Regular';
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font-size: 35px;
+    margin-bottom: 40px;
 }
