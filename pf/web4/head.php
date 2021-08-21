@@ -366,10 +366,22 @@
 
     <!--신간 그림책 시작-->
 
-    <div class="new flex">
+    <div class="new flex bb">
         <img class="new__background" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/new.svg" alt="">
 
-        <div class="new__title">
-            신간 그림책
+        <div class="con new__title">
+            <img class="title-deco" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/left-title.svg" alt="">
+            <span>신간 그림책</span>
+            <img class="title-deco" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/left-title.svg" alt="">
+        </div>
+        <div class="con new__books flex bb">
+            <div class="new__books_ko bb ">
+                <div class="ko__book"></div>
+                <a href="#" class="more"></a>
+            </div>
+            <div class="new__books_eng bb">
+                <div class="eng__book"></div>
+                <a href="#" class="more"></a>
+            </div>
         </div>
     </div>
