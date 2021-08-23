@@ -291,3 +291,21 @@ require_once "head.php";
             </div>
         </div>
     </div>
+
+
+    <!--리뷰 시작-->
+
+    <div class="review con">
+        <div class="review__tab">
+            <div class="tab__btn">
+                <div class="btn_notice"></div>
+                <div class="btn_promo"></div>
+                <div class="btn_data"></div>
+            </div>
+            <div class="tab__contents">
+                <div class="content_notice"></div>
+                <div class="content_promo"></div>
+                <div class="content_data"></div>
+            </div>
+        </div>
+    </div>

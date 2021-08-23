@@ -445,3 +445,10 @@
 .more-ko:hover .arrow {
     transform: translateX(5px);
 } 
+
+/*리뷰 시작*/
+
+.review {
+    height: 960px;
+    width:100%;
+}
