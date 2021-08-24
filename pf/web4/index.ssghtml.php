@@ -9,17 +9,18 @@ require_once "head.php";
 
 
 <script>
-  // 주소 뒤에 / 를 붙여주는 코드
-  // 오직 index.html, index.ssghtml.php 에도 추가해주세요.
-  if (location.href.indexOf('index.ssghtml.php') === -1 && location.href.indexOf('index.html') === -1 &&
-    location.href.substr(-1, 1) !== '/') {
-    location.replace(location.href + '/');
-  }
+    // 주소 뒤에 / 를 붙여주는 코드
+    // 오직 index.html, index.ssghtml.php 에도 추가해주세요.
+    if (location.href.indexOf('index.ssghtml.php') === -1 && location.href.indexOf('index.html') === -1 &&
+        location.href.substr(-1, 1) !== '/') {
+        location.replace(location.href + '/');
+    }
 </script>
 
 
 <!--메인 비주얼 시작-->
-<div class="main">
+<div class="main-1">
+    <div class="main">
         <div class="main_visual flex">
             <div class="main_visual__main">
                 <div class="img-box">
@@ -45,11 +46,13 @@ require_once "head.php";
         </div>
         <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/menu_underline.svg" alt="" class="underline">
     </div>
+</div>
 
 
-    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/scroll.svg" alt="" class="scroll">
-    <span class="scroll-line"></span>
+<img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/scroll.svg" alt="" class="scroll">
+<span class="scroll-line"></span>
 
+<div class="main-2">
 
     <!--금주의 그림책 시작-->
     <div class="week flex">
@@ -59,7 +62,7 @@ require_once "head.php";
         <img class="deco deco_4" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/deco_4.svg" alt="">
         <img class="deco deco_5" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/deco_5.svg" alt="">
         <img class="deco deco_2" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/deco_2.svg" alt="">
-        
+
         <div class="week__title">
             <img class="title-deco" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/left-title.svg" alt="">
             <span>금주의 그림책</span>
@@ -240,7 +243,8 @@ require_once "head.php";
                         <span></span>
                         <a class="more_txt flex" href="#">
                             <span>한국 신간 더 보기</span>
-                            <img class="arrow" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/arrow.svg" alt="">
+                            <img class="arrow" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/arrow.svg"
+                                alt="">
                         </a>
                     </div>
                 </div>
@@ -269,7 +273,7 @@ require_once "head.php";
                     </div>
                     <div class="ko__book">
                         <img class="book_1" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/eng_5.jpg" alt="">
-                        <span>나는 (    ) 사람…</span>
+                        <span>나는 ( ) 사람…</span>
                         <span>2021-08-04</span>
                     </div>
                     <div class="ko__book">
@@ -284,7 +288,8 @@ require_once "head.php";
                         <span class="eng_stick"></span>
                         <a class="more_txt flex" href="#">
                             <span>번역 신간 더 보기</span>
-                            <img class="arrow" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/arrow.svg" alt="">
+                            <img class="arrow" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/arrow.svg"
+                                alt="">
                         </a>
                     </div>
                 </div>
@@ -295,17 +300,67 @@ require_once "head.php";
 
     <!--리뷰 시작-->
 
-    <div class="review con">
-        <div class="review__tab">
-            <div class="tab__btn">
-                <div class="btn_notice"></div>
-                <div class="btn_promo"></div>
-                <div class="btn_data"></div>
+    <div class="review flex con-min-width">
+        <div class="review__tab con">
+            <div class="tab__btn flex">
+                <div class="btn_notice flex">
+                    공지사항
+                </div>
+                <div class="btn_promo flex">
+                    홍보 게시판
+                </div>
+                <div class="btn_data flex">
+                    자료실
+                </div>
             </div>
             <div class="tab__contents">
-                <div class="content_notice"></div>
-                <div class="content_promo"></div>
-                <div class="content_data"></div>
+                <div class="content_notice flex opacity">
+                    <div class="bb notice__box">
+                        <div class="bb">
+                            <span>2021년 블로냐 아동도서전 리가치상 정리</span>
+                            <span>2021-06-14</span>
+                        </div>
+                        <div class="bb">
+                            <span>제 29회 눈높이 아동문학대전</span>
+                            <span>2021-06-13</span>
+                        </div>
+                        <div class="bb">
+                            <span>
+                                2021 IBBY Slient Book 한국 출품작 응모 안내
+                            </span>
+                            <span>2021-06-12</span>
+                        </div>
+                    </div>
+                    <div class="bb notice__box">
+                        <div class="bb">
+                            <span>2020년 뉴욕타임즈우수그림책상</span>
+                            <span>2021-06-11</span>
+                        </div>
+                        <div class="bb">
+                            <span>
+                                산그림 홈페이지 오픈
+                            </span>
+                            <span>2021-06-10</span>
+                        </div>
+                        <div class="bb">
+                            <span>
+                                 일러스트페어 안내
+                            </span>
+                            <span>
+                                2021-06-09
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="content_promo flex">
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="content_data flex">
+                    <div></div>
+                    <div></div>
+                </div>
             </div>
         </div>
     </div>
+</div>

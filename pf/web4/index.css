@@ -1,6 +1,11 @@
 
 /*메인 시작*/
+.main-1 {
+    width:100%;
+    height: 676px;
+}
 .main {
+    width:100%;
     height: 676px;
     position: relative;
 }
@@ -32,17 +37,7 @@
 }
 
 
-.scroll-line {
-    position: absolute;
-    top:92%;
-    left: 50%;
-    transform: translateX(-50%);
-    width:.5px;
-    height: 13px;
-    background-color: black;
-    animation: 1.4s infinite ease-out arrowAnimation;
-    z-index: 999;
-}
+
 
 @keyframes arrowAnimation {
     0% {
@@ -70,7 +65,7 @@
     height: 100%;
 }
 
-.main_visual>div {
+.main_visual > div {
     width: 33.33333%;
 }
 
@@ -105,6 +100,11 @@
     opacity: 1;
 }
 
+
+.main-2 {
+    width: 100vw;
+    height: 100%;
+}
 
 /*금주의 그림책*/
 
@@ -449,6 +449,81 @@
 /*리뷰 시작*/
 
 .review {
-    height: 960px;
+    height: 850px;
     width:100%;
+    margin-top: 250px;
+}
+
+.tab__btn {
+    height: 76px;
+}
+
+.tab__contents {
+    height: 246px;
+    position: relative;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,.025);
+}
+
+.tab__contents > * {
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+
+}
+.tab__btn > * {
+    width:150px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab__btn > div:first-child {
+    background-color: #FAF194;
+}
+
+.tab__btn > div:nth-child(2) {
+    background-color: #BAE8E4;
+}
+
+.tab__btn > div:last-child {
+    background-color: #C2D991;
+}
+
+.opacity {
+    opacity:1;
+}
+
+.content_notice > div > div > span:last-child {
+    width:15px;
+    
+}
+
+.content_notice {
+    justify-content: space-around;
+}
+
+.notice__box {
+    width:560px;
+}
+.notice__box > div {
+    
+    
+}
+.notice__box > div > span:first-child {
+    position: relative;
+}
+.notice__box > div > span:first-child::after {
+    position: absolute;
+    content: "";
+    transform: translateY(-50%);
+    width:20%;
+    height: .6px;
+    top:50%;
+    border:1px solid red;
 }
