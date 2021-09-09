@@ -1,69 +1,100 @@
-<?php
-$pageCode = 'index';
-$pageTitle = "HOME";
-require_once "head.php";
-?>
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en">
 
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+<head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>think things over.</title>
 
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;700&display=swap" rel="stylesheet">
+       <!--폰트 시작-->
+       <link rel="preconnect" href="https://fonts.gstatic.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com">
+       <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+              rel="stylesheet">
+       <!--폰트 끝-->
 
-<link rel="stylesheet" href="index.css">
-<script src="index.js" defer></script>
+       <!--폰트어썸 시작-->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+       <!--폰트어썸 끝-->
+
+       <!--제이쿼리 시작-->
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+       <!--제이쿼리 끝-->
+
+       <!--스와이퍼 시작-->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.css">
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js"></script>
+       <!--스와이퍼 끝-->
+
+       <!--gsap 시작-->
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+       <!--gsap 끝-->
+
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+       <div class="cursor"></div>
+       <div class="cursor-shadow"></div>
 
 
+       <link rel="stylesheet" href="index.css">
+       <script src="index.js" defer></script>
 
-              <div class="bgs">
-                     <div class="circle-1">
-                            <div class="part-1"></div>
+       <div class="main-page bb con-min-width">
+              <div class="con">
+                     <div class="mian-page__box mian-page__txt-box flex">
+                            <img class="" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/main-txt.svg"
+                                   alt="">
                      </div>
-                     <div class="circle-2">
+                     <div class="mian-page__line-box flex">
+                            <div class="mian-page__line"></div>
                      </div>
-                     <div class="circle-3">
-                     </div>
-                     <div class="circle-4">
-                     </div>
-                     <div class="circle-5">
-                     </div>
-                     <div class="circle-6">
-                            <div class="txt">
-                                   The Revolution of the Moon
+                     <div class="mian-page__box mian-page__menu-box flex">
+                            <div class="main-page__stamp flex">
+                                   <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/stamp.svg" alt="">
+                            </div>
+                            <div class="main-page__menu-bar">
+                                   <ul class="main-page__menu-bar_ul">
+                                          <li>
+                                                 <a class="flex" href="#">
+                                                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/to_you.svg"
+                                                               alt="">
+                                                 </a>
+                                          </li>
+                                          <li>
+                                                 <a class="flex" href="bd.ssghtml.php">
+                                                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/main_process.svg"
+                                                               alt="">
+                                                 </a>
+                                          </li>
+                                          <li>
+                                                 <a class="flex" href="about.ssghtml.php">
+                                                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/main_about-me.svg"
+                                                               alt="">
+                                                 </a>
+                                          </li>
+                                          <li>
+                                                 <a class="flex" href="pf.ssghtml.php">
+                                                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/main_portfolio.svg"
+                                                               alt="">
+                                                 </a>
+                                          </li>
+                                          <li>
+                                                 <a class="flex" href="ex.ssghtml.php">
+                                                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/main_etc.svg"
+                                                               alt="">
+                                                 </a>
+                                          </li>
+                                   </ul>
                             </div>
                      </div>
               </div>
-              <div class="light-box-1">
-                     <div class="light-bg"></div>
-                     <div class="light-bg"></div>
-                     <div class="light-bg"></div>
-                     <div class="light-bg"></div>
-                     <div class="light-bg"></div>
-                     <div class="light-bg"></div>
-                     <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/canti.svg" alt="">
-              </div>
-              <div class="light-box-2">
-                     <div class="light-bg"></div>
-                     <div class="light-bg"></div>
-                     <div class="light-bg"></div>
-                     <div class="light-bg"></div>
-                     <div class="light-bg"></div>
-                     <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/imjust.svg" alt="">
-              </div>
-
        </div>
-</div>
-<div class="stars"></div>
 
-<div class="starstar"><img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/star.svg" alt=""></div>
-<div class="logobox">
-       <a href="index.ssghtml.php">
-              <img style="width:60px;" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio2/relogowhite.svg" alt="">
-       </a>
-</div>
+</body>
 
-<?php
-require_once "foot.php";
-?>
+</html>

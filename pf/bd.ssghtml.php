@@ -1,114 +1,124 @@
 <?php
-$pageCode = 'branding';
-$pageTitle = "BRANDING";
+$pageCode = 'process';
+$pageTitle = "process";
 require_once "head.php";
 ?>
+
 
 <link rel="stylesheet" href="bd.css">
 <script src="bd.js" defer></script>
 
-<div class="logobox">
-       <a href="index.ssghtml.php">
-              <img style="width:60px;" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio2/relogoblack.svg" alt="">
-       </a>
+
+
+<div class="process__main con-min-width">
+    <div class="con flex">
+        <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/process_computer.png">
+        <span>Process</span>
+    </div>
 </div>
-</div>
-<div class="section-2 section">
-    <div class="con">
-        <div class="maintitle">
-            <img src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/title1.svg" alt="길을 비추다">
-            <img class="revolution" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio2/revolution.svg" alt="혁명">
+
+<div class="process__section process__over_view con-min-width">
+    <div class="con flex">
+        <div class="process_title">
+            <span>Over View</span>
         </div>
-        <div class="mainvisual">
-            <img class="bgshot" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/visual1.png" alt="홈페이지샷">
-            <img class="bgshottxt" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/visual1-1.svg" alt="샷부연설명">
+        <div class="process_content">
+            <span>
+            슬로건 ‘끊임없이 관찰하고 생각한다’의 뜻으로 ‘think things over.’ 대표하여 디자인 브랜딩하였습니다.<br>
+            ‘고요(생각할考, 헤아릴料)’라는 말에서 영감을 얻었습니다.<br>
+            끊임없이 관찰하고 끊임없이 생각하는 디자이너라는 의미를 담고 있습니다.
+            </span>
         </div>
     </div>
-    <img class="dotline" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/dotline.svg" alt="도트라인">
-</div>    
-<div class="section-3 section">
-    <div class="con">
-        <div class="title">
-        Over View
+</div>
+
+<div class="process__section process__design_concept con-min-width">
+    <div class="con flex">
+        <div class="process_title">
+            <span>Design<br>Concept</span>
         </div>
-        <div class="content">
-        <b>무한한 디자인 세계에서 밝게 빛나는 디자이너</b>가 되고자 우주에 있는 달을 컨셉으로 브랜딩하였습니다.
-        </div>
-        <img class="line" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/line.svg" alt="line">
-        <div class="contents">
-            <img class="content-1" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/overviewcontent.svg" alt="오버뷰">    
+        <div class="process_content">
+            <span>
+            'think things over.' 슬로건은 저를 대표하는 슬로건입니다. 디자이너로서의 기본을 갖추고 완성한 디자인을<br>
+            클라이언트(사용자)에게 보낸다는 의미에서 우표 디자인을 하여 엽서를 비주얼 모티브로 하였습니다.
+            </span>
         </div>
     </div>
-    <img class="dotline" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/dotline.svg" alt="도트라인">
 </div>
-<div class="section-4 section">
-    <div class="con">
-        <div class="title">
-            Key Word
+
+<div class="process__section process__Typo flex con-min-width">
+    <div class="con flex">
+        <div class="process_title">
+            <span>Typo</span>
         </div>
-        <div class="content">
-        <b>클라이언트와 중심을 맞추며 알맞은 궤도를 제시한다</b>는 의미를 담아 디자인 하였습니다.
-        </div>
-        <img class="line" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/line.svg" alt="line">
-        <div class="contents">
-            <img class="content-2" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/keywordcontent.svg" alt="키워드">    
+        <div class="process_content flex">
+            <div>
+                <div class="process_content__title">
+                    logo
+                </div>
+                <div class="process_content__shape">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/shape.svg">
+                </div>
+                <div class="process_content__font">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/process_sandoll.svg">
+                    <div>트랜디하고 감각적인 느낌을 주는<br>영어 서체를 사용했습니다.</div>
+                </div>
+                <div class="process_content__pic">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/process_tto_font.svg">
+                </div>
+            </div>
+            <div>
+                <div class="process_content__title">
+                    title & body
+                </div>
+                <div class="process_content__shape">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/shape.svg">
+                </div>
+                <div class="process_content__font">
+                    <div>Noto Sans KR</div>
+                    <div>가독성이 좋고 정보를 명확하게 전달할 수 있는<br>한글 서체를 사용하였습니다.</div>
+                </div>
+                <div class="process_content__pic">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/process_tto_font_2.svg">
+                </div>
+            </div>
         </div>
     </div>
-    <img class="dotline" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/dotline.svg" alt="도트라인">
 </div>
-<div class="section-5 section">
-    <div class="con">
-        <div class="title">
-            Slogan
+
+<div class="process__section process__color_system con-min-width">
+    <div class="con flex">
+        <div class="process_title">
+            <span>Color<br>System</span>
         </div>
-        <div class="content">
-        revolution은 공전이라는 뜻도 있지만, 혁명이라는 뜻도 지니고 있습니다.<br>
-        이중적인 의미를 이용하여 달의 혁명 <b> 즉, 디자이너로서 새로운 혁명의 길을 비춘다는 의미</b>를 전합니다. 
-        </div>
-        <img class="line" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/line.svg" alt="line">
-        <div class="contents">
-            <img class="content-3" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/slogan.svg" alt="슬로건">    
+        <div class="process_content">
+            <div class="flex">
+                <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/process_color_1.svg">
+                <span><b>중심의 역할</b>을 하는 동시에 <b>주의력을 높이고 밝고 생동감</b>있는<br>
+                이미지와 동시에 <b>신뢰감과 신중함, 성공적인 이미지</b>를 전달하기<br>
+                위해 노란색과 파란색 계열의 색상을 사용했습니다.</span>
+            </div>
+            <div class="flex"> 
+                <span><b>이상을 추구하고 신선하고 완전함을 추구하는</b> 이미지를
+                    <br>전달하기 위해 흰색을 사용했습니다.</span>
+                <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/process_color_2.svg">
+            </div>
         </div>
     </div>
-    <img class="dotline" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/dotline.svg" alt="도트라인">
 </div>
-<div class="section-6 section">
-    <div class="con">
-        <div class="title">
-            Type & Color
+
+<div class="process__section process__logo_system con-min-width">
+    <div class="con flex">
+        <div class="process_title">
+            <span>Logo<br>System</span>
         </div>
-        <div class="content">
-        고요함, 차분함을 담고있으면서 웅장한 디자인을 표현할 수 있는 black & White 컬러를 사용했습니다.<br>
-        우주와 달 컨셉에 맞게 깔끔하면서도 힘있는 타이포를 선정하였습니다.
+        <div class="process_content">
+            <span>
+            로고는 총 3가지로 용도에 따라 적용할 수 있도록 제작하였습니다.
+            <br>뇌를 간단하게 원으로 형태화 하였고 ‘think things over’의 슬로건을 넣었습니다.
+            </span>
+            <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/process_logo-type.svg">
         </div>
-        <img class="line" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/line.svg" alt="line">
-        <div class="contents">
-            <img class="content-4" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/typo.svg" alt="타이포컬러">    
-        </div>
-    </div>
-    <img class="dotline" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/dotline.svg" alt="도트라인">
-</div>
-<div class="section-7 section">
-    <div class="con">
-        <div class="title">
-            Logo
-        </div>
-        <div class="content">
-        브랜드 컨셉에 맞게 달의 형태와 슬로건을 합쳐 로고를 제작하였습니다.
-        </div>
-        <img class="line" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/line.svg" alt="line">
-        <div class="contents">
-            <img class="content-5" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/logocontent.svg" alt="로고">    
-        </div>
-    </div>
-    <img class="dotline" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/dotline.svg" alt="도트라인">
-</div>
-<div class="section-8 section">
-    <div class="con">
-        <a href="pf.ssghtml.php">
-            <img class="pfgo" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/gopf.svg" alt="포폴">
-            <img class="pfarrow" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/pfar.svg" alt="포폴화살표">
-        </a>
     </div>
 </div>
 
