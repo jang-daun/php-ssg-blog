@@ -122,6 +122,31 @@ require_once "head.php";
     </div>
 </div>
 
+<div class="pages_intro con-min-width">
+    
+    <div class="con flex">
+        <div class="pages_intro__main-page pages_intro__page">
+            <div class="pages_intro__page_title">Main Page</div>
+            <div class="pages_intro__page_content">우표 타입 로고와 슬로건을 합성하여 엽서형태로 디자인했습니다.
+<br>디자이너가 끊임없는 사고를 통해 완성한 디자인을 전송한다는 의미를 표현하였습니다.</div>
+            <div class="pages_intro__page_shape">
+                <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/shape.svg">
+            </div>
+            <div class="pages_intro__page_img">
+
+            </div>
+        </div>
+        <div class="pages_intro__about-page pages_intro__page">
+
+        </div>
+        <div class="pages_intro__port-page pages_intro__page">
+
+        </div>
+        <div class="pages_intro__etc-page pages_intro__page">
+
+        </div>
+    </div>
+</div>
 
 <?php
 require_once "foot.php";

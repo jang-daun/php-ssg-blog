@@ -122,3 +122,27 @@
     width:1100px;
     margin-top: 135px;
 }
+
+
+/*pages_intro*/
+.pages_intro {
+    background-color: #F6F6F6;
+    height: 5000px;
+    margin-top: 165px;
+    overflow: hidden;
+}
+
+.pages_intro__page {
+    background-color: red;
+    height: 900px;
+    margin-top: 210px;
+}
+
+.pages_intro__main-page {
+    height: 1100px;
+}
+
+.pages_intro .con {
+    flex-direction: column;
+    justify-content: center;
+}
