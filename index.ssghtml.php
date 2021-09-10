@@ -8,7 +8,7 @@ $articles = &getArticles();
 <script defer src="js/index.js"></script>
 
 
-
+<!--
 
 <section id="banner">
     <div class="slide-wrapper">
@@ -23,7 +23,7 @@ $articles = &getArticles();
         </div>
     </div>
 </section>
-
+-->
 
 
 
