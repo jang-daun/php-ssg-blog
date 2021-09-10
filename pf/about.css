@@ -1,0 +1,59 @@
+.tto_menu-box__menu-bar>ul>li:nth-of-type(2)>a::after {
+    width: 100%;
+}
+/*about_main*/
+.about_main {
+    margin-top: 50px;
+}
+
+.about_main > .con {
+    justify-content: space-between;
+}
+
+.about_main .about_main__intro {
+    width:660px;
+}
+
+.about_main .about_main__intro_title {
+    font-size: 100px;
+    font-family: noto-sans-display, sans-serif;
+    font-weight: black;
+}
+
+.about_main .about_main__intro_cont1 {
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.about_main .about_main__intro_cont2 {
+    margin-top: 85px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.about_main .about_main__intro_cont3 {
+    margin-top: 100px;
+}
+
+
+.about_main .about_main__img {
+    position: relative;
+    width: 780px;
+}
+.about_main .about_main__img > * {
+    position: absolute;
+    left: 0;
+}
+.about_main .about_main__img > *:first-of-type {
+    top:17%;
+    left: 15%;
+    text-align: right;
+}
+.about_main .about_main__img > *:last-of-type {
+    z-index: -2;
+}
+
+.about_main .about_main__img_stamp img {
+    width:1000px;
+}
+

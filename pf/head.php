@@ -49,7 +49,9 @@
     <div class="tto_menu-box con-min-width">
         <div class="con flex">
             <div class="tto_menu-box__logo-box flex">
-                <img class="" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/tto_logo.svg">
+                <a href="index.ssghtml.php">
+                    <img class="" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/tto_logo.svg">
+                </a>
             </div>
             <div class="tto_menu-box__menu-bar">
                 <ul class="flex">
