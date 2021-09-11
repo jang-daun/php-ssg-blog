@@ -1,0 +1,96 @@
+.tto_menu-box__menu-bar > ul > li:nth-of-type(4) > a::after {
+    width: 100%;
+}
+
+/*etc__section*/
+
+.etc__intro {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+
+.etc__intro .title {
+    width:500px;
+}
+
+
+.etc__intro .con > div {
+    margin-top: 15px;
+    font-size: 22px;
+}
+
+
+.etc__intro .con > *:last-child {
+    margin-top: 88px;
+}
+
+/*etc__section*/
+.etc__section {
+    margin-bottom: 150px;
+}
+
+.etc__section .con {
+    align-items: center;
+    justify-content: center;
+}
+
+.etc_shape {
+    margin-left: 90px;
+}
+.etc_txt {
+    flex-direction: column;
+    margin-left: 135px;
+}
+
+.etc_txt > *:first-child {
+    font-size: 80px;
+    font-family: noto-sans-display, sans-serif;
+    font-weight: black;
+    line-height: 80px;
+}
+
+.etc_txt > *:nth-child(2) {
+    font-size: 23px;
+    margin-top: 30px;
+}
+
+.etc_txt > *:nth-child(3) {
+    font-size: 31px;
+    margin-top: 61px;
+    font-weight: 700;
+    color:#7CA2E8;
+    align-items: center;
+    justify-content: space-between;
+    width:130px;
+}
+
+.etc_txt .view-yellow {
+    color: #FEE094;
+}
+.etc_txt .view-green {
+    color: #008E4A;
+}
+
+.etc_txt .view-orange {
+    color: #F4A950;
+}
+
+
+/*about__t-story*/
+
+.about__t-story .etc_shape {
+    margin-right: 90px;
+}
+.about__t-story .etc_txt {
+    flex-direction: column;
+    margin-right: 135px;
+}
+.about__t-story .etc_shape img:first-child {
+    margin-right: 40px;
+}
+
+/*about__calender*/
+.about__calender .etc_shape {
+    margin-right: 90px;
+}

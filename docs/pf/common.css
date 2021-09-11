@@ -13,85 +13,32 @@
     text-decoration: none;
   }
   
-  
+  html {
+    font-family: "Noto Sans KR", sans-serif;
+}
   /* 노말라이즈 끝 */
 
   :root {
-    --site-width:1920px;
-
+    --site-width:1440px;
   }
   
+  .con-min-width {
+    min-width:var(--site-width);
+  }
   
   .con {
-    width:100%;
-  }
-
-  .con {
+    width:var(--site-width);
     margin-left: auto;
     margin-right: auto;
   }
-  
 
-  .menu-bar {
-    width:100%;
+  .bb {
+    border:1px solid red;
+  }
+
+  .flex {
     display: flex;
-    justify-content: center;
-    z-index:999;
-    position:absolute;
-    top:7%;
-    transform:translateY(-50%);
   }
-  
-  
-  .menu-bar ul {
-    display:flex;
-  }
-
-  .menu-bar ul li {
-    margin: 0 5px;
-    width:150px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-  }
-
-  .menu-bar ul li a {
-    font-size: 20px;
-    margin:0 20px;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-weight: 400;
-    position: relative;
-  }
-
-  .menu-bar ul li a:hover {
-    font-weight: 700;
-  }
-
-  .menu-bar ul li a::after {
-    position: absolute;
-    content:"";
-    width:0%;
-    height: 2px;
-    background-color: black;
-    top:100%;
-    left: 0;
-    transition: all .4s;
-  }
-
-  .menu-bar ul li a:hover::after {
-    width:100%;
-  }
-
-  html {
-    overflow-x: hidden;
-  }
-  .logobox {
-    position: absolute;
-    top:40px;
-    left:230px;
-  }
-
-
 
 
   * {
@@ -115,10 +62,48 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: black;
+    background-color: white;
     pointer-events: none;
     transform: translateX(-50%) translateY(-50%);
-    transition: top .2s, left .2s;
+    transition: top .1s, left .1s;
     mix-blend-mode: difference;
     z-index: 98;
+}
+
+
+/*tto_menu-box*/
+.tto_menu-box {
+  margin-top: 40px;
+}
+
+.tto_menu-box > .con {
+  justify-content: space-between;
+}
+.tto_menu-box__logo-box {
+  align-items: center;
+}
+
+.tto_menu-box__menu-bar > ul {
+  align-items: center;
+  height: 100%;
+}
+
+.tto_menu-box__menu-bar > ul > li > a {
+  font-weight: 700;
+  font-size: 22px;
+  margin-left: 100px;
+  position: relative;
+}
+.tto_menu-box__menu-bar > ul > li > a::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width:0%;
+  height: 1.5px;
+  bottom: 0;
+  background-color: black;
+  transition: all .4s;
+}
+.tto_menu-box__menu-bar > ul > li:hover > a::after {
+  width:100%;
 }
