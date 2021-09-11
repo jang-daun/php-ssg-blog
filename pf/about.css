@@ -1,6 +1,8 @@
 .tto_menu-box__menu-bar>ul>li:nth-of-type(2)>a::after {
     width: 100%;
 }
+
+
 /*about_main*/
 .about_main {
     margin-top: 50px;
@@ -57,3 +59,155 @@
     width:1000px;
 }
 
+
+/*.about__section*/
+.about__section {
+    margin-top: 175px;
+}
+
+
+/*about_title*/
+
+.about_title > span:first-of-type {
+    font-size: 30px;
+}
+
+.about_title > span:last-of-type {
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: 35px;
+}
+
+.about__section .about_content {
+    margin-top: 100px ;
+}
+
+.about__section .about_content span {
+    font-size: 20px;
+}
+
+/*about_mind*/
+
+.about__mind {
+    position: relative;
+}
+
+.about__mind .tape {
+    position: absolute;
+    bottom: -95%;
+    left: 60%;
+}
+
+
+/*about__mind-map*/
+
+.about__mind-map {
+    background-color: #F6F6F6;
+    height: 1500px;
+}
+
+.about__mind-map .con {
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.about__mind-map .about_content {
+    position: relative;
+    height: 1080px;
+}
+.about__mind-map .about_content > * {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about__mind-map .about_content__title {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.about__mind-map .about_content__dotted-3 {
+    top:79%;
+    left: 51%;
+}
+
+.about__mind-map .about_content__sub-cont2 {
+    top:79%;
+    left: 49.5%;   
+}
+
+.about__mind-map .about_content__list {
+    top:52%;
+}
+
+.about__mind-map .about_content__list_back {
+    top:51.5%;
+}
+
+/*about__personal*/
+
+.about__personal .about_content {
+    position: relative;
+    height: 410px;
+}
+
+.about__personal .about_content > * {
+    position: absolute;
+}
+
+.about__personal .about_content > img:last-child {
+    left: 20.8%;
+    top:2.3%;
+}
+
+.about__personal .about_content {
+    justify-content: flex-start;
+}
+
+
+/*about__skill*/
+
+.about__skill .about_content__pic {
+    position: relative;
+}
+.about__skill .about_content__pic > img {
+    position: absolute;
+    width:980px;
+}
+.about__skill .about_content__pic > img:last-of-type {
+    display: none;
+}
+
+.about__skill .about_content__txt {
+    width:450px;
+}
+
+.about__skill .about_content__txt .forty {
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+
+.about__skill .about_content__txt div.forty {
+    color: #7CA2E8;
+}
+
+.about__skill .about_content__txt span.forty-no {
+    color: #FEE094;
+}
+.about__skill .about_content__txt span.forty-no2 {
+    text-decoration: underline;
+}
+
+.about__skill .about_content__txt .twenty {
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.about__skill .about_content__txt .red {
+    color:#E33D3D;
+    font-weight: 600;
+    margin-top: 25px;
+}
