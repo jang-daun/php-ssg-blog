@@ -69,7 +69,7 @@
                                                  <a class="flex" href="bd.ssghtml.php">
                                                         <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/main_process.svg"
                                                                alt="">
-                                                 </a>
+                                                 </a> 
                                           </li>
                                           <li>
                                                  <a class="flex" href="about.ssghtml.php">

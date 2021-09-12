@@ -1,10 +1,11 @@
 <?php
 $pageCode = 'portfolio';
-$pageTitle = "portfolio";
+$pageTitle = "portfolio4";
 require_once "head.php";
 ?>
 
 <link rel="stylesheet" href="pf.css">
+<link rel="stylesheet" href="pf4.css">
 <script src="pf.js" defer></script>
 
 
@@ -36,10 +37,10 @@ require_once "head.php";
                 <div class="port__section-left__title">
                     <div class="port_left_title_back"></div>
                     <div class="port_left_title">
-                        Personal<br>Website
+                    Event<br>Page
                     </div>
                     <div class="port_left_cont">
-                        개인 웹 사이트 ‘think things over.’
+                    이벤트 페이지 ‘’
                     </div>
                 </div>
             </div> 
@@ -48,10 +49,10 @@ require_once "head.php";
             </div>
             <div class="port__section-right flex">
                 <div class="port__section-right_img">
-                    <img class="port_personal" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/port_personal.png">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/port_personal.png">
                 </div>
                 <div class="port__section-right_explan">
-                개인 웹사이트 디자인 / August 2021 / 기획, 디자인 100%
+                이벤트 페이지 / May 2021 / 기획, 디자인 100%
                 </div>
                 <div class="port__section-right_site flex">
                     <a target="_blank" href="#">Process</a>

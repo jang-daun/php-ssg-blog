@@ -1,10 +1,11 @@
 <?php
 $pageCode = 'portfolio';
-$pageTitle = "portfolio";
+$pageTitle = "portfolio3";
 require_once "head.php";
 ?>
 
 <link rel="stylesheet" href="pf.css">
+<link rel="stylesheet" href="pf3.css" defer>
 <script src="pf.js" defer></script>
 
 
@@ -36,10 +37,10 @@ require_once "head.php";
                 <div class="port__section-left__title">
                     <div class="port_left_title_back"></div>
                     <div class="port_left_title">
-                        Personal<br>Website
+                    Mobile<br>UX|UI
                     </div>
                     <div class="port_left_cont">
-                        개인 웹 사이트 ‘think things over.’
+                    모바일 앱 디자인 ‘편위’
                     </div>
                 </div>
             </div> 
@@ -48,10 +49,10 @@ require_once "head.php";
             </div>
             <div class="port__section-right flex">
                 <div class="port__section-right_img">
-                    <img class="port_personal" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/port_personal.png">
+                    <img class="port_uxui" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/port_uxui.png">
                 </div>
                 <div class="port__section-right_explan">
-                개인 웹사이트 디자인 / August 2021 / 기획, 디자인 100%
+                모바일 앱 디자인 / March 2021 / 기획, 디자인 100%
                 </div>
                 <div class="port__section-right_site flex">
                     <a target="_blank" href="#">Process</a>
