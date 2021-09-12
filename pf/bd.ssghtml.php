@@ -11,6 +11,7 @@ require_once "head.php";
 
 
 <div class="process__main con-min-width">
+    <img class="process__back" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/pages_back2.png">
     <div class="con flex">
         <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/process_computer.png">
         <span>Process</span>
@@ -106,7 +107,7 @@ require_once "head.php";
     </div>
 </div>
 
-<div class="process__section process__logo_system con-min-width">
+<div class="process__section flex process__logo_system con-min-width">
     <div class="con flex">
         <div class="process_title">
             <span>Logo<br>System</span>
@@ -116,13 +117,12 @@ require_once "head.php";
                 로고는 총 3가지로 용도에 따라 적용할 수 있도록 제작하였습니다.
                 <br>뇌를 간단하게 원으로 형태화 하였고 ‘think things over’의 슬로건을 넣었습니다.
             </span>
-            <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/process_logo-type.svg">
+            <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/process_logosys.svg">
         </div>
     </div>
 </div>
 
 <div class="pages_intro con-min-width">
-    <!--<img class="pages_back" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/pages_back.png">-->
     <div class="con flex">
         <div class="pages_intro__main-page pages_intro__page">
             <div class="pages_intro__page_title">Main Page</div>
@@ -143,8 +143,7 @@ require_once "head.php";
         </div>
         <div class="pages_intro__port-page pages_intro__page">
             <div class="pages_intro__page_title">Portfolio Page</div>
-            <div class="pages_intro__page_content">제작한 디자인 결과물을 다양한 목업을 사용하여 디자인하였습니다.
-                <br>엽서 형태의 디자인이 특징입니다.</div>
+            <div class="pages_intro__page_content">제작한 디자인 결과물을 다양한 목업을 사용하여 디자인하였습니다.</div>
             <div class="pages_intro__page_img flex">
                 <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/pages_port-2.png">
                 <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/pages_port-1.png">

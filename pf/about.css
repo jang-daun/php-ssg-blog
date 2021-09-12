@@ -133,6 +133,31 @@
     left: 51%;
 }
 
+.about__mind-map .about_content__sub img {
+    width:600px;
+}
+
+
+.about_content__dotted-1 img {
+    width:300px;
+}
+
+.about_content__dotted-2 img {
+    width:700px;
+}
+
+.about_content__sub-cont1 img {
+    width:850px;
+}
+
+.about_content__list_back img {
+    width:1150px;
+}
+
+.about_content__sub-cont2 {
+    width:
+}
+
 .about__mind-map .about_content__sub-cont2 {
     top:79%;
     left: 49.5%;   
