@@ -24,9 +24,8 @@ require_once "head.php";
         </div>
         <div class="process_content">
             <span>
-                슬로건 ‘끊임없이 관찰하고 생각한다’의 뜻으로 ‘think things over.’ 대표하여 디자인 브랜딩하였습니다.<br>
-                ‘고요(생각할考, 헤아릴料)’라는 말에서 영감을 얻었습니다.<br>
-                끊임없이 관찰하고 끊임없이 생각하는 디자이너라는 의미를 담고 있습니다.
+                슬로건 ‘think things over.’을 대표하여 디자인 브랜딩하였습니다<br>
+                ‘끊임없이 관찰하고 생각한다’라는 뜻으로 디자인의 기본 신념을 담고 있습니다.
             </span>
         </div>
     </div>
