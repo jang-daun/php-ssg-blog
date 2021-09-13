@@ -25,11 +25,11 @@ html {
     align-items: center;
 }
 
-.process__main .con>img {
+.process__main .con img {
     width: 800px;
 }
 
-.process__main .con>span {
+.process__main .con span {
     margin-top: 20px;
     font-size: 100px;
     font-family: noto-sans-display, sans-serif;

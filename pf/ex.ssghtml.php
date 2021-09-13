@@ -97,7 +97,7 @@ require_once "head.php";
 </div>
 
 
-<div class="etc__section about__youtube con-min-width">
+<div class="etc__section about__sticker con-min-width">
     <div class="con flex">
         <div class="etc_img">
             <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/about_sticker.png">

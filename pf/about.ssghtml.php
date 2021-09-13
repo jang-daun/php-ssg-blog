@@ -24,7 +24,7 @@ require_once "head.php";
         </div>
         <div class="about_main__img">
             <div class="about_main__img_txt">
-                010-3011-7201<br>moone0327@gmail.com
+                
             </div>
             <div class="about_main__img_stamp">
                 <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/about_main.png">
@@ -122,8 +122,8 @@ require_once "head.php";
 <div class="red hover-me">hover me!</div>
             </div>
             <div class="about_content__pic">
-                <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/about_me__label-1.png">
-                <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/about_me__label-2.png">
+                <img class="hover-me-img2" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/about_me__label-1.png">
+                <img class="hover-me-img" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/about_me__label-2.png">
             </div>
         </div>
     </div>
