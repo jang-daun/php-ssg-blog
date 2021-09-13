@@ -45,6 +45,12 @@
     <div class="cursor"></div>
     <div class="cursor-shadow"></div>
 
+    <div class="move-top-btn con-min-width">
+        <div class="con">
+            <a id="MOVE_TOP_BTN" href="#">TOP</a>   
+        </div>
+    </div>
+    
 
     <div class="tto_menu-box con-min-width">
         <div class="con flex">
