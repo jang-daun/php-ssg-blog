@@ -89,6 +89,65 @@ Timeline__Section3__1.from(
 );
 
 
+const Timeline__Section4__1 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".about__personal",
+    start: "-=180 center",
+    end: "bottom top"
+  }
+});
+
+
+Timeline__Section4__1.from(
+  ".about__personal",
+  {
+    opacity: 0,
+    x: -30,
+    duration: .65
+  },
+);
+
+
+const Timeline__Section5__1 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".about__skill",
+    start: "-=180 center",
+    end: "bottom top"
+  }
+});
+
+
+Timeline__Section5__1.from(
+  ".about_content__txt",
+  {
+    opacity: 0,
+    x: -30,
+    duration: .65
+  },
+);
+
+
+
+const Timeline__Section6__1 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".about__skill",
+    start: "-=180 center",
+    end: "bottom top"
+  }
+});
+
+
+Timeline__Section6__1.from(
+  ".about_content__pic",
+  {
+    opacity: 0,
+    x: 30,
+    duration: .65
+  },
+);
+
+
+
 
 $(function(){
   $('.hover-me').mouseenter(function(){
