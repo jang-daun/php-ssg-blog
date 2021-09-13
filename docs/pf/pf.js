@@ -1,28 +1,17 @@
 
-
-console.clear();
-
-function Fullpage__init() {
-  var myFullpage = new fullpage('#fullpage', {
-    // verticalCentered:false, // 수직중앙정렬
-    anchors: ['section1', 'section2', 'section3', 'section4', 'section5'],
-    navigation: true,
-    navigationPosition: 'right',
-    navigationTooltips: ['no.1 - web', 'no.2 - web', 'no.3 - web', 'no.4 - UI|UX'],
-    responsiveWidth: 1100,
-    afterResponsive: function(isResponsive){
-      console.log(isResponsive);
-    }
-  });
-}
-
-Fullpage__init();
-
-$('#fullpage section:nth-of-type(2)').mouseenter(function(){
-  $('.menu-bar ul li a').addClass('white');
+const Timeline__Section1__1 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".port__section-right",
+    start: "-=180 center",
+    end: "bottom top"
+  }
 });
 
-$('#fullpage section:nth-of-type(2)').mouseleave(function(){
-  $('.menu-bar ul li a').removeClass('white');
-});
-
+Timeline__Section1__1.from(
+  ".port__section-right_img",
+  {
+    opacity: 0,
+    x: 70,
+    duration: 0.65
+  },
+);

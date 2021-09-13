@@ -244,3 +244,7 @@
     font-weight: 600;
     margin-top: 25px;
 }
+
+.hover-me {
+    cursor: pointer;
+}

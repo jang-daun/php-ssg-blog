@@ -2,6 +2,8 @@
     width: 100%;
 }
 
+
+
 /*etc__section*/
 
 .etc__intro {
@@ -93,4 +95,56 @@
 /*about__calender*/
 .about__calender .etc_shape {
     margin-right: 90px;
+}
+
+
+/*etc_view*/
+.view {
+    position: relative;
+    
+}
+.view::after {
+    content: "";
+    position: absolute;
+    transition: all .4s;
+    bottom: 0;
+    left: -10%;
+    width:120%;
+    height: 0;
+    z-index: -1;
+}
+.view:hover {
+    color:white;
+}
+.view:hover::after {
+    height: 100%;
+}
+
+.view-blue::after {
+    background-color: #7CA2E8;
+}
+.view-yellow::after {
+    background-color: #FEE094;;
+}
+.view-green::after {
+    background-color: #008E4A;
+}
+.view-orange::after {
+    background-color: #F4A950;
+}
+.view img {
+    position: absolute;
+    left: 70%;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.view .arrowwhite {
+    display: none;
+}
+.view:hover .arrow {
+    display: none;
+}
+.view:hover .arrowwhite {
+    display: block;
 }

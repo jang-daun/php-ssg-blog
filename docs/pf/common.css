@@ -40,7 +40,7 @@
     display: flex;
   }
 
-
+/*
   * {
     cursor: none;
 }
@@ -70,6 +70,24 @@
     z-index: 98;
 }
 
+*/
+
+
+a#MOVE_TOP_BTN {
+  position: fixed;
+  right: 9.5%;
+  bottom: 70px;
+  z-index: 999;
+  display: none;
+  font-weight: 900;
+  border-radius: 50%;
+  border:1px solid black;
+  padding: 10px 20px;
+  background-color: white;
+}
+
+
+
 
 /*tto_menu-box*/
 .tto_menu-box {
@@ -90,7 +108,7 @@
 
 .tto_menu-box__menu-bar > ul > li > a {
   font-weight: 700;
-  font-size: 22px;
+  font-size: 18px;
   margin-left: 100px;
   position: relative;
 }
