@@ -27,9 +27,10 @@ require_once "head.php";
         <div class="etc_txt flex">
             <span>Youtube<br>Study-log</span>
             <span>코딩 & 디자인 작업 기록</span>
-            <a target="_blank" class="view flex" href="https://www.youtube.com/channel/UCFuSljPH66Z-8sn6PNtfBCA/videos">
+            <a target="_blank" class="view view-blue flex" href="https://www.youtube.com/channel/UCFuSljPH66Z-8sn6PNtfBCA/videos">
                 <span>view</span>
-                <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/arrowblue.svg">   
+                <img class="arrow" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/arrowblue.svg">
+                <img class="arrowwhite" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/arrowwhite.svg"> 
             </a>
         </div>
     </div>
@@ -43,7 +44,8 @@ require_once "head.php";
             <span>기타 디자인 작업 업로드</span>
             <a target="_blank" class="view view-yellow flex" href="https://d-own.tistory.com/">
                 <span>view</span>
-                <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/arrowyellow.svg">   
+                <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/arrowyellow.svg"> 
+                <img class="arrowwhite" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/arrowwhite.svg">   
             </a>
         </div>
         <div class="etc_shape">
@@ -70,7 +72,8 @@ require_once "head.php";
             <span>서브웨이 모작 코딩</span>
             <a target="_blank" class="view view-green flex" href="subway_coding/index.html">
                 <span>view</span>
-                <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/arrowgreen.svg">   
+                <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/arrowgreen.svg">
+                <img class="arrowwhite" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/arrowwhite.svg"> 
             </a>
         </div>
     </div>
@@ -84,7 +87,8 @@ require_once "head.php";
             <span>개인 작업 </span>
             <a class="view view-orange flex" href="https://www.youtube.com/channel/UCFuSljPH66Z-8sn6PNtfBCA/videos">
                 <span>view</span>
-                <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/arroworange.svg">   
+                <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/arroworange.svg">
+                <img class="arrowwhite" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/arrowwhite.svg"> 
             </a>
         </div>
         <div class="etc_shape">

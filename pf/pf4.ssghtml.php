@@ -49,7 +49,7 @@ require_once "head.php";
             </div>
             <div class="port__section-right flex">
                 <div class="port__section-right_img">
-                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/port_personal.png">
+                    
                 </div>
                 <div class="port__section-right_explan">
                 이벤트 페이지 / May 2021 / 기획, 디자인 100%

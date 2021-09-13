@@ -48,13 +48,13 @@ require_once "head.php";
             </div>
             <div class="port__section-right flex">
                 <div class="port__section-right_img">
-                    <img class="port_personal" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/port_personal.png">
+                    <img class="port_personal" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/port_personal2.png">
                 </div>
                 <div class="port__section-right_explan">
                 개인 웹사이트 디자인 / August 2021 / 기획, 디자인 100%
                 </div>
                 <div class="port__section-right_site flex">
-                    <a target="_blank" href="#">Process</a>
+                    <a href="bd.ssghtml.php">Process</a>
                     <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/shape.svg">
                 </div>
             </div> 

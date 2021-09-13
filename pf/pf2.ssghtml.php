@@ -49,8 +49,7 @@ require_once "head.php";
             </div>
             <div class="port__section-right flex">
                 <div class="port__section-right_img">
-                    <img class="port_renewal"
-                        src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/port_renewal.png">
+                    <img class="port_renewal" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/port_renewal3.png">
                 </div>
                 <div class="port__section-right_explan">
                     웹사이트 리디자인 / June 2021 / 기획, 디자인 100%

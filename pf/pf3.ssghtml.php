@@ -49,7 +49,7 @@ require_once "head.php";
             </div>
             <div class="port__section-right flex">
                 <div class="port__section-right_img">
-                    <img class="port_uxui" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/port_uxui.png">
+                    <img class="port_uxui" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/port_uxui2.png">
                 </div>
                 <div class="port__section-right_explan">
                 모바일 앱 디자인 / March 2021 / 기획, 디자인 100%
