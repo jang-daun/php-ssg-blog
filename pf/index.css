@@ -12,6 +12,11 @@ a {
   text-decoration: none;
 }
 
+body,
+html {
+  cursor: url(tto.cur), url(tto.cur), auto
+}
+
 /* 노말라이즈 끝 */
 :root {
   --site-width: 1600px;

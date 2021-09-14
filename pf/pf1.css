@@ -1,0 +1,21 @@
+
+.port__section-left__menu > ul > li:not(:first-child) > a > span:first-child {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-20px);
+    transition: all .4s;
+}
+.port__section-left__menu > ul > li:not(:first-child):hover > a > span:first-child {
+    opacity: 1;
+    transform: translateX(0px);
+    visibility: visible;
+}
+.port__section-left__menu > ul > li:not(:first-child) > a > span {
+    transform: translateX(-20px);
+    transition: all .4s;
+}
+
+.port__section-left__menu > ul > li:not(:first-child):hover > a > span {
+
+    transform: translateX(0px); 
+}

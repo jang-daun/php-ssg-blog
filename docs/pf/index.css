@@ -12,6 +12,11 @@ a {
   text-decoration: none;
 }
 
+body,
+html {
+  cursor: url(tto.cur), url(tto.cur), auto
+}
+
 /* 노말라이즈 끝 */
 :root {
   --site-width: 1600px;
@@ -32,6 +37,7 @@ a {
   display: flex;
 }
 
+/*
 
 * {
   cursor: none;
@@ -61,6 +67,8 @@ a {
   mix-blend-mode: difference;
   z-index: 98;
 }
+
+*/
 
 
 /*mian-page*/
@@ -127,3 +135,7 @@ a {
   align-items: flex-end;
   height: 100%;
 }
+
+
+
+/*fade-in-box*/

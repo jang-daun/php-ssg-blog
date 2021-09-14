@@ -16,6 +16,27 @@
     color:#9AD1B7;
 }
 
+.port__section-left__menu > ul > li:not(:nth-child(4)) > a > span:first-child {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-20px);
+    transition: all .4s;
+}
+.port__section-left__menu > ul > li:not(:nth-child(4)):hover > a > span:first-child {
+    opacity: 1;
+    transform: translateX(0px);
+    visibility: visible;
+}
+.port__section-left__menu > ul > li:not(:nth-child(4)) > a > span {
+    transform: translateX(-20px);
+    transition: all .4s;
+}
+
+.port__section-left__menu > ul > li:not(:nth-child(4)):hover > a > span {
+    transform: translateX(0px); 
+}
+
+
 /*port__section-left__title*/
 
 

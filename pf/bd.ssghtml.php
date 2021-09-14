@@ -208,7 +208,8 @@ require_once "head.php";
                         <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/shape.svg">
                     </div>
                     <div class="cont_txt">
-                        제가 생각하는 디자인의 기본을 토대로 컨셉을 정하고 디자인 기획부터 로고제작까지 브랜딩 하였습니다. 저를 드러낼 수 있는 포인트까지 설계하였습니다.
+                        1차 작업 후 피드백을 참고하여 디벨롭 하는 시간을 가졌습니다. 세부적인 디자인이나, 제이쿼리 동적 효과를 추가적으로 주어
+                        생동감있는 디자인으로 마무리하였습니다.
                     </div>
                 </div>
             </div>

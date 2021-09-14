@@ -157,7 +157,7 @@ html {
 
 /*pages_intro*/
 .pages_intro {
-    height: 4800px;
+    height: 4200px;
     overflow: hidden;
     position: relative;
 }
@@ -260,6 +260,17 @@ html {
 
 
 /*pages_intro__partici-page*/
+
+.pages_intro__partici-page {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pages_intro__partici-page.pages_intro__page {
+    height: 700px;
+    margin-top: 10px;
+}
+
 .pages_intro__partici-page .pages_intro__page_content {
     justify-content: space-between;
 }
@@ -287,8 +298,6 @@ html {
 .pages_intro__partici-page .pages_intro__page_content .cont1 .cont_title {
     font-weight: 700;
 }
-
-
 
 .pages_intro__partici-page .pages_intro__page_content {
     margin-top: 100px;

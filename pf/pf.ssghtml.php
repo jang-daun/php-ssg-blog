@@ -5,6 +5,7 @@ require_once "head.php";
 ?>
 
 <link rel="stylesheet" href="pf.css">
+<link rel="stylesheet" href="pf1.css">
 <script src="pf.js" defer></script>
 
 
@@ -21,17 +22,21 @@ require_once "head.php";
                 </div>
                 <div class="port__section-left__menu">
                     <ul>
-                        <li><a href="pf.ssghtml.php">
-                            1. Personal Website
+                        <li><a class="flex" href="pf.ssghtml.php">
+                            <span>1.</span>
+                            <span>Personal Website</span>
                         </a></li>
-                        <li><a href="pf2.ssghtml.php">
-                            2. Website Renewal
+                        <li><a class="flex" href="pf2.ssghtml.php">
+                        <span>2.</span>
+                        <span>Website Renewal</span>
                         </a></li>
-                        <li><a href="pf3.ssghtml.php">
-                            3. Mobile UX | UI
+                        <li><a class="flex" href="pf3.ssghtml.php">
+                        <span>3.</span>
+                        <span>Mobile UX | UI</span>
                         </a></li>
-                        <li><a href="pf4.ssghtml.php">
-                            4. Event Page
+                        <li><a class="flex" href="pf4.ssghtml.php">
+                        <span>4.</span>
+                        <span>Event Page</span>
                         </a></li>
                     </ul>
                 </div>
