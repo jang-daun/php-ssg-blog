@@ -65,7 +65,7 @@ require_once "head.php";
                         <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/shape.svg">
                     </div>
                     <div class="site2-box">
-                        <a target="_blank" href="#">Web site</a>
+                        <a target="_blank" href="web4/index.ssghtml.php">Web site</a>
                         <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/shape.svg">
                     </div>
                 </div>
