@@ -42,8 +42,6 @@
 </head>
 
 <body>
-    <div class="cursor"></div>
-    <div class="cursor-shadow"></div>
 
     <div class="move-top-btn con-min-width">
         <div class="con">

@@ -37,10 +37,6 @@
 </head>
 
 <body>
-       <!--
-       <div class="cursor"></div>
-       <div class="cursor-shadow"></div>
--->
 
        <link rel="stylesheet" href="index.css">
        <script src="index.js" defer></script>
