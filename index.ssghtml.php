@@ -26,7 +26,7 @@ $articles = &getArticles();
 -->
 
 
-
+<!--
 
 <img class="deco visible-md-up circle1" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/1.svg" alt="">
 <img class="deco visible-md-up circle2" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/2.svg" alt="">
@@ -41,7 +41,7 @@ $articles = &getArticles();
 <a class="clickm" href="https://b.downloadingthelist.com/pf/index.html">
     <img class="click" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/click.svg" alt="">
 </a>
-
+-->
 <?php
 require_once "foot.php";
 ?>
