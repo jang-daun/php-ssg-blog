@@ -32,6 +32,7 @@ a {
   display: flex;
 }
 
+/*
 
 * {
   cursor: none;
@@ -62,7 +63,9 @@ a {
   z-index: 98;
 }
 
+*/
 
+body, html {cursor: url(pudding.cur), url(pudding.cur), auto} a {cursor: url(pudding.cur), url(myBall.cur), auto}
 /*mian-page*/
 
 .main-page {
@@ -127,3 +130,7 @@ a {
   align-items: flex-end;
   height: 100%;
 }
+
+
+
+/*fade-in-box*/

@@ -118,6 +118,26 @@ require_once "head.php";
 
 
 
+
+<div class="footer con-min-width">
+    <div class="con flex">
+        <div class="footer__ring-ring">
+            ring ring!
+        </div>
+        <div class="footer__post">
+            One post has arrived.
+        </div>
+        <div class="footer__post_img flex">
+            <div class="open-before flex"> 
+                <a class="btn6" href="pf.ssghtml.php">Open me!!</a>
+            </div>
+            <div class="open-after flex">
+                <a class="btn6" href="pf.ssghtml.php">Portfolio</a>
+            </div>
+        </div>
+    </div>
+</div>
+
 <?php
 require_once "foot.php";
 ?>

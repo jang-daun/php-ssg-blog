@@ -37,9 +37,10 @@
 </head>
 
 <body>
+       <!--
        <div class="cursor"></div>
        <div class="cursor-shadow"></div>
-
+-->
 
        <link rel="stylesheet" href="index.css">
        <script src="index.js" defer></script>
@@ -66,25 +67,25 @@
                                                  </a>
                                           </li>
                                           <li>
-                                                 <a class="flex" href="bd.ssghtml.php">
+                                                 <a class="flex fade-in-box1" href="bd.ssghtml.php">
                                                         <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/main_process.svg"
                                                                alt="">
                                                  </a> 
                                           </li>
                                           <li>
-                                                 <a class="flex" href="about.ssghtml.php">
+                                                 <a class="flex fade-in-box2" href="about.ssghtml.php">
                                                         <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/main_about-me.svg"
                                                                alt="">
                                                  </a>
                                           </li>
                                           <li>
-                                                 <a class="flex" href="pf.ssghtml.php">
+                                                 <a class="flex fade-in-box3" href="pf.ssghtml.php">
                                                         <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/main_portfolio.svg"
                                                                alt="">
                                                  </a>
                                           </li>
                                           <li>
-                                                 <a class="flex" href="ex.ssghtml.php">
+                                                 <a class="flex fade-in-box4" href="ex.ssghtml.php">
                                                         <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/main_etc.svg"
                                                                alt="">
                                                  </a>

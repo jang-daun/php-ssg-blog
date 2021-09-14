@@ -122,7 +122,7 @@ require_once "head.php";
     </div>
 </div>
 
-<div class="pages_intro pacon-min-width">
+<div class="pages_intro con-min-width">
     <div class="con flex">
         <div class="pages_intro__main-page pages_intro__page">
             <div class="pages_intro__page_title">Main Page</div>
@@ -164,7 +164,7 @@ require_once "head.php";
                 <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/pages_etc-2.png">
             </div>
         </div>
-        <div class="pages_intro__partici-page pages_intro__page">
+        <div class="pages_intro__partici-page pages_intro__page flex">
             <div class="pages_intro__page_title">Participation</div>
             <div class="pages_intro__page_content flex">
                 <div class="cont1 flex">
@@ -211,6 +211,26 @@ require_once "head.php";
                         제가 생각하는 디자인의 기본을 토대로 컨셉을 정하고 디자인 기획부터 로고제작까지 브랜딩 하였습니다. 저를 드러낼 수 있는 포인트까지 설계하였습니다.
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="footer con-min-width">
+    <div class="con flex">
+        <div class="footer__ring-ring">
+            ring ring!
+        </div>
+        <div class="footer__post">
+            One post has arrived.
+        </div>
+        <div class="footer__post_img flex">
+            <div class="open-before flex"> 
+                <a class="btn6" href="about.ssghtml.php">Open me!!</a>
+            </div>
+            <div class="open-after flex">
+                <a class="btn6" href="about.ssghtml.php">About me</a>
             </div>
         </div>
     </div>

@@ -201,6 +201,9 @@
 
 
 /*about__skill*/
+.about__skill {
+    height: 700px;
+}
 
 .about__skill .about_content__pic {
     position: relative;
@@ -247,4 +250,9 @@
 
 .hover-me {
     cursor: pointer;
+}
+
+
+.footer {
+    margin-top: 270px;
 }
