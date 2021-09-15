@@ -50,16 +50,21 @@ a {
 /* 노말라이즈 끝 */
 
 /* 라이브러리 시작 */
-.con {
+
+:root {
+    --site-width: 1320px;
+  }
+  
+  .con-min-width {
+    min-width: var(--site-width);
+  }
+  
+  .con {
+    width: var(--site-width);
     margin-left: auto;
     margin-right: auto;
-    width: 1320px;
-}
-
-.con-min-width {
-    width: 1320px;
-}
-
+  }
+  
 .bb {
     border: 1px solid blue;
 }
@@ -79,9 +84,14 @@ a {
 /*top-bar*/
 .top-bar {
     height: 90px;
+    
+
+}
+
+.top-bar .con {
+    height: 100%;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .top-bar a {
@@ -114,6 +124,10 @@ a {
 
 .gnb {
     height: 60px;
+    
+}
+
+.gnb .con {
     justify-content: space-between;
     align-items: center;
 }

@@ -70,7 +70,7 @@
 .title-btn {
     justify-content: space-between;
     align-items: center;
-    height: 100px;
+    height: 80px;
 }
 
 .title>span {
@@ -82,10 +82,10 @@
 .title>span::after {
     position: absolute;
     content: "";
-    width: 120%;
-    left: -10%;
+    width: 100%;
+    left: 0;
     bottom: -5%;
-    height: 27px;
+    height: 20px;
     z-index: -1;
     background-color: #FAF194;
 }
@@ -110,62 +110,75 @@
     font-size: 18px;
 }
 
+.week-active {
+    border: 1px solid #FAF194;
+    background-color: #FAF194;
+}
+
+
 /*금주의 그림책 시작*/
 
 
 .week-book__contents {
     position: relative;
     width: 1320px;
-    height: 670px;
+    height: 570px;
+    overflow: hidden;
 }
+
+
 
 .swiper {
     width: 100%;
     height: 100%;
+    margin-top: 100px;
 }
 .swiper-wrapper {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 .swiper-slide {
     text-align: center;
-    background:  red;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    width: 315px;
-    height: 410px;
+    width: 155px;
+    height: 300px;
 }
 
 .element.style {
-    width: 315px;
-    height: 410px;
+    width: 155px;
+    height: 300px;
 }
 
 .swiper .swiper-wrapper div.swiper-slide-active {
-    width:1050px;
-    height: 410px;
+    width:700px;
+    height: 300px;
 }
 .slide-txt-box {
     display:none;
 }
+div.swiper-slide:not(.swiper-slide-active) {
+
+    padding: 0 60px;
+}
 div.swiper-slide-active .slide-txt-box {
     display: flex;
 }
+ 
 .swiper-slide{
-    background-color: #fff;
-    width: 315px;
-    height: 410px;
-    @media screen and (min-width: 315px){
-        width: 315px;
-        height: 410px;
+    width: 155px;
+    height: 300px;
+    @media screen and (min-width: 155px){
+        width: 155px;
+        height: 300px;
     }
     
     &-active{
         background-color: #fff;
-        @media screen and (min-width: 1050px){
-            width: 1050px;
-            height: 410px;
+        @media screen and (min-width: 700px){
+            width: 700px;
+            height: 300px;
         }
         
     }
@@ -178,15 +191,19 @@ div.swiper-slide-active .slide-txt-box {
 }
 
 .slide-img-box {
-    width:315px;
-    height: 410px;
+    width:231px;
+    height: 300px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background-color: white;
 }
 .slide-img-box > img {
-    width:315px;
+    width:231px;
 }
 .slide-txt-box {
     width:520px;
-    height: 410px;
+    height: 300px;
     margin-left: 40px;
     flex-direction: column;
     align-items: flex-start;
@@ -195,13 +212,13 @@ div.swiper-slide-active .slide-txt-box {
 
 .slide-txt-box-first {
     text-align: left;
-    font-size: 19px;
-    margin-top: 60px;
-    margin-bottom: 30px;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 .slide-txt-box-title {
-    font-size: 24px;
+    font-size: 22px;
     font-family: 'S-CoreDream-4Regular';
 }
 
@@ -209,19 +226,23 @@ div.swiper-slide-active .slide-txt-box {
     width:50px;
     height: 1px;
     background-color: black;
-    margin-top: 20px;
+    margin-top: 10px;
+    cursor: pointer;
 }
 
 .slide-txt-box-per .slide-txt-box-pub {
     color:#525252;
+    font-size: 12px;
 }
 
 .slide-txt-box-per {
-    margin-top: 37px;
+    margin-top: 28px;
+    cursor: pointer;
 }
 
 .slide-txt-box-pub {
-    margin-top: 17px;
+    margin-top: 12px;
+    cursor: pointer;
 }
 
 
@@ -234,8 +255,64 @@ div.swiper-slide-active .slide-txt-box {
 }
 
 /*slide-button*/ 
+.week-book__contents {
+    position: relative;
+}
 
 
-.swiper-button-next, .swiper-button-prev {
-    border:1px solid red;
+  
+.week-book span.button-next, .week-book span.button-prev {
+    font-size:2rem;
+    outline:0;
+    cursor:pointer;
+    color:white;
+    border-radius: 50%;
+    background-color: #3D3D3D;
+    width:50px;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    position:absolute;
+    right:76%;
+    top:62%;
+  }
+.week-book span.button-next {
+      right:70%;
+  }
+/*swiper-pagination-progressbar*/
+
+.swiper-pagination-progressbar {
+    background-color: #F0F0F0;    
+}
+
+.swiper-pagination .swiper-pagination-progressbar-fill {
+    background-color: #8C8C8C;
+}
+
+
+
+/*신간 그림책*/
+
+
+.new-book .title>span::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    left: 0;
+    bottom: -5%;
+    height: 20px;
+    z-index: -1;
+    background-color: #BAE8E4;
+}
+
+.new-book .book__btn>*:hover {
+    border: 1px solid #BAE8E4;
+    background-color: #BAE8E4;
+}
+
+.new-active {
+    border: 1px solid #BAE8E4;
+    background-color: #BAE8E4;
 }

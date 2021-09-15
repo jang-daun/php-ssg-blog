@@ -7,8 +7,8 @@ var kaSwiper2 = new Swiper ('#ka-swiper2', {
     type: 'progressbar',
   },
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.week-book .button-next',
+    prevEl: '.week-book .button-prev',
   },
   paginationClickable: true,
   slidesPerView: 'auto',
@@ -17,4 +17,30 @@ var kaSwiper2 = new Swiper ('#ka-swiper2', {
   onSlideChangeEnd:function(e){
     kaSwiper2.update(true);
   }
+});
+
+
+
+$(function() {                       
+  $(".week-book .btn__lang").click(function() { 
+    $(this).addClass("week-active");    
+  });
+});
+$(function() {                       
+  $(".week-book .btn__lang").click(function() { 
+    $(this).removeClass("week-active");    
+  });
+});
+
+
+
+$(function() {                       
+  $(".new-book .btn__lang").click(function() { 
+    $(this).addClass("new-book");    
+  });
+});
+$(function() {                       
+  $(".new-book .btn__lang").click(function() { 
+    $(this).removeClass("new-book");    
+  });
 });
