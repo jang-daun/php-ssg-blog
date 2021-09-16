@@ -317,3 +317,25 @@ form ul {
     opacity: 1;
 }
 
+
+
+/*footer*/
+.footer {
+    background-color: #4A4A4A;
+    height: 200px;
+    align-items: center;
+}
+
+
+.footer .con {
+    height: 50%;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+.company-box, .personal-box {
+    color:white;
+    font-size: 14px;
+    font-family: 'S-CoreDream-3Light';
+}
