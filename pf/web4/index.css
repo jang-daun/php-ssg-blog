@@ -18,6 +18,16 @@
     animation: 3s linear underline;
 }
 
+@keyframes underline {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
 .main_visual {
     height: 100%;
     margin-left: auto;
