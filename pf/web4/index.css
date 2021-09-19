@@ -84,9 +84,10 @@
 }
 
 .title>span {
-    font-size: 25px;
+    font-size: 22px;
     font-family: 'S-CoreDream-5Medium';
     position: relative;
+    z-index: 99;
 }
 
 .title>span::after {
@@ -110,6 +111,7 @@
     align-items: center;
     cursor: pointer;
     border-radius: 50px;
+    background-color: white;
 }
 
 .book__btn>*:hover {
@@ -135,7 +137,6 @@
     width: 1320px;
     height: 570px;
 }
-
 
 
 .swiper {
@@ -313,6 +314,8 @@ div.swiper-slide-active .slide-txt-box {
     position: relative;
 }
 
+
+
   
 .week-book span.button-next, .week-book span.button-prev {
     font-size:2rem;
@@ -345,9 +348,46 @@ div.swiper-slide-active .slide-txt-box {
 }
 
 
+.week-book .con {
+    position: relative;
+}
+
+.week-deco {
+    position: absolute;
+    z-index: -1;
+}
+.week-deco1 {
+    right: -15%;
+    top:-5%;
+}
+.week-deco2 {
+    left: -5%;
+    bottom: 20%;
+}
 
 /*신간 그림책*/
+.new-book {
+    height: 1000px;
+    align-items: center;
+    background-color: #FDFBF8;
+}
 
+.new-book .con {
+    height: 90%;
+    flex-direction: column;
+}
+.new-book__ko {
+    border-radius: 14px;
+    width:1320px;
+
+}
+.new-book__ko img {
+    border-radius: 14px;
+}
+
+.new-book__title-btn {
+    margin-bottom: 180px;
+}
 
 .new-book .title>span::after {
     position: absolute;
@@ -371,16 +411,21 @@ div.swiper-slide-active .slide-txt-box {
 }
 
 .new-book__contents {
-    width:100%;
+    width:1320px;
     height: 570px;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .new-book__contents > div {
     display: flex;
-    width:100%;
+    width:1320px;
     justify-content: space-between;
     align-items: flex-end;
+}
+
+.new-book__contents > div:nth-of-type(2) {
+    margin-top: 40px;
 }
 .new-book__contents > div > div {
     display: flex;
@@ -389,17 +434,15 @@ div.swiper-slide-active .slide-txt-box {
     align-items: center;
 }
 
-.new-book__contents > div:nth-child(2) {
-    display: none;
-}
 
 .new-book__contents .ko_cont__img {
-    width:180px;
+    width:150px;
     margin-bottom: 30px;
     overflow: hidden;
+    border-radius: 14px;
 }
 .new-book__contents .ko_cont__img > img {
-    width:100%;
+    width:150px;
     cursor: pointer;
     transition: all .4s;
 }
@@ -409,14 +452,14 @@ div.swiper-slide-active .slide-txt-box {
 }
 
 .ko_cont__title {
-    font-size: 19px;
+    font-size: 17px;
     font-family: 'S-CoreDream-4Regular';
     margin-bottom: 10px;
     cursor: pointer;
     display: flex;
     justify-content: center;
     
-    width:180px;
+    width:150px;
 }
 
 .ko_cont__title > span {
@@ -431,11 +474,26 @@ div.swiper-slide-active .slide-txt-box {
 }
 
 .ko_cont__pub {
-    font-size: 15px;
+    font-size: 13px;
     color:#707070;
     cursor: pointer;
 }
 
+.pages-btn {
+    justify-content: center;
+    margin-top: 120px;
+    
+}
+
+.pages-btn img {
+    cursor: pointer;
+}
+
+
+.new-book-trans {
+    margin-top: 0;
+    border: 30px solid #B3A191;
+}
 
 
 /*박물관 소식*/
@@ -598,14 +656,14 @@ div.swiper-slide-active .slide-txt-box {
     color:#696969;
 }
 
+.notice-book {
+    margin-top: 0px;
+}
+
 .new-book .new-book__contents {
-    margin-top: -40px;
+    margin-top: -100px;
 }
 
-
-.notice-book__contents {
-    margin-top: 40px;
-}
 
 .week-book__contents {
     margin-top: -10px;

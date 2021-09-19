@@ -18,6 +18,16 @@
     animation: 3s linear underline;
 }
 
+@keyframes underline {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
 .main_visual {
     height: 100%;
     margin-left: auto;
@@ -74,9 +84,10 @@
 }
 
 .title>span {
-    font-size: 25px;
+    font-size: 22px;
     font-family: 'S-CoreDream-5Medium';
     position: relative;
+    z-index: 99;
 }
 
 .title>span::after {
@@ -87,11 +98,11 @@
     bottom: -5%;
     height: 20px;
     z-index: -1;
-    background-color: #FAF194;
+    background-color: #D2E7E3;
 }
 
 .book__btn>* {
-    width: 105px;
+    width: 95px;
     height: 40px;
     border: 1px solid #505050;
     margin-left: 25px;
@@ -99,20 +110,22 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    border-radius: 50px;
+    background-color: white;
 }
 
 .book__btn>*:hover {
-    border: 1px solid #FAF194;
-    background-color: #FAF194;
+    border: 1px solid #D2E7E3;
+    background-color: #D2E7E3;
 }
 
 .book__btn>*>span {
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .week-active {
-    border: 1px solid #FAF194;
-    background-color: #FAF194;
+    border: 1px solid #D2E7E3;
+    background-color: #D2E7E3;
 }
 
 
@@ -123,29 +136,30 @@
     position: relative;
     width: 1320px;
     height: 570px;
-    overflow: hidden;
 }
-
 
 
 .swiper {
     width: 100%;
     height: 100%;
+    overflow: hidden;
     margin-top: 100px;
 }
 .swiper-wrapper {
+    
     display: flex;
     align-items: flex-start;
 }
 .swiper-slide {
     text-align: center;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
-    width: 155px;
-    height: 300px;
+    width: 1320px;
+    height: 377px;
 }
 
+/*
 .element.style {
     width: 155px;
     height: 300px;
@@ -155,6 +169,8 @@
     width:700px;
     height: 300px;
 }
+
+
 .slide-txt-box {
     display:none;
 }
@@ -166,6 +182,9 @@ div.swiper-slide-active .slide-txt-box {
     display: flex;
 }
  
+*/
+
+/*
 .swiper-slide{
     width: 155px;
     height: 300px;
@@ -184,26 +203,28 @@ div.swiper-slide-active .slide-txt-box {
     }
 }
 
+*/
+
 .week-book__contents .swiper-container-horizontal>.swiper-pagination-progressbar,
 .swiper-container-vertical>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
     position: absolute;
-    top: 92%;
+    top: 80%;
 }
 
 .slide-img-box {
-    width:231px;
-    height: 300px;
+    width:290px;
+    height: 377px;
     cursor: pointer;
     display: flex;
     align-items: center;
     background-color: white;
 }
 .slide-img-box > img {
-    width:231px;
+    width:290px;
+    
+    border-radius: 14px;
 }
 .slide-txt-box {
-    width:520px;
-    height: 300px;
     margin-left: 40px;
     flex-direction: column;
     align-items: flex-start;
@@ -214,7 +235,6 @@ div.swiper-slide-active .slide-txt-box {
     text-align: left;
     font-size: 18px;
     margin-top: 30px;
-    margin-bottom: 40px;
 }
 
 .slide-txt-box-title {
@@ -256,10 +276,44 @@ div.swiper-slide-active .slide-txt-box {
     margin-right: 30px;
 }
 
+
+
+.slide-page-box {
+    margin-left: 20px;
+    width:580px;
+    height: 360px;
+}
+
+
+.slide-page-box .slidelist {
+    position: relative;
+    width:100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.banner .slidelist .slideimg {
+    position: relative;
+    
+}
+.banner .slidelist .slideimg img {
+    display: block;
+}
+
+.slide-page-box img {
+    position: absolute;
+    top:0;
+    left: 0;
+    width:580px;
+    height: 360px;
+    border-radius: 14px;
+}
+
 /*slide-button*/ 
-.week-book__contents {
+.week-book {
     position: relative;
 }
+
 
 
   
@@ -269,7 +323,7 @@ div.swiper-slide-active .slide-txt-box {
     cursor:pointer;
     color:white;
     border-radius: 50%;
-    background-color: #3D3D3D;
+    background-color: #585858;
     width:50px;
     height:50px;
     display: flex;
@@ -277,11 +331,11 @@ div.swiper-slide-active .slide-txt-box {
     align-items: center;
     z-index: 99;
     position:absolute;
-    right:76%;
-    top:62%;
+    right:5%;
+    top:90%;
   }
 .week-book span.button-next {
-      right:70%;
+      right:0%;
   }
 /*swiper-pagination-progressbar*/
 
@@ -294,9 +348,46 @@ div.swiper-slide-active .slide-txt-box {
 }
 
 
+.week-book .con {
+    position: relative;
+}
+
+.week-deco {
+    position: absolute;
+    z-index: -1;
+}
+.week-deco1 {
+    right: -15%;
+    top:-5%;
+}
+.week-deco2 {
+    left: -5%;
+    bottom: 20%;
+}
 
 /*신간 그림책*/
+.new-book {
+    height: 1000px;
+    align-items: center;
+    background-color: #FDFBF8;
+}
 
+.new-book .con {
+    height: 90%;
+    flex-direction: column;
+}
+.new-book__ko {
+    border-radius: 14px;
+    width:1320px;
+
+}
+.new-book__ko img {
+    border-radius: 14px;
+}
+
+.new-book__title-btn {
+    margin-bottom: 180px;
+}
 
 .new-book .title>span::after {
     position: absolute;
@@ -306,7 +397,7 @@ div.swiper-slide-active .slide-txt-box {
     bottom: -5%;
     height: 20px;
     z-index: -1;
-    background-color: #BAE8E4;
+    background-color: #D2E7E3;
 }
 
 .new-book .book__btn>*:hover {
@@ -320,18 +411,21 @@ div.swiper-slide-active .slide-txt-box {
 }
 
 .new-book__contents {
-    width:100%;
+    width:1320px;
     height: 570px;
-    position: relative;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .new-book__contents > div {
-    position: absolute;
     display: flex;
-    width:100%;
+    width:1320px;
     justify-content: space-between;
     align-items: flex-end;
+}
+
+.new-book__contents > div:nth-of-type(2) {
+    margin-top: 40px;
 }
 .new-book__contents > div > div {
     display: flex;
@@ -340,17 +434,15 @@ div.swiper-slide-active .slide-txt-box {
     align-items: center;
 }
 
-.new-book__contents > div:nth-child(2) {
-    display: none;
-}
 
 .new-book__contents .ko_cont__img {
-    width:180px;
+    width:150px;
     margin-bottom: 30px;
     overflow: hidden;
+    border-radius: 14px;
 }
 .new-book__contents .ko_cont__img > img {
-    width:100%;
+    width:150px;
     cursor: pointer;
     transition: all .4s;
 }
@@ -360,14 +452,14 @@ div.swiper-slide-active .slide-txt-box {
 }
 
 .ko_cont__title {
-    font-size: 19px;
+    font-size: 17px;
     font-family: 'S-CoreDream-4Regular';
     margin-bottom: 10px;
     cursor: pointer;
     display: flex;
     justify-content: center;
     
-    width:180px;
+    width:150px;
 }
 
 .ko_cont__title > span {
@@ -382,11 +474,26 @@ div.swiper-slide-active .slide-txt-box {
 }
 
 .ko_cont__pub {
-    font-size: 15px;
+    font-size: 13px;
     color:#707070;
     cursor: pointer;
 }
 
+.pages-btn {
+    justify-content: center;
+    margin-top: 120px;
+    
+}
+
+.pages-btn img {
+    cursor: pointer;
+}
+
+
+.new-book-trans {
+    margin-top: 0;
+    border: 30px solid #B3A191;
+}
 
 
 /*박물관 소식*/
@@ -409,7 +516,7 @@ div.swiper-slide-active .slide-txt-box {
     bottom: -5%;
     height: 20px;
     z-index: -1;
-    background-color: #C2D991;
+    background-color: #D2E7E3;
 }
 
 .notice-book__contents {
@@ -549,14 +656,14 @@ div.swiper-slide-active .slide-txt-box {
     color:#696969;
 }
 
+.notice-book {
+    margin-top: 0px;
+}
+
 .new-book .new-book__contents {
-    margin-top: -40px;
+    margin-top: -100px;
 }
 
-
-.notice-book__contents {
-    margin-top: 40px;
-}
 
 .week-book__contents {
     margin-top: -10px;

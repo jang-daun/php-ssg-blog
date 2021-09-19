@@ -10,7 +10,6 @@ require_once "head.php";
 
 <script>
     // 주소 뒤에 / 를 붙여주는 코드
-    // 오직 index.html, index.ssghtml.php 에도 추가해주세요.
     if (location.href.indexOf('index.ssghtml.php') === -1 && location.href.indexOf('index.html') === -1 &&
         location.href.substr(-1, 1) !== '/') {
         location.replace(location.href + '/');
@@ -55,6 +54,9 @@ require_once "head.php";
 
 <div class="week-book book-section con-min-width">
     <div class="con">
+        <img class="week-deco week-deco1" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/week-deco1.svg" alt="">
+        <img class="week-deco week-deco2" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/week-deco2.svg" alt="">
+
         <div class="week-book__title-btn title-btn flex">
             <div class="week-book_title title">
                 <span>금주의 그림책</span>
@@ -87,6 +89,24 @@ require_once "head.php";
                         <div class="slide-img-box">
                             <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/week_book_1.jpg" alt="">
                         </div>
+                        
+                        <div class="slide-page-box banner">
+                            <div class="slidelist">
+                                <div class="slideimg">
+                                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/slide-page-box-1-1.jpg"
+                                        alt="">
+                                </div>
+                                <div class="slideimg">
+                                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/slide-page-box-1-2.jpg"
+                                        alt="">
+                                </div>
+                                <div class="slideimg">
+                                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/slide-page-box-1-3.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="slide-txt-box flex">
                             <div class="slide-txt-box-title">
                                 <span>다 같은 나무인 줄 알았어</span>
@@ -104,28 +124,28 @@ require_once "head.php";
                                 <span>우리 동네엔 나무가 참 많아.<br>처음엔 다 같은 나무인 줄 알았어.<br>꽃이 펴서 알았지.</span>
                             </div>
                         </div>
-                        <div class="slide-page-box banner">
-                            <div class="slidelist">
-                                <div class="slideimg">
-                                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/slide-page-box-1-1.jpg"
-                                        alt="">
-                                </div>
-                                <div class="slideimg">
-                                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/slide-page-box-1-2.jpg"
-                                        alt="">
-                                </div>
-                                <div class="slideimg">
-                                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/slide-page-box-1-3.jpg"
-                                        alt="">
-                                </div>
-                            </div>
-                        </div>
                     </div>
 
 
                     <div class="swiper-slide">
                         <div class="slide-img-box">
                             <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/week_book_2.jpg" alt="">
+                        </div>
+                        <div class="slide-page-box banner2">
+                            <div class="slidelist">
+                                <div class="slideimg">
+                                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/slide-page-box-2-1.jpg"
+                                        alt="">
+                                </div>
+                                <div class="slideimg">
+                                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/slide-page-box-2-2.jpg"
+                                        alt="">
+                                </div>
+                                <div class="slideimg">
+                                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/slide-page-box-2-3.jpg"
+                                        alt="">
+                                </div>
+                            </div>
                         </div>
                         <div class="slide-txt-box flex">
                             <div class="slide-txt-box-title">
@@ -144,28 +164,29 @@ require_once "head.php";
                                 <span>나는 사자. 여기는 내가 사는 곳이야.<br>사자들은 무리를 지어 살아.</span>
                             </div>
                         </div>
-                        <div class="slide-page-box banner2">
-                            <div class="slidelist">
-                                <div class="slideimg">
-                                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/slide-page-box-2-1.jpg"
-                                        alt="">
-                                </div>
-                                <div class="slideimg">
-                                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/slide-page-box-2-2.jpg"
-                                        alt="">
-                                </div>
-                                <div class="slideimg">
-                                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/slide-page-box-2-3.jpg"
-                                        alt="">
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
 
 
                     <div class="swiper-slide">
                         <div class="slide-img-box">
                             <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/week_book_3.jpg" alt="">
+                        </div>
+                        <div class="slide-page-box banner3">
+                            <div class="slidelist">
+                                <div class="slideimg">
+                                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/slide-page-box-3-1.jpg"
+                                        alt="">
+                                </div>
+                                <div class="slideimg">
+                                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/slide-page-box-3-2.jpg"
+                                        alt="">
+                                </div>
+                                <div class="slideimg">
+                                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/slide-page-box-3-3.jpg"
+                                        alt="">
+                                </div>
+                            </div>
                         </div>
                         <div class="slide-txt-box flex">
                             <div class="slide-txt-box-title">
@@ -184,28 +205,29 @@ require_once "head.php";
                                 <span>어머니는 시오리 신작로 자갈길을 또 걸어야 한다!</span>
                             </div>
                         </div>
-                        <div class="slide-page-box banner3">
-                            <div class="slidelist">
-                                <div class="slideimg">
-                                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/slide-page-box-3-1.jpg"
-                                        alt="">
-                                </div>
-                                <div class="slideimg">
-                                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/slide-page-box-3-2.jpg"
-                                        alt="">
-                                </div>
-                                <div class="slideimg">
-                                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/slide-page-box-3-3.jpg"
-                                        alt="">
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
 
 
                     <div class="swiper-slide">
                         <div class="slide-img-box">
                             <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/week_book_4.jpg" alt="">
+                        </div>
+                        <div class="slide-page-box banner4">
+                            <div class="slidelist">
+                                <div class="slideimg">
+                                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/slide-page-box-4-1.jpg"
+                                        alt="">
+                                </div>
+                                <div class="slideimg">
+                                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/slide-page-box-4-2.jpg"
+                                        alt="">
+                                </div>
+                                <div class="slideimg">
+                                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/slide-page-box-4-3.jpg"
+                                        alt="">
+                                </div>
+                            </div>
                         </div>
                         <div class="slide-txt-box flex">
                             <div class="slide-txt-box-title">
@@ -224,13 +246,29 @@ require_once "head.php";
                                 <span>노란 치마를 입은 아이가<br>노란 나비를 따라 공원에 놀러 옵니다.</span>
                             </div>
                         </div>
-
+                        
                     </div>
 
 
                     <div class="swiper-slide">
                         <div class="slide-img-box">
                             <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/week_book_5.jpg" alt="">
+                        </div>
+                        <div class="slide-page-box banner5">
+                            <div class="slidelist">
+                                <div class="slideimg">
+                                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/slide-page-box-5-1.jpg"
+                                        alt="">
+                                </div>
+                                <div class="slideimg">
+                                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/slide-page-box-5-2.jpg"
+                                        alt="">
+                                </div>
+                                <div class="slideimg">
+                                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/slide-page-box-5-3.jpg"
+                                        alt="">
+                                </div>
+                            </div>
                         </div>
                         <div class="slide-txt-box flex">
                             <div class="slide-txt-box-title">
@@ -242,19 +280,35 @@ require_once "head.php";
                                 <span>글 장선환</span>
                             </div>
                             <div class="slide-txt-box-pub">
-                                <span>출판사 마술피리(초록개구리)</span>
+                                <span>출판사 마술피리</span>
                                 <span>발행일 2021-06-25</span>
                             </div>
                             <div class="slide-txt-box-first">
                                 <span>무슨 줄일까요?<br>걸음을 멈추고 앞을 봅니다.</span>
-
                             </div>
                         </div>
+                        
                     </div>
 
                     <div class="swiper-slide">
                         <div class="slide-img-box">
                             <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/week_book_6.jpg" alt="">
+                        </div>
+                        <div class="slide-page-box banner6">
+                            <div class="slidelist">
+                                <div class="slideimg">
+                                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/slide-page-box-6-1.jpg"
+                                        alt="">
+                                </div>
+                                <div class="slideimg">
+                                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/slide-page-box-6-2.jpg"
+                                        alt="">
+                                </div>
+                                <div class="slideimg">
+                                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/slide-page-box-6-3.jpg"
+                                        alt="">
+                                </div>
+                            </div>
                         </div>
                         <div class="slide-txt-box flex">
                             <div class="slide-txt-box-title">
@@ -273,11 +327,28 @@ require_once "head.php";
                                 <span>오롯이 천년의 나무가 되어 보는 시간</span>
                             </div>
                         </div>
+                        
                     </div>
 
                     <div class="swiper-slide">
                         <div class="slide-img-box">
                             <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/week_book_7.jpg" alt="">
+                        </div>
+                        <div class="slide-page-box banner7">
+                            <div class="slidelist">
+                                <div class="slideimg">
+                                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/slide-page-box-7-1.jpg"
+                                        alt="">
+                                </div>
+                                <div class="slideimg">
+                                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/slide-page-box-7-2.jpg"
+                                        alt="">
+                                </div>
+                                <div class="slideimg">
+                                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/slide-page-box-7-3.jpg"
+                                        alt="">
+                                </div>
+                            </div>
                         </div>
                         <div class="slide-txt-box flex">
                             <div class="slide-txt-box-title">
@@ -293,9 +364,10 @@ require_once "head.php";
                                 <span>발행일 2021-06-05</span>
                             </div>
                             <div class="slide-txt-box-first">
-                                <span>하늘, 풀, 꽃, 나비…….<br>아빠는 아기 거북에게 보여 주고 싶은 게 아주 많았어요.</span>
+                                <span>바람이 지나가는 소리가 들리니?<br>하늘, 풀, 꽃, 나비…….</span>
                             </div>
                         </div>
+                        
                     </div>
                 </div>
                 <!-- Add Pagination -->
@@ -306,28 +378,17 @@ require_once "head.php";
         </div>
     </div>
 </div>
-
-
 <!--금주의 그림책 끝-->
 
 
 
 <!--신간 그림책 시작-->
 
-
-<div class="new-book book-section con-min-width">
-    <div class="con">
+<div class="new-book book-section flex con-min-width">
+    <div class="con flex">
         <div class="new-book__title-btn title-btn flex">
             <div class="new-book_title title">
-                <span>신간 그림책</span>
-            </div>
-            <div class="new_book__btn book__btn flex">
-                <div class="btn__ko btn__lang new-active">
-                    <span>한국</span>
-                </div>
-                <div class="btn__en btn__lang">
-                    <span>번역</span>
-                </div>
+                <span>한국 신간 그림책</span>
             </div>
         </div>
         <div class="new-book__contents flex contents">
@@ -386,12 +447,234 @@ require_once "head.php";
                     </div>
                     <div class="ko_cont__pub">2021-08-17</div>
                 </div>
+                <div class="new-book__ko_cont7">
+                    <div class="ko_cont__img">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/new-book__ko_cont13.jpg" alt="">
+                    </div>
+                    <div class="ko_cont__title">
+                        <span>돌맹이 국</span>
+                    </div>
+                    <div class="ko_cont__pub">2021-08-17</div>
+                </div>
+                
             </div>
-            
+            <div class="new-book__ko flex">
+                <div class="new-book__ko_cont1">
+                    <div class="ko_cont__img">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/new-book__ko_cont7.jpg" alt="">
+                    </div>
+                    <div class="ko_cont__title">
+                        <span>검은머리 흰머리</span>
+                    </div>
+                    <div class="ko_cont__pub">2021-08-16</div>
+                </div>
+                <div class="new-book__ko_cont2">
+                    <div class="ko_cont__img">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/new-book__ko_cont8.jpg" alt="">
+                    </div>
+                    <div class="ko_cont__title">
+                        <span>빨간 초코볼의 서울여행</span>
+                    </div>
+                    <div class="ko_cont__pub">2021-08-15</div>
+                </div>
+                <div class="new-book__ko_cont3">
+                    <div class="ko_cont__img">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/new-book__ko_cont9.jpg" alt="">
+                    </div>
+                    <div class="ko_cont__title">
+                        <span>우리 곧 사라져요</span>
+                    </div>
+                    <div class="ko_cont__pub">2021-08-14</div>
+                </div>
+                <div class="new-book__ko_cont4">
+                    <div class="ko_cont__img">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/new-book__ko_cont10.jpg" alt="">
+                    </div>
+                    <div class="ko_cont__title">
+                        <span>농부할아버지와 아기채소들</span>
+                    </div>
+                    <div class="ko_cont__pub">2021-08-11</div>
+                </div>
+                <div class="new-book__ko_cont5">
+                    <div class="ko_cont__img">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/new-book__ko_cont11.jpg" alt="">
+                    </div>
+                    <div class="ko_cont__title">
+                        <span>무척 훌륭한 도둑</span>
+                    </div>
+                    <div class="ko_cont__pub">2021-08-10</div>
+                </div>
+                <div class="new-book__ko_cont6">
+                    <div class="ko_cont__img">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/new-book__ko_cont12.jpg" alt="">
+                    </div>
+                    <div class="ko_cont__title">
+                        <span>나의 밭 이야기</span>
+                    </div>
+                    <div class="ko_cont__pub">2021-08-09</div>
+                </div>
+                <div class="new-book__ko_cont7">
+                    <div class="ko_cont__img">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/new-book__ko_cont14.jpg" alt="">
+                    </div>
+                    <div class="ko_cont__title">
+                        <span>아이 시원해!</span>
+                    </div>
+                    <div class="ko_cont__pub">2021-08-09</div>
+                </div>
+            </div>
+        </div>
+        <div class="pages-btn flex">
+            <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/pages-btn.svg" alt="">
         </div>
     </div>
 </div>
 
+<div class="new-book book-section new-book-trans flex con-min-width">
+    <div class="con flex">
+        <div class="new-book__title-btn title-btn flex">
+            <div class="new-book_title title">
+                <span>번역 신간 그림책</span>
+            </div>
+        </div>
+        <div class="new-book__contents flex contents">
+            <div class="new-book__ko flex">
+                <div class="new-book__ko_cont1">
+                    <div class="ko_cont__img">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/new-book__tr_cont1.jpg" alt="">
+                    </div>
+                    <div class="ko_cont__title">
+                        <span>하늘에는 얼마나 많은 별이 있을까요?</span>
+                    </div>
+                    <div class="ko_cont__pub">2021-08-30</div>
+                </div>
+                <div class="new-book__ko_cont2">
+                    <div class="ko_cont__img">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/new-book__tr_cont2.jpg" alt="">
+                    </div>
+                    <div class="ko_cont__title">
+                        <span>왜요?</span>
+                    </div>
+                    <div class="ko_cont__pub">2021-08-25</div>
+                </div>
+                <div class="new-book__ko_cont3">
+                    <div class="ko_cont__img">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/new-book__tr_cont3.jpg" alt="">
+                    </div>
+                    <div class="ko_cont__title">
+                        <span>커다랗고 커다란 물고기</span>
+                    </div>
+                    <div class="ko_cont__pub">2021-08-20</div>
+                </div>
+                <div class="new-book__ko_cont4">
+                    <div class="ko_cont__img">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/new-book__tr_cont4.jpg" alt="">
+                    </div>
+                    <div class="ko_cont__title">
+                        <span>질투나서 속상해!</span>
+                    </div>
+                    <div class="ko_cont__pub">2021-08-20</div>
+                </div>
+                <div class="new-book__ko_cont5">
+                    <div class="ko_cont__img">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/new-book__tr_cont5.jpg" alt="">
+                    </div>
+                    <div class="ko_cont__title">
+                        <span>나는 토끼 폼폼</span>
+                    </div>
+                    <div class="ko_cont__pub">2021-08-17</div>
+                </div>
+                <div class="new-book__ko_cont6">
+                    <div class="ko_cont__img">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/new-book__tr_cont6.jpg" alt="">
+                    </div>
+                    <div class="ko_cont__title">
+                        <span>페르디의 무지개</span>
+                    </div>
+                    <div class="ko_cont__pub">2021-08-17</div>
+                </div>
+                <div class="new-book__ko_cont7">
+                    <div class="ko_cont__img">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/new-book__tr_cont7.jpg" alt="">
+                    </div>
+                    <div class="ko_cont__title">
+                        <span>물난리</span>
+                    </div>
+                    <div class="ko_cont__pub">2021-08-17</div>
+                </div>
+                
+            </div>
+            <div class="new-book__ko flex">
+                <div class="new-book__ko_cont1">
+                    <div class="ko_cont__img">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/new-book__tr_cont8.jpg" alt="">
+                    </div>
+                    <div class="ko_cont__title">
+                        <span>방귀 뀌어도 돼?</span>
+                    </div>
+                    <div class="ko_cont__pub">2021-08-16</div>
+                </div>
+                <div class="new-book__ko_cont2">
+                    <div class="ko_cont__img">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/new-book__tr_cont9.jpg" alt="">
+                    </div>
+                    <div class="ko_cont__title">
+                        <span>까망이와 하양이</span>
+                    </div>
+                    <div class="ko_cont__pub">2021-08-15</div>
+                </div>
+                <div class="new-book__ko_cont3">
+                    <div class="ko_cont__img">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/new-book__tr_cont10.jpg" alt="">
+                    </div>
+                    <div class="ko_cont__title">
+                        <span>행복한 숲속의 아기 동물들</span>
+                    </div>
+                    <div class="ko_cont__pub">2021-08-14</div>
+                </div>
+                <div class="new-book__ko_cont4">
+                    <div class="ko_cont__img">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/book__tr_cont11.jpg" alt="">
+                    </div>
+                    <div class="ko_cont__title">
+                        <span>그날 밤 무슨일이…</span>
+                    </div>
+                    <div class="ko_cont__pub">2021-08-11</div>
+                </div>
+                <div class="new-book__ko_cont5">
+                    <div class="ko_cont__img">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/book__tr_cont12.jpg" alt="">
+                    </div>
+                    <div class="ko_cont__title">
+                        <span>여름잠을 잘 거예요</span>
+                    </div>
+                    <div class="ko_cont__pub">2021-08-10</div>
+                </div>
+                <div class="new-book__ko_cont6">
+                    <div class="ko_cont__img">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/book__tr_cont13.jpg" alt="">
+                    </div>
+                    <div class="ko_cont__title">
+                        <span>레아의 여행</span>
+                    </div>
+                    <div class="ko_cont__pub">2021-08-09</div>
+                </div>
+                <div class="new-book__ko_cont7">
+                    <div class="ko_cont__img">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/book__tr_cont14.jpg" alt="">
+                    </div>
+                    <div class="ko_cont__title">
+                        <span>딸기와 팡이</span>
+                    </div>
+                    <div class="ko_cont__pub">2021-08-09</div>
+                </div>
+            </div>
+        </div>
+        <div class="pages-btn flex">
+            <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/pages-btn.svg" alt="">
+        </div>
+    </div>
+</div>
 
 <!--신간 그림책 끝-->
 
