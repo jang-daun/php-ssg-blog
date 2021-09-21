@@ -43,7 +43,7 @@ require_once "head.php";
                 </div>
             </div>
         </div>
-        <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/underline.svg" alt="" class="underline">
+
     </div>
 </div>
 

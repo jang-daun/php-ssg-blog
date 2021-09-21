@@ -70,7 +70,7 @@
                 <nav class="flex gnb__menu-bar_nav">
                     <ul class="gnb__menu-bar flex">
                         <li>
-                            <a href="#">그림책</a>
+                            <a href="bookpg.ssghtml.php">그림책</a>
                             <ul>
                                 <li><a href="#">전체 그림책</a></li>
                                 <li><a href="#">한국 그림책</a></li>
@@ -194,4 +194,5 @@
                 </div>
             </form>
         </div>
+        <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/underline.svg" alt="" class="underline">
     </div>

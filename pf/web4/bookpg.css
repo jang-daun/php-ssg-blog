@@ -1,0 +1,77 @@
+.gnb__menu-bar li:nth-of-type(1) a {
+    font-weight: 700;
+}
+
+.gnb__menu[data-sel-index="0"]>.mouse {
+    left: calc(3%);
+    opacity: 1;
+
+}
+
+.mouse {
+    left: calc(3%);
+    opacity: 1;
+}
+
+
+.book-top-search {
+    height: 80px;
+    padding-top: 20px;
+}
+
+/*top-search*/
+
+.book-top-search {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.book-top_left {
+    align-items: center;
+}
+
+.book-top_right {
+    align-items: center;
+}
+
+.book-pg-view {
+    width:79px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.book-top_left span {
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+.book-top_right select {
+    margin-left: 10px;
+}
+
+.book-top-search .download {
+    border:1px solid #D2E7E3;
+    padding: 5px 15px;
+    border-radius: 50px;
+}
+
+.book-top-search .download:hover {
+    background-color: #D2E7E3;
+}
+
+.book-top-search {
+    position: relative;
+}
+
+.book-pg-dotted {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/*book-list*/
+
+.book-list__box_cont {
+    width:290px;
+    height: 666px;
+}

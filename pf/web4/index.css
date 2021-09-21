@@ -11,12 +11,7 @@
     position: relative;
 }
 
-.underline {
-    width: 100vw;
-    position: absolute;
-    top: 0;
-    animation: 3s linear underline;
-}
+
 
 @keyframes underline {
     from {
