@@ -212,12 +212,9 @@ div.swiper-slide-active .slide-txt-box {
     cursor: pointer;
     display: flex;
     align-items: center;
-    background-color: white;
 }
 .slide-img-box > img {
     width:290px;
-    
-    border-radius: 14px;
 }
 .slide-txt-box {
     margin-left: 40px;
@@ -301,7 +298,6 @@ div.swiper-slide-active .slide-txt-box {
     left: 0;
     width:580px;
     height: 360px;
-    border-radius: 14px;
 }
 
 /*slide-button*/ 
@@ -372,12 +368,10 @@ div.swiper-slide-active .slide-txt-box {
     flex-direction: column;
 }
 .new-book__ko {
-    border-radius: 14px;
     width:1320px;
 
 }
 .new-book__ko img {
-    border-radius: 14px;
 }
 
 .new-book__title-btn {
@@ -434,7 +428,6 @@ div.swiper-slide-active .slide-txt-box {
     width:150px;
     margin-bottom: 30px;
     overflow: hidden;
-    border-radius: 14px;
 }
 .new-book__contents .ko_cont__img > img {
     width:150px;
@@ -662,4 +655,29 @@ div.swiper-slide-active .slide-txt-box {
 
 .week-book__contents {
     margin-top: -10px;
+}
+
+.notice-book__cont1__1, .notice-book__cont2_box {
+    border-radius: 14px;
+}
+
+/*이미지 사이즈 수정*/
+
+.banner2 .slideimg img {
+    height: 300px;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.banner5 .slideimg img {
+    height: 300px;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+
+.banner7 .slideimg img {
+    height: 300px;
+    top:50%;
+    transform: translateY(-50%);
 }

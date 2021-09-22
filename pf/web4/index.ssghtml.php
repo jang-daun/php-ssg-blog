@@ -127,7 +127,7 @@ require_once "head.php";
                     </div>
 
 
-                    <div class="swiper-slide">
+                    <div class="swiper-slide flex">
                         <div class="slide-img-box">
                             <img src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/week_book_2.jpg" alt="">
                         </div>

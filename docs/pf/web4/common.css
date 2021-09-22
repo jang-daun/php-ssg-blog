@@ -25,13 +25,6 @@ html {
     font-weight: normal;
     font-style: normal;
 }
-@font-face {
-    font-family: 'RIDIBatang';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 /* 폰트 끝 */
 
 
@@ -90,6 +83,8 @@ a {
 .flex {
     display: flex;
 }
+
+
 
 /*top-bar*/
 .top-bar {
@@ -325,6 +320,21 @@ form ul {
 .gnb__menu[data-sel-index="3"]>.mouse {
     left: calc(5% + 30px * 9);
     opacity: 1;
+}
+
+.opacity {
+    opacity: 1;
+}
+
+.gnb {
+    position: relative;
+}
+
+.underline {
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    animation: 3s linear underline;
 }
 
 

@@ -1,11 +1,11 @@
 <?php
-$title = "그림책박물관 - 그림책";
+$title = "그림책박물관 - 박물관 추천";
 
 require_once "head.php";
 ?>
 
-<link rel="stylesheet" href="bookpg.css">
-<script src="bookpg.js" defer></script>
+<link rel="stylesheet" href="recommend.css">
+<script src="awarded.js" defer></script>
 
 
 <div class="con-min-width bookpg-main">
@@ -969,14 +969,17 @@ require_once "head.php";
         <img class="dotted" src="https://cdn.jsdelivr.net/gh/jang-daun/fairytale/img/dotted3.svg" alt="">
         <div class="book-side-menu">
             <ul>
-                <li><a href="#">전체 그림책</a></li>
-                <li><a href="#">한국 그림책</a></li>
-                <li><a href="#">번역 그림책</a></li>
-                <li><a href="#">원서 그림책</a></li>
+                <li><a href="#">그림책 박물관 추천 1000권</a></li>
+                <li><a href="#">어린이 교육 전문가의 100권</a></li>
+                <li><a href="#">마틴 솔즈베리의 100권</a></li>
                 <li><a href="#">해외출간 그림책</a></li>
-                <li><a href="#">전집 그림책</a></li>
-                <li><a href="#">소장 그림책</a></li>
-                <li><a href="#">그림책 관련 서적</a></li>
+                <li><a href="#">바른가치 그림책</a></li>
+                <li><a href="#">이토록 어여쁜 그림책</a></li>
+                <li><a href="#">그림책 상상 그림책 여행</a></li>
+                <li><a href="#">어른의 그림책</a></li>
+                <li><a href="#">포근하게 그림책처럼</a></li>
+                <li><a href="#">아빠와 함게 그림책 여행</a></li>
+                <li><a href="#">내게 행복을 주는 그림책</a></li>
             </ul> 
         </div>
     </div>
