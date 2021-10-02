@@ -47,6 +47,7 @@ html {
   position: fixed;
   top:0;
   z-index: 99;
+  background-color: white;
 }
 #menu-bar .con {
   align-items: center;
@@ -87,7 +88,7 @@ html {
 /*검색창*/
 #menu-bar .search input {
   border:hidden;
-  background-color: white;
+  background-color: #F4F4F4;
   width:200px;
   height: 40px;
   border-radius: 50px;

@@ -1,5 +1,7 @@
 /*슬라이드*/
-
+#swiper-container {
+    border-bottom: 5px solid #FF79C3;
+}
 #swiper-container .swiper {
     height: 890px;
     margin: 0 auto;
@@ -19,6 +21,9 @@
 #swiper-container .swiper {
     position: relative;
 }
+:root {
+    --swiper-theme-color: #8098AF;
+}
 
 #swiper-container .swiper-button-prev {
     left: 10%;
@@ -36,28 +41,211 @@
     width:550px;
 }
 
-.slide_txt-box {
+#swiper-container .slide_txt-box {
     flex-direction: column;
     margin-right: 250px;
 }
 
-.slide_txt-box > span:first-child {
+
+#swiper-container .slide_txt-box > span:first-child {
     font-size: 35px;
 }
 
-.slide_txt-box > span:nth-child(2) {
+#swiper-container .slide_txt-box > span:nth-child(2) {
     font-size: 20px;
     margin-top: 20px;
 }
 
-.slide_txt-box > a {
+#swiper-container .slide_txt-box > a {
     font-size: 15px;
     margin-top: 60px;
     display: flex;
     align-items: center;
+    transition: all .4s;
+}
+#swiper-container .slide_txt-box > a:hover {
+    transform: translateY(-5px);
 }
 
-.slide_txt-box > a > img {
+#swiper-container .slide_txt-box > a > span {
+    position: relative;
+}
+
+#swiper-container .slide_txt-box > a > span::after {
+    position: absolute;
+    content: "";
+    top:50%;
+    left: 140%;
+    transform: translateY(-50%);
+    background-color: #FF79C3;
+    width:26px;
+    height: 26px;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+#swiper-container .slide_txt-box > a > img {
     width:25px;
     margin-left: 20px;
+}
+
+#swiper-container .swiper-pagination-bullet-active {
+    background-color: #FF79C3;
+}
+
+/*운영 및 정보*/
+#manage {
+    align-items: center;
+    height: 180px;
+}
+#manage .con {
+    justify-content: space-around;
+}
+#manage .con > div {
+    display: flex;
+    align-items: center;
+}
+#manage .manage__date {
+    align-items: center;
+}
+#manage .manage__date .date__title {
+    width:100px;
+    height: 100px;
+    background-color: #FF79C3;
+    justify-content: center;
+    align-items: center;
+}
+
+#manage .manage__date .date__title span {
+    font-weight: 700;
+    font-size: 25px;
+    color:white;
+}
+
+#manage .manage__date .date__day {
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+#manage .manage__date .date__day > span {
+    font-size: 23px;
+}
+#manage .manage__date .date__day > span:first-of-type {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+#manage .manage__date .date__day > span:last-of-type {
+    font-weight: 400;
+}
+
+#manage .con > .manage__time {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: -100px;
+}
+
+#manage .con > .manage__time div {
+    font-size: 20px;
+}
+
+#manage .con > .manage__time div:last-of-type {
+    font-size: 18px;
+    color:#FF6262;
+}
+
+#manage .con .manage__line {
+    height: 100px;
+    width:2px;
+    background-color: #C8C8C8;
+}
+#manage .con .manage__info > span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+#manage .con .manage__info > span > span {
+    width:97px;
+    height:97px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8098AF;
+    border-radius: 50%;
+}
+#manage .con .manage__info > span:last-of-type {
+    margin-left: 80px;
+}
+
+#manage .con .manage__info > span > div {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/*오월드 주요 행사*/
+
+#main_event {
+    height: 1000px;
+    background-color: #FCFCFC;
+}
+
+#main_event .con {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.title {
+    flex-direction: column;
+    align-items: center;
+}
+.title > span:first-of-type {
+    font-size: 30px;
+    font-weight:500;
+    margin-bottom: 10px;
+    position: relative;
+}
+.title > span:first-of-type::after, .title > span:first-of-type::before {
+    content: "";
+    position: absolute;
+    background-color: #FF79C3;
+    width:10px;
+    height: 10px;
+    border-radius: 50%;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.title > span:first-of-type::after {
+    left: -10%;
+}
+.title > span:first-of-type::before {
+    right: -10%;
+}
+
+.title > span:last-of-type {
+    color:#3F3F3F;
+}
+
+#main_event .event__contents {
+    flex-direction: column;
+
+}
+#main_event .contents__box {
+    width:300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+}
+
+#main_event .contents__box > div {
+    position: absolute;
+}
+
+#main_event .contents__box > div:first-of-type {
+    
 }
