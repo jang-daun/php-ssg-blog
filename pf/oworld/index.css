@@ -238,14 +238,23 @@
     width:300px;
     height: 300px;
     border-radius: 50%;
-    background-color: white;
+    background-color: #FFF388;
     position: relative;
+    overflow: hidden;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.1);
 }
-
-#main_event .contents__box > div {
+#main_event .contents__box .box__bottom {
     position: absolute;
+    width:300px;
+    height: 300px;
+    top:65%;
+    background-color: white;
 }
 
-#main_event .contents__box > div:first-of-type {
-    
+#main_event .contents__box .box__img-box > img {
+ position: absolute;   
+}
+
+#main_event .contents__box .box__img-box > img:first-of-type {
+    top:35%;
 }

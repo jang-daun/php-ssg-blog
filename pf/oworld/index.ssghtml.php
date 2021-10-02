@@ -104,9 +104,14 @@ require_once "head.php";
         </div>
         <div class="event__contents flex">
             <div class="contents">
-                <div class="contents__box">
-                    <div class="box__top"></div>
-                    <div class="box__bottom"></div>
+                <div class="contents__box contents__box-1">
+                    <div class="box__bottom">
+                    </div>
+                    <div class="box__img-box">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/oworld/img/1-person.svg" alt="">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/oworld/img/1-clock.svg" alt="">
+                    </div>
+                    <div class="box__txt-box"></div>
                 </div>
             </div>
         </div>
