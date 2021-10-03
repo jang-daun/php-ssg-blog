@@ -95,3 +95,9 @@ html {
   outline: none;
   padding: 0 10px;
 }
+
+/*푸터*/
+footer img {
+  display: block;
+  margin: 0 auto;
+}

@@ -138,38 +138,39 @@ require_once "head.php";
                     </div>
                 </div>
             </div>
-            <div class="contents contents2 flex">
-                <div class="contents__box contents__box-1">
+            <div class="contents contents-2 flex">
+                <div class="contents__box contents__box-4">
                     <div class="box__img-box">
-                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/oworld/img/1-person.svg" alt="">
-                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/oworld/img/1-clock.svg" alt="">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/oworld/img/4-back.svg" alt="">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/oworld/img/4-rabbits.svg" alt="">
                     </div>
                     <div class="box__bottom">
                     </div>
                     <div class="box__txt-box">
-                        <a href="#">9월 운영</a>
+                        <a href="#">먹이주기 관람<br>상시 운영</a>
                     </div>
                 </div>
-                <div class="contents__box contents__box-2">
+                <div class="contents__box contents__box-5">
                     <div class="box__img-box">
-                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/oworld/img/2-person.svg" alt="">
-                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/oworld/img/2-music.svg" alt="">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/oworld/img/5-back.svg" alt="">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/oworld/img/5-bird.svg" alt="">
                     </div>
                     <div class="box__bottom">
                     </div>
                     <div class="box__txt-box">
-                        <a href="#">공연 시간표</a>
+                        <a href="#">버드랜드<br>생태 설명회</a>
                     </div>
                 </div>
-                <div class="contents__box contents__box-3">
+                <div class="contents__box contents__box-6">
                     <div class="box__img-box">
-                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/oworld/img/3-person.svg" alt="">
-                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/oworld/img/3-card.svg" alt="">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/oworld/img/6-line.svg" alt="">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/oworld/img/6-car-re.svg" alt="">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/oworld/img/6-parking.svg" alt="">
                     </div>
                     <div class="box__bottom">
                     </div>
                     <div class="box__txt-box">
-                        <a href="#">요금 안내</a>
+                        <a href="#">주차시설 안내</a>
                     </div>
                 </div>
             </div>
@@ -178,7 +179,113 @@ require_once "head.php";
 </div>
 
 
+<!--오월드 랜드-->
 
+<div id="land" class="con-min-width">
+    <div class="con flex">
+        <div class="title flex">
+            <span>오월드만의 랜드</span>
+            <span>오월드에서 다양한 즐길거리를 함께해요!</span>
+        </div>
+        <div class="land__contents flex">
+            <div class="content__joy">
+                <div class="land__img-box">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/oworld/img/joyland.jpg" alt="">
+                </div>
+                <div class="land__txt-box flex">
+                    <a href="#">조이랜드</a>
+                </div>
+            </div>
+            <div class="content__bird">
+                <div class="land__img-box">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/oworld/img/birdland.jpg" alt="">
+                </div>
+                <div class="land__txt-box flex">
+                    <a href="#">버드랜드</a>
+                </div>
+            </div>
+            <div class="content__zoo">
+                <div class="land__img-box">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/oworld/img/zooland.jpg" alt="">
+                </div>
+                <div class="land__txt-box flex">
+                    <a href="#">주랜드</a>
+                </div>
+            </div>
+            <div class="content__flower">
+                <div class="land__img-box">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/oworld/img/flowerland.jpg" alt="">
+                </div>
+                <div class="land__txt-box flex">
+                    <a href="#">플라워랜드</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--공지사항&멤버십-->
+
+<div id="notice-membership" class="con-min-width">
+    <div class="con flex">
+        <div class="notice-membership__notice-box flex">
+            <div class="notice-box__title flex">
+                <a href="#">뉴스 & 공지사항</a>
+                <a href="#">더 보기</a>
+            </div>
+            <div class="notice-box__contents">
+                <div class="contents_txt flex">
+                    <a href="#" class="date flex">
+                        <span>10</span>
+                        <span>2021-09</span>
+                    </a>
+                    <a href="#">
+                        <span>대전오월드 평일 놀이시설 교체 안내</span>
+                    </a>
+                </div>
+                <div class="contents_txt flex">
+                    <a href="#" class="date flex">
+                        <span>03</span>
+                        <span>2021-09</span>
+                    </a>
+                    <a href="#">
+                        <span>야간 개장 미운영 안내</span>
+                    </a>
+                </div>
+                <div class="contents_txt flex">
+                    <a href="#" class="date flex">
+                        <span>26</span>
+                        <span>2021-08</span>
+                    </a>
+                    <a href="#">
+                        <span>온통대전 및 키오스크 도입에 따른 이용요금 변경</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="notice-membership__line"></div>
+        <div class="notice-membership__membership-box flex">
+            <div class="membership-box__title flex">
+                <a href="#" class="flex">
+                    <span>제휴 카드 및 멤버십</span>
+                    <span>이용자 편의를 위한 제휴카드 및 멤버십 서비스</span>
+                </a>
+            </div>
+            <div class="membership-box__contents flex">
+                <div class="circle"></div>
+                <a href="#"><span>내게 꼭 맞는</span><span> 할인 정보</span></a>
+                <a href="#">무료 입장 후 다양한 놀이기구 및<br>사파리를 이용해보세요</a>
+            </div>
+            <div class="membership-box__more flex">
+                <a href="#">
+                    <span>자세히 보기</span>
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/oworld/img/arrow.svg" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
 
 <?php
 require_once "foot.php";
