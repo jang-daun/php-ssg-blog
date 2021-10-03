@@ -103,15 +103,74 @@ require_once "head.php";
             <span>오월드에서 진행하는 행사를 확인하세요.</span>
         </div>
         <div class="event__contents flex">
-            <div class="contents">
+            <div class="contents flex">
                 <div class="contents__box contents__box-1">
-                    <div class="box__bottom">
-                    </div>
                     <div class="box__img-box">
                         <img src="https://cdn.jsdelivr.net/gh/jang-daun/oworld/img/1-person.svg" alt="">
                         <img src="https://cdn.jsdelivr.net/gh/jang-daun/oworld/img/1-clock.svg" alt="">
                     </div>
-                    <div class="box__txt-box"></div>
+                    <div class="box__bottom">
+                    </div>
+                    <div class="box__txt-box">
+                        <a href="#">9월 운영</a>
+                    </div>
+                </div>
+                <div class="contents__box contents__box-2">
+                    <div class="box__img-box">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/oworld/img/2-person.svg" alt="">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/oworld/img/2-music.svg" alt="">
+                    </div>
+                    <div class="box__bottom">
+                    </div>
+                    <div class="box__txt-box">
+                        <a href="#">공연 시간표</a>
+                    </div>
+                </div>
+                <div class="contents__box contents__box-3">
+                    <div class="box__img-box">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/oworld/img/3-person.svg" alt="">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/oworld/img/3-card.svg" alt="">
+                    </div>
+                    <div class="box__bottom">
+                    </div>
+                    <div class="box__txt-box">
+                        <a href="#">요금 안내</a>
+                    </div>
+                </div>
+            </div>
+            <div class="contents contents2 flex">
+                <div class="contents__box contents__box-1">
+                    <div class="box__img-box">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/oworld/img/1-person.svg" alt="">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/oworld/img/1-clock.svg" alt="">
+                    </div>
+                    <div class="box__bottom">
+                    </div>
+                    <div class="box__txt-box">
+                        <a href="#">9월 운영</a>
+                    </div>
+                </div>
+                <div class="contents__box contents__box-2">
+                    <div class="box__img-box">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/oworld/img/2-person.svg" alt="">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/oworld/img/2-music.svg" alt="">
+                    </div>
+                    <div class="box__bottom">
+                    </div>
+                    <div class="box__txt-box">
+                        <a href="#">공연 시간표</a>
+                    </div>
+                </div>
+                <div class="contents__box contents__box-3">
+                    <div class="box__img-box">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/oworld/img/3-person.svg" alt="">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/oworld/img/3-card.svg" alt="">
+                    </div>
+                    <div class="box__bottom">
+                    </div>
+                    <div class="box__txt-box">
+                        <a href="#">요금 안내</a>
+                    </div>
                 </div>
             </div>
         </div>

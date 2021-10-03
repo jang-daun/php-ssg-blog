@@ -188,7 +188,7 @@
 
 #main_event {
     height: 1000px;
-    background-color: #FCFCFC;
+    background-color: #FAFAFA;
 }
 
 #main_event .con {
@@ -231,8 +231,12 @@
 }
 
 #main_event .event__contents {
+    margin-top: 115px;
     flex-direction: column;
-
+    width:1320px;
+}
+#main_event .contents {
+    justify-content: space-between;
 }
 #main_event .contents__box {
     width:300px;
@@ -242,7 +246,16 @@
     position: relative;
     overflow: hidden;
     box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer; 
 }
+#main_event .contents__box-2 {
+    background-color: #F0E9F4;
+}
+
+#main_event .contents__box-3 {
+    background-color: #FF8D8D;
+}
+
 #main_event .contents__box .box__bottom {
     position: absolute;
     width:300px;
@@ -256,5 +269,67 @@
 }
 
 #main_event .contents__box .box__img-box > img:first-of-type {
-    top:35%;
+    top:21.5%;
+    left: 50%;
+    transform: translateX(-50%);
 }
+
+#main_event .contents__box .box__img-box > img:last-of-type {
+    top:20%;
+    left: 20%;
+    transition: all .4s;
+}
+
+#main_event .contents__box-2 .box__img-box > img:last-of-type {
+    top:18%;
+    left: 21%;
+    transition: all .4s;
+}
+
+#main_event .contents__box-3 .box__img-box > img:last-of-type {
+    top:30%;
+    left: 15%;
+    transition: all .4s;
+}
+
+
+#main_event .contents__box:hover .box__img-box img:last-of-type {
+    animation:ani .8s infinite alternate; 
+    
+}
+@keyframes ani{
+0%{transform:translate(0,0);}
+100%{transform:translate(0,-10px);}
+} 
+
+#main_event .contents__box-2:hover .box__img-box img:last-of-type {
+    animation:rotate .8s infinite alternate; 
+    
+}
+@keyframes rotate{
+0%{transform:rotate(-3deg);}
+100%{transform:rotate(3deg);}
+}  
+
+#main_event .contents__box-3:hover .box__img-box img:last-of-type {
+    animation:rotate2 .8s infinite alternate; 
+    
+}
+@keyframes rotate2{
+0%{transform:rotateY(0deg);}
+100%{transform:rotateY(180deg);}
+}  
+
+
+
+#main_event .contents__box .box__txt-box {
+    z-index: 99;
+}
+#main_event .contents__box .box__txt-box a {
+    position: absolute;   
+    font-size: 22px;
+    font-weight: 500;
+    top:75%;
+    left: 50%;
+    transform: translateX(-50%);
+   }
