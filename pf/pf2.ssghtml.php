@@ -60,12 +60,10 @@ require_once "head.php";
                     웹사이트 리디자인 / September 2021 / 기획, 디자인 100%
                 </div>
                 <div class="port__section-right_site2 flex">
-                    <!--
                     <div class="site2-box">
-                        <a target="_blank" href="#">Process</a>
+                        <a target="_blank" href="oworld/process.html">Process</a>
                         <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/shape.svg">
                     </div>
--->
                     <div class="site2-box">
                         <a target="_blank" href="oworld/index.ssghtml.php">Web site</a>
                         <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/shape.svg">
