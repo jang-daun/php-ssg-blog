@@ -1,0 +1,191 @@
+/* 노말라이즈 시작 */
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+html {
+  font-family: "Noto Sans KR", sans-serif;
+  overflow-x: hidden;
+}
+
+body {
+    height: 100%;
+}
+#event-section {
+    width:1920px;
+    position: relative;
+    height: 5000px;
+    overflow: hidden;
+    margin:0 auto;
+}
+
+#event-section img {
+    position: absolute;
+}
+
+#event-section .back {
+    width:1920px;
+    top:0;
+    left: 0;
+}
+
+#event-section .back2 {
+    width:1920px;
+    top:0;
+    left: 0;
+    animation:ani 2s infinite alternate; 
+}
+
+#event-section .back3 {
+    height: 3400px;
+    bottom:0%;
+    left: 0;
+    animation:ani 2s infinite alternate; 
+}
+    
+@keyframes ani{
+0%{opacity: .2;}
+100%{opacity: 1;}
+} 
+
+#event-section .tree {
+    width:1920px;
+    top:0%;
+    left: 0;
+}
+
+
+#event-section .house {
+    width:1920px;
+    top:2.6%;
+    left: 0;
+}
+
+#event-section .backback {
+    height: 5000px;
+    bottom:0%;
+    left: 0;
+}
+
+#event-section .moon {
+    width:1300px;
+    top:3%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#event-section .pumkin {
+    width:1920px;
+    top:14.5%;
+    left: 0%;
+}
+
+#event-section .owl {
+    right: 13%;
+    width:66px;
+    top:15%;
+    animation:eyes .7s infinite alternate; 
+}
+    
+@keyframes eyes {
+0%{opacity: 0;}
+100%{opacity: 1;}
+} 
+
+
+#event-section .sulbing {
+    width:163px;
+    top:2.5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#event-section .aboutmint {
+    width:400px;
+    top:8%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#event-section .title {
+    width:810px;
+    top:10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+#event-section .bat1 {
+    width:230px;
+    top:13%;
+    left: 15.5%;
+}
+
+#event-section .bat2 {
+    width:130px;
+    top:17%;
+    right: 28%;
+    transform: rotateY(-180deg);
+}
+
+
+#event-section .bat3 {
+    width:100px;
+    top:15.5%;
+    right: 26%;
+    transform: rotateY(-180deg);
+}
+
+
+#event-section .ghost1 {
+    width:60px;
+    top:16%;
+    left: 31%;
+    transform: rotate(5deg);
+}
+
+#event-section .ghost2 {
+    width:100px;
+    top:5%;
+    right: 31%;
+    transform: rotate(-5deg);
+    transform: rotateY(-180deg);
+}
+
+#event-section .halloween {
+    width:300px;
+    top:33%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#event-section .trickormint {
+    width:810px;
+    top:35%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#event-section .text {
+    width:560px;
+    top:38%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+#event-section .bord {
+    width:1600px;
+    height: 3200px;
+    top:34%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
