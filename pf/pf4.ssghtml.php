@@ -44,7 +44,7 @@ require_once "head.php";
                     Event<br>Page
                     </div>
                     <div class="port_left_cont">
-                    이벤트 페이지 ‘’
+                    이벤트 페이지 ‘설빙 할로윈 이벤트’
                     </div>
                 </div>
             </div> 
@@ -53,14 +53,20 @@ require_once "head.php";
             </div>
             <div class="port__section-right flex">
                 <div class="port__section-right_img">
-                    
+                    <img class="port_event" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/port_event.png">
                 </div>
                 <div class="port__section-right_explan">
-                이벤트 페이지 / May 2021 / 기획, 디자인 100%
+                이벤트 페이지 / Oct 2021 / 기획, 디자인 100%
                 </div>
-                <div class="port__section-right_site flex">
-                    <a target="_blank" href="#">Process</a>
-                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/shape.svg">
+                <div class="port__section-right_site2 flex">
+                    <div class="site2-box">
+                        <a target="_blank" href="event/index.html">All page</a>
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/shape.svg">
+                    </div>
+                    <div class="site2-box">
+                        <a target="_blank" href="event/banner/index.html">Banner</a>
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/shape.svg">
+                    </div>
                 </div>
             </div> 
         </div>

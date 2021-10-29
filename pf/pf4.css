@@ -13,7 +13,7 @@
 .port__section-left__menu > ul > li:nth-child(4) > a {
     font-size: 35px;
     font-weight: 900;
-    color:#9AD1B7;
+    color:#25BAAF;
 }
 
 .port__section-left__menu > ul > li:not(:nth-child(4)) > a > span:first-child {
@@ -41,5 +41,33 @@
 
 
 .port_left_title_back {
-    background-color: #9AD1B7;
+    background-color: #25BAAF;
+}
+.port__section-right .port__section-right_site2 {
+    margin-top: 70px;
+    width:300px;
+    justify-content: space-between;
+}
+
+.port__section-right_site2 a {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.site2-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.port__section-right {
+    position: relative;
+}
+.port_event {
+    position: absolute;
+    width:654px;
+    transform: rotate(-5deg);
+    left: 10%;
+    top:10%;
 }
