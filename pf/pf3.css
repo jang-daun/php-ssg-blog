@@ -46,6 +46,15 @@
 }
 
 
+
+
+.port__section-right {
+    position: relative;
+}
+
 .port_uxui {
     width:550px;
+    position: absolute;
+    left: 10%;
+    top:10%;
 }

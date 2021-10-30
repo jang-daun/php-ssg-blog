@@ -19,3 +19,12 @@
 
     transform: translateX(0px); 
 }
+.port__section-right {
+    position: relative;
+}
+
+.port_personal{
+    position: absolute;
+    left: 7%;
+    top:10%;
+}
