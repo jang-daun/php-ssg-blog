@@ -18,7 +18,7 @@ require_once "head.php";
             <div class="about_main__intro_shape">
                 <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/shape.svg">
             </div>
-            <div class="about_main__intro_cont1">당신이 바라는 디자인을 보내드립니다.</div>
+            <div class="about_main__intro_cont1">당신이 그리는 디자인을 보내드립니다.</div>
             <div class="about_main__intro_cont2">끊임없이<br>관찰하고 생각하는<br>디자이너 장다운</div>
             <div class="about_main__intro_cont3">당신을 위한, 디자인을 위한, 디자이너</div>
         </div>
