@@ -73,6 +73,7 @@ html {
 
 i {
   color:white;
+  margin-left: 5px;
 }
 .menu-bar__menu > li > a {
     display: block;
@@ -122,8 +123,13 @@ i {
     border-radius: 50px;
     align-items: center;
     justify-content: center;
+    margin-right: 20px;
 }
 .menu-bar__donate > a {
     font-weight: 700;
     color:white;
+}
+
+.menu-bar__search-box {
+  margin-right: 20px;
 }
