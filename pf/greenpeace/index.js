@@ -10,7 +10,17 @@ var swiper = new Swiper('#main-visual .swiper', {
 
 
   var swiper = new Swiper('#main-content-2 .swiper', {
-    spaceBetween: 30,
+    
+    loop: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+
+
+  var swiper = new Swiper('#main-content-3 .swiper', {
+    loop: true,
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
