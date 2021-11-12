@@ -535,19 +535,156 @@ require_once "head.php";
 
 <div id="main-content-5">
     <div class="flex">
-        <div class="cont__visual-background bb flex">
+        <div class="cont__visual-background">
             <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/green/img/behavior_background.jpg" alt="">
-            <div class="behavior__box">
-                <div class="be_box__cont flex">
+            <div class="behavior__bord flex">
+                <div class="behavior__box flex">
+                    <div class="behavior__box__box">
+                        <a href="#">Green</a>
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/green/img/behavior__solution.svg"
+                            alt="">
+                        <a href="#">해결책 제시</a>
+                        <a href="#">우리는 건강하고 평화로운 미래를 위해<br>
+                            환경문제의 해결책을 찾아내고 조사해 널리 알립니다.</a>
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/green/img/behavior__wave.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="behavior__box flex">
+                    <div class="behavior__box__box">
+                        <a href="#">Peace</a>
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/green/img/behavior__power.svg"
+                            alt="">
+                        <a href="#">비폭력 직접행동</a>
+                        <a href="#">그린피스는 평화로운 행동이<br>
+                            세상을 바꾼다고 믿습니다.</a>
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/green/img/behavior__wave.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="behavior__box flex">
+                    <div class="behavior__box__box">
+                        <a href="#">Core</a>
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/green/img/behavior__global.svg"
+                            alt="">
+                        <a href="#">글로벌 영향력</a>
+                        <a href="#">지구촌 곳곳에서 환경을 지키기 위해<br>
+                            그린피스가 가진 자원을 극대화 합니다.</a>
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/green/img/behavior__wave.svg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="behavior__box flex">
+                    <div class="behavior__box__box">
+                        <a href="#">Value</a>
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/green/img/behavior__money.svg"
+                            alt="">
+                        <a href="#">재정적 독립성</a>
+                        <a href="#">그린피스는 정부나 기업의<br>
+                            재정 지원을 받지 않습니다.</a>
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/green/img/behavior__wave.svg"
+                            alt="">
+                    </div>
                 </div>
             </div>
-            <div class="behavior__box"></div>
-            <div class="behavior__box"></div>
-            <div class="behavior__box"></div>
         </div>
     </div>
 </div>
 
+
+<!--그린피스 참여-->
+<div id="main-content-6" class="">
+    <div class="con">
+        <div class="campaign__title partici__title flex">
+            <a class="titleeng" href="#">With GREENPEACE</a>
+            <a class="titleko" href="#">그린피스와 함께 하세요</a>
+            <div class="greenbar"></div>
+        </div>
+        <div class="campaign__content partici__content flex">
+            <div class="partici__cont_box flex ">
+                <div class="flex">
+                    <div class="partic__img-box">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/green/img/partici__donate.jpg"
+                            alt="">
+                    </div>
+                    <div class="partic__txt-box flex">
+                        <a href="#">후원으로 변화를 만드세요</a>
+                        <a href="#">여러분의 후원으로 주요<br>환경문제에맞설 수 있습니다.</a>
+                        <a href="#" class="flex">
+                            <span>후원 하기</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex">
+                    <div class="partic__img-box">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/green/img/partici__active.jpg"
+                            alt="">
+                    </div>
+                    <div class="partic__txt-box flex">
+                        <a href="#">자원활동가에 함께 해주세요</a>
+                        <a href="#">그린피스는의 긍정적인 변화를 <br>만들어 갈 자원활동가를 모집합니다.</a>
+                        <a href="#" class="flex">
+                            <span>함께 하기</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="partici__cont_box flex ">
+                <div class="flex">
+                    <div class="partic__img-box">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/green/img/partici__sign.jpg"
+                            alt="">
+                    </div>
+                    <div class="partic__txt-box flex">
+                        <a href="#">서명으로 동참해주세요</a>
+                        <a href="#">여러분의 관심이 더 나은 미래를<br>만들 수 있습니다.</a>
+                        <a href="#" class="flex">
+                            <span>서명 하기</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex">
+                    <div class="partic__img-box">
+                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/green/img/partici__event.jpg"
+                            alt="">
+                    </div>
+                    <div class="partic__txt-box flex">
+                        <a href="#">이벤트에 참여하세요</a>
+                        <a href="#">영감과 아이디어를<br>함께 나눠주세요</a>
+                        <a href="#" class="flex">
+                            <span>참여 하기</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--뉴스레터-->
+<div id="main-content-7">
+    <div class="con flex">
+        <div class="campaign__title letter__title flex">
+            <a class="titleeng" href="#">Green letter</a>
+            <a class="titleko" href="#">그린피스 뉴스레터</a>
+            <div class="greenbar"></div>
+            <div class="content">환경 문제의 최신 정보를 전달해드립니다.</div>
+        </div>
+        <div class="campaign__content letter__content flex">
+            <div class="letter__subscription flex">
+                <input type="text" placeholder="이름*" name="member_name">
+                <input type="text" placeholder="이메일*" name="member_email">
+                <div class="flex">
+                    <a href="#">구독 하기</a>
+                </div>
+            </div>
+            <div class="check flex">
+                <input type="checkbox" name="my-checkbox" id="opt-in">
+                <label for="opt-in">개인정보수집에 동의합니다.</label>
+            </div>
+        </div>
+    </div>
+</div>
 
 <?php
 require_once "foot.php";

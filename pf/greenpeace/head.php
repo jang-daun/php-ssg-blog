@@ -46,7 +46,7 @@
 <body>
 
 
-    <div id="gnb">
+    <div id="gnb" class="">
         <div class="con">
             <div class="menu-bar flex">
                 <div class="menu-bar__logo-box">
@@ -56,7 +56,7 @@
                 </div>
                 <ul class="menu-bar__menu flex">
                     <li>
-                        <a href="#">그린피스</a>
+                        <a class="" href="#">그린피스</a>
                         <ul>
                             <li><a href="#">개요 및 역사</a></li>
                             <li><a href="#">행동방식</a></li>
