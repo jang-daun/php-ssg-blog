@@ -45,8 +45,14 @@
 
 <body>
 
+    <div class="move-top-btn con-min-width">
+        <div class="con">
+            <a id="MOVE_TOP_BTN" href="#">TOP</a>
+        </div>
+    </div>
 
     <div id="gnb" class="">
+
         <div class="con">
             <div class="menu-bar flex">
                 <div class="menu-bar__logo-box">
@@ -56,6 +62,7 @@
                 </div>
                 <ul class="menu-bar__menu flex">
                     <li>
+                        <span class="lnb-bg"></span>
                         <a class="" href="#">그린피스</a>
                         <ul>
                             <li><a href="#">개요 및 역사</a></li>
@@ -66,6 +73,7 @@
                         </ul>
                     </li>
                     <li>
+                        <span class="lnb-bg"></span>
                         <a href="#">활동</a>
                         <ul>
                             <li><a href="#">캠페인</a></li>
@@ -73,6 +81,7 @@
                         </ul>
                     </li>
                     <li>
+                        <span class="lnb-bg"></span>
                         <a href="#">참여</a>
                         <ul>
                             <li><a href="#">후원하기</a></li>
@@ -82,6 +91,7 @@
                         </ul>
                     </li>
                     <li>
+                        <span class="lnb-bg"></span>
                         <a href="#">소식</a>
                         <ul>
                             <li><a href="#">최신 뉴스</a></li>
@@ -89,6 +99,7 @@
                         </ul>
                     </li>
                     <li>
+                        <span class="lnb-bg"></span>
                         <a href="#">자료</a>
                         <ul>
                             <li><a href="#">연차 보고서</a></li>
