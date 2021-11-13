@@ -241,6 +241,7 @@
 #main-content-2 {
     width:100%;
     height: 1020px;
+    margin-top: -80px;
 }
 #main-content-2 .con {
     width:1440px;
@@ -355,7 +356,8 @@
 
 #main-content-3 {
     width:100%;
-    height: 1020px;
+    height: 980px;
+    margin-top: -150px;
 }
 
 .archive__content {
@@ -473,7 +475,7 @@
 
 #main-content-4 {
     width:100%;
-    height: 950px;
+    height: 900px;
 }
 
 .news__content {

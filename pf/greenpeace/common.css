@@ -143,12 +143,19 @@ a#MOVE_TOP_BTN:hover {
 .menu-bar__menu ul li:hover a {
   color: #67CC00;
 }
-
-.menu-bar__sns ul > ul {
-    display: none;
+.menu-bar__menu > li {
+  position: relative;
 }
 
+.menu-bar__sns ul > ul {
+  display: block;
+  
+}
 
+.menu-bar__sns ul > ul {
+  display: none;
+  
+}
 
 .menu-bar__util-box a {
   color:white;

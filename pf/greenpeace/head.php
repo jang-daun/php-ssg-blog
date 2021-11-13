@@ -63,9 +63,9 @@
                 <ul class="menu-bar__menu flex">
                     <li>
                         <span class="lnb-bg"></span>
-                        <a class="" href="#">그린피스</a>
+                        <a class="" href="aboutgreen.ssghtml.php">그린피스</a>
                         <ul>
-                            <li><a href="#">개요 및 역사</a></li>
+                            <li><a href="aboutgreen.ssghtml.php">개요 및 역사</a></li>
                             <li><a href="#">행동방식</a></li>
                             <li><a href="#">인재 채용</a></li>
                             <li><a href="#">연락처</a></li>
@@ -74,17 +74,17 @@
                     </li>
                     <li>
                         <span class="lnb-bg"></span>
-                        <a href="#">활동</a>
+                        <a href="active.ssghtml.php">활동</a>
                         <ul>
-                            <li><a href="#">캠페인</a></li>
+                            <li><a href="active.ssghtml.php">캠페인</a></li>
                             <li><a href="#">프로젝트</a></li>
                         </ul>
                     </li>
                     <li>
                         <span class="lnb-bg"></span>
-                        <a href="#">참여</a>
+                        <a href="participate.ssghtml.php">참여</a>
                         <ul>
-                            <li><a href="#">후원하기</a></li>
+                            <li><a href="participate.ssghtml.php">후원하기</a></li>
                             <li><a href="#">서명하기</a></li>
                             <li><a href="#">챌린지</a></li>
                             <li><a href="#">서포터 동참</a></li>
@@ -92,17 +92,17 @@
                     </li>
                     <li>
                         <span class="lnb-bg"></span>
-                        <a href="#">소식</a>
+                        <a href="notice.ssghtml.php">소식</a>
                         <ul>
-                            <li><a href="#">최신 뉴스</a></li>
+                            <li><a href="notice.ssghtml.php">최신 뉴스</a></li>
                             <li><a href="#">서포터 소식</a></li>
                         </ul>
                     </li>
                     <li>
                         <span class="lnb-bg"></span>
-                        <a href="#">자료</a>
+                        <a href="data.ssghtml.php">자료</a>
                         <ul>
-                            <li><a href="#">연차 보고서</a></li>
+                            <li><a href="data.ssghtml.php">연차 보고서</a></li>
                             <li><a href="#">재정 보고서</a></li>
                         </ul>
                     </li>
