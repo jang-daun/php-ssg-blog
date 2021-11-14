@@ -66,28 +66,28 @@ require_once "head.php";
         <div class="about_content">
             <div class="about_content__title">About me</div>
             <div class="about_content__list_back">
-                <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/about_list_back.svg">
+                <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/about__back.svg">
             </div>
             <div class="about_content__sub">
-                <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/about_mind-map.svg">
+                <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/about__title1.svg">
             </div>
             <div class="about_content__dotted-1">
-                <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/dotted-1.svg">
+                <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/about__dotted1.svg">
             </div>
             <div class="about_content__dotted-2">
-                <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/dotted-2.svg">
+                <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/about__dotted2.svg">
             </div>
             <div class="about_content__sub-cont1">
-                <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/about_txt-1.svg">
+                <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/about__title2-1.svg">
             </div>
             <div class="about_content__dotted-3">
-                <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/dotted-3.svg">
+                <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/about__dotted3.svg">
             </div>
             <div class="about_content__sub-cont2">
-                <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/about_txt-2.svg">
+                <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/about__title3.svg">
             </div>
             <div class="about_content__list">
-                <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/about_list.svg">
+                <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/about__content.svg">
             </div>
         </div>
     </div>

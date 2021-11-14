@@ -44,7 +44,7 @@ require_once "head.php";
                         Website<br>Renewal
                     </div>
                     <div class="port_left_cont">
-                        웹 사이트 리뉴얼 ‘오!월드’
+                        웹 사이트 리뉴얼 ‘그린피스’
                     </div>
                 </div>
             </div>
@@ -54,7 +54,7 @@ require_once "head.php";
             <div class="port__section-right flex">
                 <div class="port__section-right_img">
                     <img style="" class="port_renewal"
-                        src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/oworld.png">
+                        src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/greenmockup.png">
                 </div>
                 <div class="port__section-right_explan">
                     웹사이트 리디자인 / September 2021 / 기획, 디자인 100%
@@ -65,7 +65,7 @@ require_once "head.php";
                         <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/shape.svg">
                     </div>
                     <div class="site2-box">
-                        <a target="_blank" href="oworld/index.ssghtml.php">Web site</a>
+                        <a target="_blank" href="greenpeace/index.ssghtml.php">Web site</a>
                         <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/shape.svg">
                     </div>
                 </div>
