@@ -100,8 +100,7 @@ require_once "head.php";
             <span>Personal ability</span>
         </div>
         <div class="about_content">
-            <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/about_personal.svg">
-            <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/about_personal_gage.svg">
+            <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/about_ability.svg">
         </div>
     </div>
 </div>
