@@ -232,6 +232,25 @@
     width: 100%;
 }
 
+.campaign__cont:first-of-type .box_4box:first-of-type:hover .txt-box__title span {
+    color:#008FE2;
+}
+.campaign__cont:first-of-type .box_4box:nth-of-type(2):hover .txt-box__title span {
+    color:#f96d8c;
+}
+.campaign__cont:nth-of-type(2) .cont__2box:nth-of-type(1) .box_4box:nth-of-type(1):hover .txt-box__title span {
+    color:#ffbe00;
+}
+.campaign__cont:nth-of-type(2) .cont__2box:nth-of-type(1) .box_4box:nth-of-type(2):hover .txt-box__title span {
+    color:#00b474;
+}
+.campaign__cont:nth-of-type(2) .cont__2box:nth-of-type(2) .box_4box:nth-of-type(1):hover .txt-box__title span {
+    color:#afaa91;
+}
+.campaign__cont:nth-of-type(2) .cont__2box:nth-of-type(2) .box_4box:nth-of-type(2):hover .txt-box__title span {
+    color:#62cbd7;
+}
+
 .box_4box:hover .box_4box__border {
     opacity: 1;
 }
@@ -262,6 +281,7 @@
 
 #main-content-2 .swiper .swiper-wrapper {
     width:1440px;
+    height: 440px;
     align-items: center;
 }
 
@@ -275,11 +295,11 @@
 }
 #main-content-2 .swiper .swiper-button-next {
     position: absolute;
-    right:-7%;
-    top:57%;
+    right:-5%;
+    top:58%;
     border:1px solid black;
-    width:85px;
-    height: 85px;
+    width:55px;
+    height: 55px;
     border-radius: 50%;
 }
 :root {
@@ -288,11 +308,11 @@
 
 #main-content-2 .swiper .swiper-button-prev {
     position: absolute;
-    left:-7%;
-    top:57%;
+    left:-5%;
+    top:58%;
     border:1px solid black;
-    width:85px;
-    height: 85px;
+    width:55px;
+    height: 55px;
     border-radius: 50%;
 }
 

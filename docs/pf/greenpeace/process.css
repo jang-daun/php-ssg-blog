@@ -1,0 +1,179 @@
+/* 노말라이즈 시작 */
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+html {
+  font-family: "Noto Sans KR", sans-serif;
+  overflow-x: hidden;
+}
+
+.section {
+    width:100%;
+    position: relative;
+}
+.section-1 {
+    height: 1378px;
+}
+
+img {
+    position: absolute;
+    width:100%;
+}
+
+.section-1 img:nth-child(1) {
+    top:0;
+}
+.section-1 img:nth-child(2) {
+    top:0;
+}
+.section-1 img:nth-child(3) {
+    top:13%;
+}
+
+.section-1 img:nth-child(4) {
+    width:418px;
+    top:13%;
+    right:12.5%;
+}
+
+.section-1 img:nth-child(5) {
+    width:418px;
+    top:26%;
+    right:22%;
+}
+.section-1 img:nth-child(6) {
+    top:55%;
+}
+.section-1 img:nth-child(7) {
+    top:65%;
+}
+.section-1 img:nth-child(8) {
+    top:75%;
+}
+
+.section-2 {
+    height: 1011.750px;
+}
+
+.section-2 img:nth-child(1) {
+    top:0%;
+}
+.section-2 img:nth-child(2) {
+    top:7%;
+}
+.section-2 img:nth-child(3) {
+    top:53%;
+}
+
+.section-3 {
+    height: 1107px;
+}
+.section-3 img:nth-child(1) {
+    top:10%;
+}
+.section-3 img:nth-child(2) {
+    top:36%;
+}
+
+.section-4 {
+    height: 4200px;
+}
+.section-4 img:nth-child(1) {
+    top:0%;
+}
+.section-4 img:nth-child(2) {
+    width:830px;
+    top:8%;
+    right:12.5%;
+}
+.section-4 img:nth-child(3) {
+    top:9%;
+}
+
+.section-4 img:nth-child(4) {
+    top:22%;
+}
+.section-4 img:nth-child(5) {
+    top:31%;
+}
+.section-4 img:nth-child(6) {
+    top:41%;
+}
+
+.section-4 img:nth-child(7) {
+    top:51%;
+}
+.section-4 img:nth-child(8) {
+    top:63%;
+}
+.section-4 img:nth-child(9) {
+    top:75%;
+}
+.section-4 img:nth-child(10) {
+    top:86%;
+}
+
+.seciton-5 {
+    height: 1850px;
+    background-color: #F5F5F5;
+}
+
+.seciton-5 img:first-of-type {
+    top:6%;
+}
+
+.seciton-5 img:nth-of-type(2) {
+    top:16%;
+    width:400px;
+    left:12.5%;
+}
+
+.seciton-5 img:nth-of-type(3) {
+    top:16%;
+    width:400px;
+    left:38.3%;
+}
+.seciton-5 img:nth-of-type(4) {
+    top:16%;
+    width:400px;
+    right:12.5%;
+}
+.seciton-5 img:nth-of-type(5) {
+    top:61%;
+    width:400px;
+    left:38.3%;
+}
+.seciton-5 img:nth-of-type(6) {
+    top:60%;
+    width:400px;
+    right:12.5%;
+}
+
+.section-6 {
+    height: 1200px;
+}
+
+.section-6 img:first-of-type {
+    top:10%;
+}
+
+.section-6 img:nth-of-type(2) {
+    top:33%;
+    width:860px;
+    left:12.5%;
+} 
+.section-6 img:nth-of-type(3) {
+    top:45%;
+    width:860px;
+    right:12.5%;
+} 
