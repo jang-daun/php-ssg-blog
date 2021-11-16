@@ -9,7 +9,7 @@ require_once "head.php";
 
 
 <div class="sub-about-main-pg">
-    <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/green/img/subpage-1.png" alt="">
+    <img src="https://cdn.jsdelivr.net/gh/jang-daun/web-resource/green/img/sub-1.png" alt="">
 </div>
 
 <?php
