@@ -51,7 +51,7 @@ const Timeline__Section5__1 = gsap.timeline({
     "#main-content-1 .box_4box",
     {
       opacity:0,
-      rotateY:-180,
+      y:0,
       duration: 0.55
     },
   );
@@ -74,14 +74,6 @@ const Timeline__Section5__1 = gsap.timeline({
     "-=.5"
   );
   
-  Timeline__Section6__1.from(
-    "#main-content-2 .project__content",
-    {
-      y: 20,
-      opacity:0,
-      duration: 0.55
-    },
-  );
     
   const Timeline__Section7__1 = gsap.timeline({
     scrollTrigger: {
