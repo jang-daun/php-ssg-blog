@@ -52,7 +52,6 @@
     </div>
 
     <div id="gnb" class="">
-
         <div class="con">
             <div class="menu-bar flex">
                 <div class="menu-bar__logo-box">
