@@ -61,7 +61,7 @@ require_once "head.php";
                 </div>
                 <div class="port__section-right_site2 flex">
                     <div class="site2-box">
-                        <a target="_blank" href="oworld/process.html">Process</a>
+                        <a target="_blank" href="greenpeace/process.html">Process</a>
                         <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/shape.svg">
                     </div>
                     <div class="site2-box">
