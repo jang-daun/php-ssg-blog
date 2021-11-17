@@ -63,10 +63,6 @@ require_once "head.php";
                         <a target="_blank" href="event/index.html">All page</a>
                         <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/shape.svg">
                     </div>
-                    <div class="site2-box">
-                        <a target="_blank" href="event/banner/index.html">Banner</a>
-                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/shape.svg">
-                    </div>
                 </div>
             </div> 
         </div>

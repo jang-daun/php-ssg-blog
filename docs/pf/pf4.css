@@ -46,7 +46,8 @@
 .port__section-right .port__section-right_site2 {
     margin-top: 70px;
     width:300px;
-    justify-content: space-between;
+    justify-content: center;
+    
 }
 
 .port__section-right_site2 a {
