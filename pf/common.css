@@ -102,46 +102,61 @@ a#MOVE_TOP_BTN:hover {
 
 
 /*tto_menu-box*/
-.tto_menu-box {
-  margin-top: 40px;
+.trm_menu-box {
+  width:100%;
+  height: 150px;
+  z-index: 999;
+  position: fixed;
+  top:0;
+  left: 0;
 }
 
-.tto_menu-box>.con {
+.trm_menu-box .con {
+  width:1440px;
+  height: 100%;
   justify-content: space-between;
 }
-
-.tto_menu-box__logo-box {
+.trm_menu-box__logo-box {
   align-items: center;
 }
+.trm_menu-box__logo-box img {
+  width:80px;
+}
 
-.tto_menu-box__menu-bar>ul {
+.trm_menu-box__menu-bar {
+  width:1200px; 
   align-items: center;
   height: 100%;
+  justify-content: flex-end;
 }
 
-.tto_menu-box__menu-bar>ul>li>a {
-  font-weight: 700;
-  font-size: 18px;
+.trm_menu-box__menu-bar ul li {
   margin-left: 100px;
+}
+.trm_menu-box__menu-bar ul li a {
+  display: block;
+  padding: 10px 10px;
   position: relative;
 }
 
-.tto_menu-box__menu-bar>ul>li>a::after {
-  content: "";
+.trm_menu-box__menu-bar ul li a::after {
   position: absolute;
-  display: block;
-  width: 0%;
-  height: 1.5px;
-  bottom: 0;
-  background-color: black;
+  content: "";
+  width:0%;
+  height: 2px;
+  top:100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  
   transition: all .4s;
 }
-
-.tto_menu-box__menu-bar>ul>li:hover>a::after {
-  width: 100%;
+.trm_menu-box__menu-bar ul li:hover a::after {
+  width:90%;
 }
-
-
+.trm_menu-box__menu-bar ul li:hover a {
+  cursor: pointer;
+}
 /*footer*/
 
 .footer {

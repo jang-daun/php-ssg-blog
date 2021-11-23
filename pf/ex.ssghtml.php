@@ -113,8 +113,6 @@ require_once "head.php";
 </div>
 
 
-
-
 <div class="footer con-min-width">
     <div class="con flex">
         <div class="footer__ring-ring">

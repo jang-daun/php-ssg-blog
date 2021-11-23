@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>think things over. - <?=$pageTitle?></title>
+    <title>The Revolution of the Moon<?=$pageTitle?></title>
 
 
 
@@ -50,33 +50,33 @@
     </div>
     
 
-    <div class="tto_menu-box con-min-width">
+    <div class="trm_menu-box">
         <div class="con flex">
-            <div class="tto_menu-box__logo-box flex">
+            <div class="trm_menu-box__logo-box flex">
                 <a href="index.ssghtml.php">
-                    <img class="" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/tto_logo.svg">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/gnb-logo.svg" alt="">
                 </a>
             </div>
-            <div class="tto_menu-box__menu-bar">
+            <div class="trm_menu-box__menu-bar flex">
                 <ul class="flex">
                     <li>
                         <a class="flex" href="bd.ssghtml.php">
-                            Process
+                            <img style="width:89.6387px;" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/gnb-branding.svg" alt="">
                         </a>
                     </li>
                     <li>
                         <a class="flex" href="about.ssghtml.php">
-                            About me
+                            <img style="width:57.6172px;" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/gnb-about.svg" alt="">
                         </a>
                     </li>
                     <li>
                         <a class="flex" href="pf.ssghtml.php">
-                            Portfolio
+                            <img style="width:51.4258px;" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/gnb-work.svg" alt="">   
                         </a>
                     </li>
                     <li>
                         <a class="flex" href="ex.ssghtml.php">
-                            etc.
+                            <img style="width:27.7197px;" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/gnb-etc.svg" alt="">   
                         </a>
                     </li>
                 </ul>
