@@ -16,13 +16,11 @@ require_once "head.php";
 
 <div class="main-page">
        <div class="con flex">
-              
-
               <div class="main-txt-box">
-                     <img class="main-page__slogan1" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/main-page-slogan1.svg"
-                            alt="">
-                     <img class="main-page__slogan2" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/main-page-slogan5.svg"
-                            alt="">
+                     <img class="main-page__slogan1"
+                            src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/mian-slogan-1.svg" alt="">
+                     <img class="main-page__slogan2"
+                            src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/mian-slogan-2.svg" alt="">
               </div>
 
               <div class="main-img-box">

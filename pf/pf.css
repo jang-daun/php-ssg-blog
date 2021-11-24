@@ -1,3 +1,7 @@
+.trm_menu-box__menu-bar ul li:nth-child(3) a::after {
+    width:90%;
+  }
+
 html {
     overflow: hidden;
 }
@@ -14,14 +18,17 @@ html {
 
 #pf-page .con {
     width:1440px;
-    height: 650px;
+    height: 1080px;
     margin: 0 auto;
+    align-items: center;
 }
-
+#pf-page .con > div {
+    height: 800px;
+}
 #pf-page .pg-left-box {
     width:285px;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 #pf-page .pg-middle-box {
@@ -34,4 +41,112 @@ html {
 
 #pf-page .pf__project {
     width:275px;
+}
+.pg-left-box__menu {
+    margin-top: 50px;
+}
+.pg-left-box__menu > ul > li {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.pg-left-box__menu > ul > li > a > img:first-child {
+    margin-right: 10px;
+}
+.pg-left-box__btn {
+    margin-top: 100px;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 140px;
+}
+.pg-left-box__btn > a {
+    width:132px;
+    height: 47px;
+    border:1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .4s;
+}
+.pg-left-box__btn > a:hover {
+    background-color: white;
+}
+.pg-left-box__btn > a > img:last-child {
+    display: none;
+}
+.pg-left-box__btn > a:hover > img:last-child {
+    display: block;
+}
+.pg-left-box__btn > a:hover > img:first-child {
+    display: none;
+}
+.process-btn > img {
+    width:83.9795px;
+}
+.web-site-btn > img {
+    width:86.4492px;
+}
+
+.pg-middle-box {
+    justify-content: center;
+    align-items: center;
+}
+.pg-middle-box__line {
+    border:1px solid white;
+    width:690px;
+    height: 690px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.pg-middle-box__img-box {
+    width:620px;
+    height: 620px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pg-middle-box__img-box img {
+animation: rotate_image 10s linear infinite;
+transform-origin: 50% 50%;
+}
+
+@keyframes rotate_image{
+100% {
+    transform: rotate(360deg);
+}
+}
+
+.pg-right-box {
+    align-items: flex-end;
+}
+.pg-right-box__cont {
+    height: 144px;
+    width:100%;
+    position: relative;
+}
+
+.pf-personal-txt {
+    width:232.7068px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.pf-renewal-txt {
+    width:130.0234px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+
+.pf-uxui-txt {
+    width:98.333px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
