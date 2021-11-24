@@ -14,16 +14,22 @@ require_once "head.php";
 </script>
 
 
-<div class="main-page con-min-width">
-       <img class="main-page__bg" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/main-page-back.jpg" alt="">
+<div class="main-page">
+       <div class="con flex">
+              
 
-       <img class="main-page__moon" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/main-moon.svg"
-              alt="">
+              <div class="main-txt-box">
+                     <img class="main-page__slogan1" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/main-page-slogan1.svg"
+                            alt="">
+                     <img class="main-page__slogan2" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/main-page-slogan5.svg"
+                            alt="">
+              </div>
 
-       <img class="main-page__slogan1" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/main-page-slogan1.svg"
-              alt="">
-       <img class="main-page__slogan2" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/main-page-slogan5.svg"
-              alt="">
+              <div class="main-img-box">
+                     <img class="main-page__moon" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/main-moon.svg"
+                            alt="">
+              </div>
+       </div>
 
 </div>
 

@@ -2,30 +2,20 @@ html {
     overflow: hidden;
 }
 #pf-page {
-    width:1920px;
+    width:100%;
     height: 1080px;
     margin: 0 auto;
     overflow: hidden; 
-    position: relative;  
+    background-image: url("https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/pf-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-#pf-page .pg__bg {
-    position: absolute;
-    left: 0;
-    top:0;
-    width:1920px;
-    height: 1080px;
-    z-index: -12;
-}
 
 #pf-page .con {
     width:1440px;
     height: 650px;
-    position: absolute;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
+    margin: 0 auto;
 }
 
 #pf-page .pg-left-box {

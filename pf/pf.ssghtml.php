@@ -10,7 +10,6 @@ require_once "head.php";
 
 
 <div id="pf-page">
-    <img class="pf__bg" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/pf-bg.jpg" alt="">
     <div class="con flex">
         <div class="pg-left-box flex bb">
             <div class="pg-left-box__title bb">
