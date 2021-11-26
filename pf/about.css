@@ -27,7 +27,7 @@ html {
     z-index: 99;
     position: relative;
 }
-#about .con img {
+#about .con .img {
     position: absolute;
 }
 
@@ -89,4 +89,25 @@ html {
 
 .about-myability {
     top:71%
+}
+
+.more-img {
+    position: absolute;
+    bottom:7%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.more-txt {
+    position: absolute;
+    bottom:4.2%;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    transition: all .4s;
+    height: 100px;
+}
+.more-txt:hover {
+    bottom: 4.6%;
 }

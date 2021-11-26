@@ -13,7 +13,7 @@ html {
     margin: 0 auto;
     position: relative;
 }
-#branding img {
+#branding .img {
     position: absolute;
     width:100%;
     left: 0;
@@ -63,4 +63,26 @@ html {
     top:7%;
     left:50%;
     transform: translateX(-50%);
+}
+
+
+.more-img {
+    position: absolute;
+    bottom:5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.more-txt {
+    position: absolute;
+    bottom:3.1%;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    transition: all .4s;
+    height: 100px;
+}
+.more-txt:hover {
+    bottom: 3.5%;
 }
