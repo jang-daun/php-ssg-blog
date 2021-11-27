@@ -14,12 +14,19 @@ a {
 
 body,
 html {
-  cursor: url(tto.cur), url(tto.cur), auto
+  cursor: url(trm.cur), url(trm.cur), auto
+}
+
+a {
+  cursor: url(trm.cur), url(trm.cur), auto
+}
+a:hover {
+  cursor: url(trm.cur), url(trm.cur), auto
 }
 
 /* 노말라이즈 끝 */
 :root {
-  --site-width: 1600px;
+  --site-width: 1440px;
 }
 
 .con-min-width {

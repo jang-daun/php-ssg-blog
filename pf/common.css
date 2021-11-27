@@ -19,11 +19,14 @@ html {
 /* 노말라이즈 끝 */
 body,
 html {
-  cursor: url(tto.cur), url(tto.cur), auto
+  cursor: url(trm.cur), url(trm.cur), auto
 }
 
 a {
-  cursor: url(tto.cur), url(tto.cur), auto
+  cursor: url(trm.cur), url(trm.cur), auto
+}
+a:hover {
+  cursor: url(trm.cur), url(trm.cur), auto
 }
 
 :root {

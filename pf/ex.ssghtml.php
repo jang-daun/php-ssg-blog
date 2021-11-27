@@ -17,7 +17,7 @@ require_once "head.php";
         </div>
         <div class="ex-youtue youtue flex">
             <div class="ex-img-box">
-                <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/etc_youtube.png">
+                <img class="youtueimgimg" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/etc_youtube.png">
             </div>
             <div class="ex-txt-box">
                 <div>
@@ -41,15 +41,15 @@ require_once "head.php";
                     <img class="arrowwhite" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/ex-navy-view.svg">
                 </a>
             </div>
-            <div class="ex-img-box">
+            <div class="tstoryimg ex-img-box">
                 <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/etc_t-story.png">
             </div>
         </div>
 
 
-        <div class="ex-youtue youtue flex">
+        <div class="ex-youtue youtue calender flex">
             <div class="ex-img-box">
-                <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/etc_calender.png">
+                <img class="calenderimg" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/etc_calender.png">
             </div>
             <div class="ex-txt-box flex">
                 <div>

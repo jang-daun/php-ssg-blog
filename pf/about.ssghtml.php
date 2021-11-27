@@ -14,12 +14,12 @@ require_once "head.php";
     <div class="con">
         <img class="img about-me-pic" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/about-me-pic.png" alt="">
         <img class="img about-me-cont1" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/about-cont1.svg" alt="">
-        <img class="img about-me-cont2 about-me-cont2-1" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/about-cont-2-1.jpg" alt="">
         
-        <img class="img about-me-cont2 about-me-cont2-3" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/about-cont-2-3.jpg" alt="">
-        <img class="img about-me-cont2 about-me-cont2-4" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/about-cont-2-4.jpg" alt="">
-        <img class="img about-me-cont2 about-me-cont2-5" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/about-cont-2-5.jpg" alt="">
-        <img class="img about-me-cont2 about-me-cont2-6" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/about-cont-2-6.jpg" alt="">
+        <img class="img about-me-cont2 about-me-cont2-1" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/about-cont-2-1-1.jpg" alt="">
+        <img class="img about-me-cont2 about-me-cont2-3" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/about-cont-2-3-1.jpg" alt="">
+        <img class="img about-me-cont2 about-me-cont2-4" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/about-cont-2-4-1.jpg" alt="">
+        <img class="img about-me-cont2 about-me-cont2-5" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/about-cont-2-5-1.jpg" alt="">
+        <img class="img about-me-cont2 about-me-cont2-6" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/about-cont-2-6-1.jpg" alt="">
 
         <img class="img about-love-this about-lovethis" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/about-lovethis.svg" alt="">
         <img class="img about-love-this-cont about-lovethis" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/about-lovethiscont.svg" alt="">
