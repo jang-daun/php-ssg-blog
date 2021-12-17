@@ -1,0 +1,69 @@
+/* 노말라이즈 시작 */
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+html {
+  font-family: "Noto Sans KR", sans-serif;
+  overflow-x: hidden;
+}
+.main-promo {
+    width:1920px;
+    height: 8484.01px;
+    margin: 0 auto;
+    overflow-x: hidden; 
+    background-image: url("https://cdn.jsdelivr.net/gh/jang-daun/web-resource/eventpg/promo/promo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+.main-promo img {
+    position: absolute;
+}
+.light1 {
+    width:380.923px;
+    left: 50%;
+    transform: translateX(-50%);
+    top:3.1%;
+    animation: blink 3s linear infinite;
+}
+
+.light2, .light3 {
+    width:99.7966px;
+}
+
+.light2 {
+    top:10.7%;
+    left: 8.8%;
+    animation: blink 3s linear infinite;
+}
+@keyframes blink {
+
+0% { opacity: 0.1;}
+50% {opacity: 1;}
+100% { opacity: 0.1;}
+}
+
+.light3 {
+    top:10.7%;
+    right: 8.8%;
+    animation: blink 3s linear infinite;
+}
+
+.book {
+    width:400px;
+    border:17px solid #FCBF27;
+    left: 50%;
+    transform: translateX(-50%);
+    top:10.25%;
+    background-color: #FCBF27;
+}
