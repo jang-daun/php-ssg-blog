@@ -48,7 +48,7 @@ require_once "head.php";
         <div class="pg-middle-box flex">
             <div class="pg-middle-box__line flex">
                 <div class="pg-middle-box__img-box">
-                    <img class="" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/main-moon.svg" alt=""> 
+                    <img class="" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/pf-3-img.png" alt=""> 
                 </div>
             </div>
         </div>

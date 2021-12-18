@@ -18,10 +18,10 @@ html {
 }
 .main-promo {
     width:1920px;
-    height: 8484.01px;
+    height: 7334.94px;
     margin: 0 auto;
     overflow-x: hidden; 
-    background-image: url("https://cdn.jsdelivr.net/gh/jang-daun/web-resource/eventpg/promo/promo.png");
+    background-image: url("https://cdn.jsdelivr.net/gh/jang-daun/web-resource/eventpg/promo/promotion-page.png");
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
@@ -33,7 +33,7 @@ html {
     width:380.923px;
     left: 50%;
     transform: translateX(-50%);
-    top:3.1%;
+    top:3.6%;
     animation: blink 3s linear infinite;
 }
 
@@ -42,8 +42,8 @@ html {
 }
 
 .light2 {
-    top:10.7%;
-    left: 8.8%;
+    top:9.2%;
+    left: 11%;
     animation: blink 3s linear infinite;
 }
 @keyframes blink {
@@ -54,8 +54,8 @@ html {
 }
 
 .light3 {
-    top:10.7%;
-    right: 8.8%;
+  top:9.2%;
+  right: 11%;
     animation: blink 3s linear infinite;
 }
 
@@ -64,6 +64,33 @@ html {
     border:17px solid #FCBF27;
     left: 50%;
     transform: translateX(-50%);
-    top:10.25%;
+    top:8.25%;
     background-color: #FCBF27;
+}
+
+.book2 {
+  width:890px;
+  height: 580px;
+  top:52%;
+  left: 49.8%;
+  transform: translateX(-50%);
+}
+
+.book3 {
+  width:194.1496px;
+  left: 49.5%;
+transform: translateX(-49.5%);
+top:85%;
+}
+
+.book4 {
+  left: 27.5%;
+  width:196.8202px;
+  top:85%;
+}
+
+.book5 {
+  width:219.2528px;
+  right:27%;
+  top:85%;
 }
