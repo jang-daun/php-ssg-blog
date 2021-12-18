@@ -1,60 +1,21 @@
-/*port__section-left__menu*/
 
-
-
-.port__section-left__menu > ul > li:not(:nth-child(3)) > a {
-    padding-bottom: 5px;
-    font-size: 22px;
-    color:black;
-    font-weight: 400;
-}
-
-
-.port__section-left__menu > ul > li:nth-child(3) > a {
-    font-size: 35px;
-    font-weight: 900;
-    color:#A1CFFF;
-}
-
-.port__section-left__menu > ul > li:not(:nth-child(3)) > a > span:first-child {
+.pg-left-box__menu > ul > li:not(:nth-child(3)) > a > img:first-child {
     opacity: 0;
     visibility: hidden;
     transform: translateX(-20px);
     transition: all .4s;
 }
-.port__section-left__menu > ul > li:not(:nth-child(3)):hover > a > span:first-child {
+.pg-left-box__menu > ul > li:not(:nth-child(3)):hover > a > img:first-child {
     opacity: 1;
     transform: translateX(0px);
     visibility: visible;
 }
-.port__section-left__menu > ul > li:not(:nth-child(3)) > a > span {
+.pg-left-box__menu > ul > li:not(:nth-child(3)) > a > img {
     transform: translateX(-20px);
     transition: all .4s;
 }
 
-.port__section-left__menu > ul > li:not(:nth-child(3)):hover > a > span {
+.pg-left-box__menu > ul > li:not(:nth-child(3)):hover > a > img {
+
     transform: translateX(0px); 
-}
-
-
-/*port__section-left__title*/
-
-
-.port_left_title_back {
-    background-color: #A1CFFF;
-
-}
-
-
-
-
-.port__section-right {
-    position: relative;
-}
-
-.port_uxui {
-    width:550px;
-    position: absolute;
-    left: 10%;
-    top:10%;
 }

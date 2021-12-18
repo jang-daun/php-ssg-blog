@@ -1,97 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
-       <meta charset="UTF-8">
-       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <title>think things over.</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Revolution of the Moon</title>
 
-       <!--폰트 시작-->
-       <link rel="preconnect" href="https://fonts.gstatic.com">
-       <link rel="preconnect" href="https://fonts.gstatic.com">
-       <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
-              rel="stylesheet">
-       <!--폰트 끝-->
 
-       <!--폰트어썸 시작-->
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-       <!--폰트어썸 끝-->
 
-       <!--제이쿼리 시작-->
-       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-       <!--제이쿼리 끝-->
+    <!--폰트 시작-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/cld0dbz.css">
+    <!--폰트 끝-->
 
-       <!--스와이퍼 시작-->
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.css">
-       <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js"></script>
-       <!--스와이퍼 끝-->
+    <!--폰트어썸 시작-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <!--폰트어썸 끝-->
 
-       <!--gsap 시작-->
-       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
-       <!--gsap 끝-->
+    <!--제이쿼리 시작-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--제이쿼리 끝-->
 
-       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--스와이퍼 시작-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js"></script>
+    <!--스와이퍼 끝-->
 
+    <!--gsap 시작-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+    <!--gsap 끝-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+    <script src="common.js" defer></script>
+    <link rel="stylesheet" href="common.css">
 </head>
 
 <body>
 
-       <link rel="stylesheet" href="index.css">
-       <script src="index.js" defer></script>
+    <div class="move-top-btn con-min-width">
+        <div class="con">
+            <a id="MOVE_TOP_BTN" href="#">TOP</a>   
+        </div>
+    </div>
+    
 
-       <div class="main-page bb con-min-width">
-              <div class="con">
-                     <div class="mian-page__box mian-page__txt-box flex">
-                            <img class="" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/main-txt.svg"
-                                   alt="">
-                     </div>
-                     <div class="mian-page__line-box flex">
-                            <div class="mian-page__line"></div>
-                     </div>
-                     <div class="mian-page__box mian-page__menu-box flex">
-                            <div class="main-page__stamp flex">
-                                   <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/stamp.svg" alt="">
-                            </div>
-                            <div class="main-page__menu-bar">
-                                   <ul class="main-page__menu-bar_ul">
-                                          <li>
-                                                 <a class="flex" href="#">
-                                                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/to_you.svg"
-                                                               alt="">
-                                                 </a>
-                                          </li>
-                                          <li>
-                                                 <a class="flex fade-in-box1" href="bd.html">
-                                                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/main_process.svg"
-                                                               alt="">
-                                                 </a> 
-                                          </li>
-                                          <li>
-                                                 <a class="flex fade-in-box2" href="about.html">
-                                                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/main_about-me.svg"
-                                                               alt="">
-                                                 </a>
-                                          </li>
-                                          <li>
-                                                 <a class="flex fade-in-box3" href="pf.html">
-                                                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/main_portfolio.svg"
-                                                               alt="">
-                                                 </a>
-                                          </li>
-                                          <li>
-                                                 <a class="flex fade-in-box4" href="ex.html">
-                                                        <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/portimg/main_etc.svg"
-                                                               alt="">
-                                                 </a>
-                                          </li>
-                                   </ul>
-                            </div>
-                     </div>
+    <div class="trm_menu-box">
+        <div class="con flex">
+            <div class="trm_menu-box__logo-box flex">
+                <a href="index.html">
+                    <img src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/gnb-logo.svg" alt="">
+                </a>
+            </div>
+            <div class="trm_menu-box__menu-bar flex">
+                <ul class="flex">
+                    <li>
+                        <a class="flex" href="bd.html">
+                            <img style="width:89.6387px;" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/gnb-branding.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="flex" href="about.html">
+                            <img style="width:57.6172px;" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/gnb-about.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="flex" href="pf.html">
+                            <img style="width:51.4258px;" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/gnb-work.svg" alt="">   
+                        </a>
+                    </li>
+                    <li>
+                        <a class="flex" href="ex.html">
+                            <img style="width:27.7197px;" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/gnb-etc.svg" alt="">   
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div><link rel="stylesheet" href="index.css">
+<script src="index.js" defer></script>
+
+<script>
+       // 주소 뒤에 / 를 붙여주는 코드
+       if (location.href.indexOf('index.html') === -1 && location.href.indexOf('index.html') === -1 &&
+              location.href.substr(-1, 1) !== '/') {
+              location.replace(location.href + '/');
+       }
+</script>
+
+
+<div class="main-page">
+       <div class="con flex">
+              <div class="main-txt-box">
+                     <img class="main-page__slogan1"
+                            src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/mian-slogan-1.svg" alt="">
+                     <img class="main-page__slogan2"
+                            src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/mian-slogan-2.svg" alt="">
+              </div>
+
+              <div class="main-img-box">
+                     <img class="main-page__moon" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/main-moon.svg"
+                            alt="">
               </div>
        </div>
 
-</body>
+</div>
 
+
+
+</body>
 </html>

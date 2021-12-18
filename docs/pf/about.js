@@ -1,161 +1,106 @@
 const Timeline__Section1__1 = gsap.timeline({
   scrollTrigger: {
-    trigger: ".about_main",
+    trigger: "#about",
     start: "-=200 center",
     end: "bottom top"
   }
 });
 
-
 Timeline__Section1__1.from(
-  ".about_main .about_main__intro_title, .about_main__intro_shape",
+  ".about-me-cont1",
   {
     opacity: 0,
     x: -50,
-    duration: .65
+    duration: 2
   },
 );
-Timeline__Section1__1.from(
-  ".about_main__img_stamp",
-  {
-    opacity: 0,
-    x: -50,
-    duration: .65
-  },
-);
-Timeline__Section1__1.from(
-  ".about_main__intro_cont2",
-  {
-    opacity: 0,
-    y: 50,
-    duration: .65
-  },
-);
-
-Timeline__Section1__1.from(
-  ".about_main__intro_cont1",
-  {
-    opacity: 0,
-    x: 50,
-    duration: .65
-  },
-);
-Timeline__Section1__1.from(
-  ".about_main__intro_cont3",
-  {
-    opacity: 0,
-    x: -50,
-    duration: .65
-  },
-);
-
-
 
 const Timeline__Section2__1 = gsap.timeline({
   scrollTrigger: {
-    trigger: ".about__mind",
+    trigger: ".about-me-cont2-1",
     start: "-=200 center",
     end: "bottom top"
   }
 });
 
-
 Timeline__Section2__1.from(
-  ".about__mind .con",
+  ".about-me-cont2-1",
   {
     opacity: 0,
-    y: 50,
-    duration: .65
+    x: 20,
+    duration: 0.55
+  },
+  
+  "-=.5"
+);
+
+Timeline__Section2__1.from(
+  ".about-me-cont2-3",
+  {
+    opacity: 0,
+    x: 20,
+    duration: 0.55
+  },
+);
+
+Timeline__Section2__1.from(
+  ".about-me-cont2-4",
+  {
+    opacity: 0,
+    x: 20,
+    duration: 0.55
+  },
+);
+
+Timeline__Section2__1.from(
+  ".about-me-cont2-5",
+  {
+    opacity: 0,
+    x: 20,
+    duration: 0.55
+  },
+);
+
+Timeline__Section2__1.from(
+  ".about-me-cont2-6",
+  {
+    opacity: 0,
+    x: 20,
+    duration: 0.55
   },
 );
 
 
 const Timeline__Section3__1 = gsap.timeline({
   scrollTrigger: {
-    trigger: ".about__mind-map",
-    start: "+=250 center",
+    trigger: ".about-love-this",
+    start: "-=300 center",
     end: "bottom top"
   }
 });
 
-
 Timeline__Section3__1.from(
-  ".about__mind-map .about_content__list_back img",
+  ".about-love-this-cont",
   {
     opacity: 0,
-    y: 30,
-    duration: .65
+    x: 20,
+    duration: 0.55
   },
 );
-
 
 const Timeline__Section4__1 = gsap.timeline({
   scrollTrigger: {
-    trigger: ".about__personal",
-    start: "-=180 center",
+    trigger: ".about-myability",
+    start: "-=200 center",
     end: "bottom top"
   }
 });
-
 
 Timeline__Section4__1.from(
-  ".about__personal",
+  ".about-myability",
   {
     opacity: 0,
-    x: -30,
-    duration: .65
+    y: 50,
+    duration: 0.55
   },
 );
-
-
-const Timeline__Section5__1 = gsap.timeline({
-  scrollTrigger: {
-    trigger: ".about__skill",
-    start: "-=180 center",
-    end: "bottom top"
-  }
-});
-
-
-Timeline__Section5__1.from(
-  ".about_content__txt",
-  {
-    opacity: 0,
-    x: -30,
-    duration: .65
-  },
-);
-
-
-
-const Timeline__Section6__1 = gsap.timeline({
-  scrollTrigger: {
-    trigger: ".about__skill",
-    start: "-=180 center",
-    end: "bottom top"
-  }
-});
-
-
-Timeline__Section6__1.from(
-  ".about_content__pic",
-  {
-    opacity: 0,
-    x: 30,
-    duration: .65
-  },
-);
-
-
-
-
-$(function(){
-  $('.hover-me').mouseenter(function(){
-    $('.hover-me-img').css("display", "block");
-    $('.hover-me-img2').css("display", "none");
-  });
-  $('.hover-me').mouseleave(function(){
-    $('.hover-me-img').css("display", "none");
-    $('.hover-me-img2').css("display", "block");
-  });
-});

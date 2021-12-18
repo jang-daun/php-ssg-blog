@@ -1,0 +1,96 @@
+/* 노말라이즈 시작 */
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+html {
+  font-family: "Noto Sans KR", sans-serif;
+  overflow-x: hidden;
+}
+.main-promo {
+    width:1920px;
+    height: 7334.94px;
+    margin: 0 auto;
+    overflow-x: hidden; 
+    background-image: url("https://cdn.jsdelivr.net/gh/jang-daun/web-resource/eventpg/promo/promotion-page.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+.main-promo img {
+    position: absolute;
+}
+.light1 {
+    width:380.923px;
+    left: 50%;
+    transform: translateX(-50%);
+    top:3.6%;
+    animation: blink 3s linear infinite;
+}
+
+.light2, .light3 {
+    width:99.7966px;
+}
+
+.light2 {
+    top:9.2%;
+    left: 11%;
+    animation: blink 3s linear infinite;
+}
+@keyframes blink {
+
+0% { opacity: 0.1;}
+50% {opacity: 1;}
+100% { opacity: 0.1;}
+}
+
+.light3 {
+  top:9.2%;
+  right: 11%;
+    animation: blink 3s linear infinite;
+}
+
+.book {
+    width:400px;
+    border:17px solid #FCBF27;
+    left: 50%;
+    transform: translateX(-50%);
+    top:8.25%;
+    background-color: #FCBF27;
+}
+
+.book2 {
+  width:890px;
+  height: 580px;
+  top:52%;
+  left: 49.8%;
+  transform: translateX(-50%);
+}
+
+.book3 {
+  width:194.1496px;
+  left: 49.5%;
+transform: translateX(-49.5%);
+top:85%;
+}
+
+.book4 {
+  left: 27.5%;
+  width:196.8202px;
+  top:85%;
+}
+
+.book5 {
+  width:219.2528px;
+  right:27%;
+  top:85%;
+}
