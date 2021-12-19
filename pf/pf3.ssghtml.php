@@ -39,7 +39,7 @@ require_once "head.php";
                 </ul>
             </div>
             <div class="pg-left-box__btn flex">
-                <a href="mobile1/index.html" class="process-btn">
+                <a href="mobile1/index.html" target="_blank" class="process-btn">
                     <img class="" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/pf-process-white.svg" alt="">
                     <img class="" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/pf-process-black.svg" alt="">
                 </a>
