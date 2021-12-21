@@ -35,8 +35,19 @@ html {
     width:1920px;
     height: 15284px;
     margin: 0 auto;
+    position: relative;
   }
 
-  .main-cont img {
+  .main-cont img:first-of-type {
     width:1920px;
+    position: absolute;
+    top:0;
+    left: 0;
+  }
+
+  .gif {
+    position: absolute;
+    top:0.6%;
+    width:1135px;
+    left: 0;
   }

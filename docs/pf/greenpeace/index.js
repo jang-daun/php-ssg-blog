@@ -145,7 +145,7 @@ const Timeline__Section5__1 = gsap.timeline({
       duration: 0.55
     },
   );
-        
+  /*
   const Timeline__Section9__1 = gsap.timeline({
     scrollTrigger: {
       trigger: "#main-content-5",
@@ -188,11 +188,11 @@ const Timeline__Section5__1 = gsap.timeline({
       duration: 0.55
     },
   );
-
+*/
   const Timeline__Section10__1 = gsap.timeline({
     scrollTrigger: {
       trigger: "#main-content-6",
-      start: "-=250 center",
+      start: "-=300 center",
       end: "bottom top"
     }
   });
@@ -205,36 +205,4 @@ const Timeline__Section5__1 = gsap.timeline({
       duration: 0.55
     },
     "-=.5"
-  );
-  Timeline__Section10__1.from(
-    "#main-content-6 .partici__cont_box:first-of-type > div:first-of-type",
-    {
-      x: -20,
-      opacity:0,
-      duration: 0.55
-    },
-  );
-  Timeline__Section10__1.from(
-    "#main-content-6 .partici__cont_box:nth-of-type(2) > div:first-of-type",
-    {
-      x: -20,
-      opacity:0,
-      duration: 0.55
-    },
-  );
-  Timeline__Section10__1.from(
-    "#main-content-6 .partici__cont_box:first-of-type > div:nth-of-type(2)",
-    {
-      x: -20,
-      opacity:0,
-      duration: 0.55
-    },
-  );
-  Timeline__Section10__1.from(
-    "#main-content-6 .partici__cont_box:nth-of-type(2) > div:nth-of-type(2)",
-    {
-      x: -20,
-      opacity:0,
-      duration: 0.55
-    },
   );

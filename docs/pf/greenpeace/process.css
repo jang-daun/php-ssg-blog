@@ -76,6 +76,7 @@ img {
 }
 
 .section-3 {
+    margin-top: 50px;
     height: 1107px;
 }
 .section-3 img:nth-child(1) {
@@ -86,7 +87,7 @@ img {
 }
 
 .section-4 {
-    height: 4200px;
+    height: 4000px;
 }
 .section-4 img:nth-child(1) {
     top:0%;
@@ -101,26 +102,27 @@ img {
 }
 
 .section-4 img:nth-child(4) {
-    top:22%;
+    top:19%;
 }
 .section-4 img:nth-child(5) {
-    top:31%;
+    top:27%;
 }
 .section-4 img:nth-child(6) {
-    top:41%;
+    top:38%;
 }
 
 .section-4 img:nth-child(7) {
-    top:51%;
+    top:48%;
 }
 .section-4 img:nth-child(8) {
-    top:63%;
+    top:58%;
 }
 .section-4 img:nth-child(9) {
-    top:75%;
+    top:72%;
+    z-index: -1;
 }
 .section-4 img:nth-child(10) {
-    top:86%;
+    top:83%;
 }
 
 .seciton-5 {
