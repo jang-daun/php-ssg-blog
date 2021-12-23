@@ -51,24 +51,22 @@ html {
 #about .about-me-cont2-1 {
     left: 0;
 }
-#about .about-me-cont2-2 {
-    left: 20%;
-    right:auto;
-}
 #about .about-me-cont2-3 {
-    left: 15%;
-    right:auto;
+    left: 13.666%;
 }
 
 #about .about-me-cont2-4 {
-    left: 30%;
+    left: 26.666%;
 }
 
 #about .about-me-cont2-5 {
-    left: 45%;
+    left: 39.666%;
 }
 #about .about-me-cont2-6 {
-    right: 0;
+    left: 52.666%;
+}
+#about .about-me-cont2-7 {
+    right: 0%;
 }
 .about-me-cont2:hover {
     z-index: 997;

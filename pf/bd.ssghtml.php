@@ -20,15 +20,15 @@ require_once "head.php";
     <img class="img branding-page__moon3" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/branding-title-moon3.svg"
         alt="">
     <img class="img branding-page__title" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/branding-title.svg" alt="">
-    <img class="img branding-page__cont1" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/branding-cont-1.svg"
+    <img class="img branding-page__cont1" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/branding-cont-1-new.svg"
         alt="">
-    <img class="img branding-page__cont2" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/branding-cont-2.svg"
+    <img class="img branding-page__cont2" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/branding-cont-2-new.svg"
         alt="">
-    <img class="img branding-page__cont3" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/branding-cont-3.svg"
+    <img class="img branding-page__cont3" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/branding-cont-3-new.svg"
         alt="">
-    <img class="img branding-page__cont4" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/branding-cont-4.svg"
+    <img class="img branding-page__cont4" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/branding-cont-4-new.svg"
         alt="">
-    <img class="img branding-page__cont5" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/branding-cont-5.svg"
+    <img class="img branding-page__cont5" src="https://cdn.jsdelivr.net/gh/jang-daun/phpblog/img/branding-cont-5-new.svg"
         alt="">
     <img style="width:368.4526px;" class="more-img" src="https://cdn.jsdelivr.net/gh/jang-daun/portfolio/footer-more-ex.svg"
         alt="">

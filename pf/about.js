@@ -69,7 +69,14 @@ Timeline__Section2__1.from(
     duration: 0.55
   },
 );
-
+Timeline__Section2__1.from(
+  ".about-me-cont2-7",
+  {
+    opacity: 0,
+    x: 20,
+    duration: 0.55
+  },
+);
 
 const Timeline__Section3__1 = gsap.timeline({
   scrollTrigger: {
