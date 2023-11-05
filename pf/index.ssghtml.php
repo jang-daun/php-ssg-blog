@@ -13,7 +13,7 @@ require_once "head.php";
        }
 </script>
 
-
+<!--
 <div class="main-page">
        <div class="con flex">
               <div class="main-txt-box">
@@ -30,6 +30,15 @@ require_once "head.php";
        </div>
 
 </div>
+-->
+
+<div class="main-cont">
+    <img
+      src="https://cdn.jsdelivr.net/gh/jang-daun/2023port/main-page/tsr.png"
+      alt=""
+    />
+  </div>
+
 
 <?php
 require_once "foot.php";
